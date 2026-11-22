@@ -1,0 +1,78 @@
+{
+ "models": [
+  "gpt-6.2-sol",
+  "qwen3.7-plus"
+ ],
+ "n": 2000,
+ "strata": {
+  "unsupported": {
+   "n": 1200,
+   "gpt-6.2-sol": {
+    "template": 0.6198796927484621,
+    "repost": 0.010837570823716482,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.35178022346991755,
+    "unique_content": 0.01583586936566413,
+    "missing": 2
+   },
+   "qwen3.7-plus": {
+    "template": 0.7991054280369833,
+    "repost": 0.008336181082193,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.1575422589894991,
+    "unique_content": 0.035016131891327025,
+    "missing": 0
+   },
+   "agreement": 0.7721202003338898,
+   "kappa": 0.49071922863709705,
+   "both_unique_share_docs": 0.18089492137538177,
+   "both_unique_share_words": 0.31440603872892003
+  },
+  "supported": {
+   "n": 400,
+   "gpt-6.2-sol": {
+    "template": 0.744981086526056,
+    "repost": 0.16747755479742016,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.08754135867652232,
+    "unique_content": 0.0,
+    "missing": 0
+   },
+   "qwen3.7-plus": {
+    "template": 0.8950060037321463,
+    "repost": 0.07999455817758062,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.02499943809027027,
+    "unique_content": 0.0,
+    "missing": 0
+   },
+   "agreement": 0.815,
+   "kappa": 0.4175750659163353,
+   "both_unique_share_docs": 0.02250879971840901,
+   "both_unique_share_words": 0.044757580536535356
+  },
+  "retained": {
+   "n": 400,
+   "gpt-6.2-sol": {
+    "template": 0.27738763869452254,
+    "repost": 0.0,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.010004498200719712,
+    "unique_content": 0.7126078631047591,
+    "missing": 0
+   },
+   "qwen3.7-plus": {
+    "template": 0.2799006022590967,
+    "repost": 0.0,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.005000687225109956,
+    "unique_content": 0.7126022403538596,
+    "missing": 1
+   },
+   "agreement": 0.9122807017543859,
+   "kappa": 0.7872745552035095,
+   "both_unique_share_docs": 0.6776144542183127,
+   "both_unique_share_words": 0.6665155377646541
+  }
+ }
+}

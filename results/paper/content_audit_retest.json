@@ -1,0 +1,28 @@
+{
+ "rows_same_prompt": 1100,
+ "by_stratum": {
+  "unsupported": 456,
+  "supported": 244,
+  "retained": 400
+ },
+ "gpt-6.2-sol": {
+  "n": 1100,
+  "identical": 0.9363636363636364,
+  "kappa": 0.9033997031736334,
+  "uniq_flip": 0.04363636363636364,
+  "identical_unsupported": 0.9144736842105263,
+  "identical_retained": 0.9675
+ },
+ "qwen3.7-plus": {
+  "n": 1099,
+  "identical": 0.9190172884440401,
+  "kappa": 0.8532342600942616,
+  "uniq_flip": 0.0646041856232939,
+  "identical_unsupported": 0.8925438596491229,
+  "identical_retained": 0.9298245614035088
+ },
+ "both_unique_unsup_samecp_old": 0.22591211189305452,
+ "n_unsup_samecp_old": 456,
+ "both_unique_unsup_samecp_new": 0.22371373580068096,
+ "n_unsup_samecp_new": 456
+}

@@ -1,0 +1,870 @@
+{
+ "c4|t0.8": {
+  "n": 700000,
+  "seeds": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 12.8,
+    "std": 2.588435821108957,
+    "min": 10.0,
+    "max": 17.0
+   },
+   "verified_missed_minid": {
+    "mean": 22.8,
+    "std": 3.271085446759225,
+    "min": 18.0,
+    "max": 26.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 188.0,
+    "std": 4.0,
+    "min": 183.0,
+    "max": 194.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 3910.0,
+    "std": 0.0,
+    "min": 3910.0,
+    "max": 3910.0
+   },
+   "overlap_raw_minid": {
+    "mean": 3897.2,
+    "std": 2.588435821108957,
+    "min": 3893.0,
+    "max": 3900.0
+   },
+   "overlap_verified_minid": {
+    "mean": 3887.2,
+    "std": 3.2710854467592254,
+    "min": 3884.0,
+    "max": 3892.0
+   },
+   "witness_missed_minid": {
+    "mean": 235.8,
+    "std": 4.43846820423443,
+    "min": 231.0,
+    "max": 240.0
+   },
+   "overlap_witness_minid": {
+    "mean": 3674.2,
+    "std": 4.43846820423443,
+    "min": 3670.0,
+    "max": 3679.0
+   },
+   "raw_missed_dt": {
+    "mean": 190.4,
+    "std": 10.237187113655782,
+    "min": 175.0,
+    "max": 201.0
+   },
+   "verified_missed_dt": {
+    "mean": 137.6,
+    "std": 4.03732584763727,
+    "min": 132.0,
+    "max": 142.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 330.8,
+    "std": 9.884331034521253,
+    "min": 316.0,
+    "max": 341.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 114.8,
+    "std": 1.3038404810405297,
+    "min": 113.0,
+    "max": 116.0
+   },
+   "exact_deleted_dt": {
+    "mean": 3910.0,
+    "std": 0.0,
+    "min": 3910.0,
+    "max": 3910.0
+   },
+   "overlap_raw_dt": {
+    "mean": 3719.6,
+    "std": 10.237187113655782,
+    "min": 3709.0,
+    "max": 3735.0
+   },
+   "overlap_verified_dt": {
+    "mean": 3772.4,
+    "std": 4.03732584763727,
+    "min": 3768.0,
+    "max": 3778.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:26:40Z"
+ },
+ "c4|t0.75": {
+  "n": 700000,
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 79.66666666666667,
+    "std": 10.408329997330664,
+    "min": 68.0,
+    "max": 88.0
+   },
+   "verified_missed_minid": {
+    "mean": 126.66666666666667,
+    "std": 13.051181300301263,
+    "min": 113.0,
+    "max": 139.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 233.66666666666666,
+    "std": 3.7859388972001824,
+    "min": 231.0,
+    "max": 238.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 5222.0,
+    "std": 0.0,
+    "min": 5222.0,
+    "max": 5222.0
+   },
+   "overlap_raw_minid": {
+    "mean": 5142.333333333333,
+    "std": 10.408329997330664,
+    "min": 5134.0,
+    "max": 5154.0
+   },
+   "overlap_verified_minid": {
+    "mean": 5095.333333333333,
+    "std": 13.051181300301263,
+    "min": 5083.0,
+    "max": 5109.0
+   },
+   "witness_missed_minid": {
+    "mean": 405.0,
+    "std": 14.177446878757825,
+    "min": 389.0,
+    "max": 416.0
+   },
+   "overlap_witness_minid": {
+    "mean": 4817.0,
+    "std": 14.177446878757825,
+    "min": 4806.0,
+    "max": 4833.0
+   },
+   "raw_missed_dt": {
+    "mean": 348.0,
+    "std": 12.489995996796797,
+    "min": 338.0,
+    "max": 362.0
+   },
+   "verified_missed_dt": {
+    "mean": 301.0,
+    "std": 14.106735979665885,
+    "min": 286.0,
+    "max": 314.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 469.0,
+    "std": 4.358898943540674,
+    "min": 466.0,
+    "max": 474.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 174.33333333333334,
+    "std": 1.1547005383792515,
+    "min": 173.0,
+    "max": 175.0
+   },
+   "exact_deleted_dt": {
+    "mean": 5222.0,
+    "std": 0.0,
+    "min": 5222.0,
+    "max": 5222.0
+   },
+   "overlap_raw_dt": {
+    "mean": 4874.0,
+    "std": 12.489995996796797,
+    "min": 4860.0,
+    "max": 4884.0
+   },
+   "overlap_verified_dt": {
+    "mean": 4921.0,
+    "std": 14.106735979665885,
+    "min": 4908.0,
+    "max": 4936.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:26:59Z"
+ },
+ "fw|t0.8": {
+  "n": 1000000,
+  "seeds": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 0.6,
+    "std": 0.5477225575051662,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "verified_missed_minid": {
+    "mean": 0.8,
+    "std": 0.8366600265340756,
+    "min": 0.0,
+    "max": 2.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 6.4,
+    "std": 1.51657508881031,
+    "min": 4.0,
+    "max": 8.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 314.0,
+    "std": 0.0,
+    "min": 314.0,
+    "max": 314.0
+   },
+   "overlap_raw_minid": {
+    "mean": 313.4,
+    "std": 0.5477225575051662,
+    "min": 313.0,
+    "max": 314.0
+   },
+   "overlap_verified_minid": {
+    "mean": 313.2,
+    "std": 0.8366600265340756,
+    "min": 312.0,
+    "max": 314.0
+   },
+   "witness_missed_minid": {
+    "mean": 5.6,
+    "std": 0.5477225575051661,
+    "min": 5.0,
+    "max": 6.0
+   },
+   "overlap_witness_minid": {
+    "mean": 308.4,
+    "std": 0.5477225575051662,
+    "min": 308.0,
+    "max": 309.0
+   },
+   "raw_missed_dt": {
+    "mean": 4.2,
+    "std": 1.4832396974191326,
+    "min": 2.0,
+    "max": 6.0
+   },
+   "verified_missed_dt": {
+    "mean": 4.8,
+    "std": 0.8366600265340756,
+    "min": 4.0,
+    "max": 6.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 7.4,
+    "std": 1.9493588689617927,
+    "min": 5.0,
+    "max": 10.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 4.0,
+    "std": 0.0,
+    "min": 4.0,
+    "max": 4.0
+   },
+   "exact_deleted_dt": {
+    "mean": 314.0,
+    "std": 0.0,
+    "min": 314.0,
+    "max": 314.0
+   },
+   "overlap_raw_dt": {
+    "mean": 309.8,
+    "std": 1.4832396974191326,
+    "min": 308.0,
+    "max": 312.0
+   },
+   "overlap_verified_dt": {
+    "mean": 309.2,
+    "std": 0.8366600265340756,
+    "min": 308.0,
+    "max": 310.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:28:06Z"
+ },
+ "fw|t0.75": {
+  "n": 1000000,
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 5.333333333333333,
+    "std": 0.5773502691896258,
+    "min": 5.0,
+    "max": 6.0
+   },
+   "verified_missed_minid": {
+    "mean": 8.666666666666666,
+    "std": 0.5773502691896257,
+    "min": 8.0,
+    "max": 9.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 12.666666666666666,
+    "std": 1.5275252316519468,
+    "min": 11.0,
+    "max": 14.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 375.0,
+    "std": 0.0,
+    "min": 375.0,
+    "max": 375.0
+   },
+   "overlap_raw_minid": {
+    "mean": 369.6666666666667,
+    "std": 0.5773502691896258,
+    "min": 369.0,
+    "max": 370.0
+   },
+   "overlap_verified_minid": {
+    "mean": 366.3333333333333,
+    "std": 0.5773502691896258,
+    "min": 366.0,
+    "max": 367.0
+   },
+   "witness_missed_minid": {
+    "mean": 19.0,
+    "std": 0.0,
+    "min": 19.0,
+    "max": 19.0
+   },
+   "overlap_witness_minid": {
+    "mean": 356.0,
+    "std": 0.0,
+    "min": 356.0,
+    "max": 356.0
+   },
+   "raw_missed_dt": {
+    "mean": 15.333333333333334,
+    "std": 3.511884584284246,
+    "min": 12.0,
+    "max": 19.0
+   },
+   "verified_missed_dt": {
+    "mean": 14.666666666666666,
+    "std": 0.5773502691896257,
+    "min": 14.0,
+    "max": 15.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 19.333333333333332,
+    "std": 2.081665999466133,
+    "min": 17.0,
+    "max": 21.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 6.0,
+    "std": 0.0,
+    "min": 6.0,
+    "max": 6.0
+   },
+   "exact_deleted_dt": {
+    "mean": 375.0,
+    "std": 0.0,
+    "min": 375.0,
+    "max": 375.0
+   },
+   "overlap_raw_dt": {
+    "mean": 359.6666666666667,
+    "std": 3.511884584284246,
+    "min": 356.0,
+    "max": 363.0
+   },
+   "overlap_verified_dt": {
+    "mean": 360.3333333333333,
+    "std": 0.5773502691896258,
+    "min": 360.0,
+    "max": 361.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:28:30Z"
+ },
+ "mix|t0.8": {
+  "n": 1000000,
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 8.0,
+    "std": 2.6457513110645907,
+    "min": 5.0,
+    "max": 10.0
+   },
+   "verified_missed_minid": {
+    "mean": 14.333333333333334,
+    "std": 3.511884584284246,
+    "min": 11.0,
+    "max": 18.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 98.66666666666667,
+    "std": 1.5275252316519468,
+    "min": 97.0,
+    "max": 100.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 2632.0,
+    "std": 0.0,
+    "min": 2632.0,
+    "max": 2632.0
+   },
+   "overlap_raw_minid": {
+    "mean": 2624.0,
+    "std": 2.6457513110645907,
+    "min": 2622.0,
+    "max": 2627.0
+   },
+   "overlap_verified_minid": {
+    "mean": 2617.6666666666665,
+    "std": 3.511884584284246,
+    "min": 2614.0,
+    "max": 2621.0
+   },
+   "witness_missed_minid": {
+    "mean": 139.66666666666666,
+    "std": 1.5275252316519465,
+    "min": 138.0,
+    "max": 141.0
+   },
+   "overlap_witness_minid": {
+    "mean": 2492.3333333333335,
+    "std": 1.5275252316519465,
+    "min": 2491.0,
+    "max": 2494.0
+   },
+   "raw_missed_dt": {
+    "mean": 143.66666666666666,
+    "std": 6.110100926607786,
+    "min": 137.0,
+    "max": 149.0
+   },
+   "verified_missed_dt": {
+    "mean": 95.33333333333333,
+    "std": 3.055050463303893,
+    "min": 92.0,
+    "max": 98.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 211.33333333333334,
+    "std": 9.291573243177568,
+    "min": 201.0,
+    "max": 219.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 81.0,
+    "std": 1.0,
+    "min": 80.0,
+    "max": 82.0
+   },
+   "exact_deleted_dt": {
+    "mean": 2632.0,
+    "std": 0.0,
+    "min": 2632.0,
+    "max": 2632.0
+   },
+   "overlap_raw_dt": {
+    "mean": 2488.3333333333335,
+    "std": 6.110100926607787,
+    "min": 2483.0,
+    "max": 2495.0
+   },
+   "overlap_verified_dt": {
+    "mean": 2536.6666666666665,
+    "std": 3.055050463303893,
+    "min": 2534.0,
+    "max": 2540.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:29:10Z"
+ },
+ "mix|t0.75": {
+  "n": 1000000,
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 62.666666666666664,
+    "std": 9.018499505645789,
+    "min": 54.0,
+    "max": 72.0
+   },
+   "verified_missed_minid": {
+    "mean": 91.0,
+    "std": 6.082762530298219,
+    "min": 84.0,
+    "max": 95.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 130.0,
+    "std": 4.58257569495584,
+    "min": 125.0,
+    "max": 134.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 3498.0,
+    "std": 0.0,
+    "min": 3498.0,
+    "max": 3498.0
+   },
+   "overlap_raw_minid": {
+    "mean": 3435.3333333333335,
+    "std": 9.018499505645789,
+    "min": 3426.0,
+    "max": 3444.0
+   },
+   "overlap_verified_minid": {
+    "mean": 3407.0,
+    "std": 6.082762530298219,
+    "min": 3403.0,
+    "max": 3414.0
+   },
+   "witness_missed_minid": {
+    "mean": 267.3333333333333,
+    "std": 19.139836293274122,
+    "min": 246.0,
+    "max": 283.0
+   },
+   "overlap_witness_minid": {
+    "mean": 3230.6666666666665,
+    "std": 19.139836293274122,
+    "min": 3215.0,
+    "max": 3252.0
+   },
+   "raw_missed_dt": {
+    "mean": 261.0,
+    "std": 8.717797887081348,
+    "min": 251.0,
+    "max": 267.0
+   },
+   "verified_missed_dt": {
+    "mean": 216.66666666666666,
+    "std": 5.859465277082315,
+    "min": 210.0,
+    "max": 221.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 302.6666666666667,
+    "std": 9.29157324317757,
+    "min": 295.0,
+    "max": 313.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 125.66666666666667,
+    "std": 0.5773502691896257,
+    "min": 125.0,
+    "max": 126.0
+   },
+   "exact_deleted_dt": {
+    "mean": 3498.0,
+    "std": 0.0,
+    "min": 3498.0,
+    "max": 3498.0
+   },
+   "overlap_raw_dt": {
+    "mean": 3237.0,
+    "std": 8.717797887081348,
+    "min": 3231.0,
+    "max": 3247.0
+   },
+   "overlap_verified_dt": {
+    "mean": 3281.3333333333335,
+    "std": 5.8594652770823155,
+    "min": 3277.0,
+    "max": 3288.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:29:36Z"
+ },
+ "wet|t0.8": {
+  "n": 175272,
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 18.333333333333332,
+    "std": 2.081665999466133,
+    "min": 16.0,
+    "max": 20.0
+   },
+   "verified_missed_minid": {
+    "mean": 23.333333333333332,
+    "std": 2.081665999466133,
+    "min": 21.0,
+    "max": 25.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 133.66666666666666,
+    "std": 10.785793124908958,
+    "min": 126.0,
+    "max": 146.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 4245.0,
+    "std": 0.0,
+    "min": 4245.0,
+    "max": 4245.0
+   },
+   "overlap_raw_minid": {
+    "mean": 4226.666666666667,
+    "std": 2.0816659994661326,
+    "min": 4225.0,
+    "max": 4229.0
+   },
+   "overlap_verified_minid": {
+    "mean": 4221.666666666667,
+    "std": 2.081665999466133,
+    "min": 4220.0,
+    "max": 4224.0
+   },
+   "witness_missed_minid": {
+    "mean": 129.33333333333334,
+    "std": 1.1547005383792515,
+    "min": 128.0,
+    "max": 130.0
+   },
+   "overlap_witness_minid": {
+    "mean": 4115.666666666667,
+    "std": 1.1547005383792517,
+    "min": 4115.0,
+    "max": 4117.0
+   },
+   "raw_missed_dt": {
+    "mean": 151.0,
+    "std": 3.605551275463989,
+    "min": 147.0,
+    "max": 154.0
+   },
+   "verified_missed_dt": {
+    "mean": 137.0,
+    "std": 2.6457513110645907,
+    "min": 134.0,
+    "max": 139.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 222.66666666666666,
+    "std": 7.767453465154029,
+    "min": 214.0,
+    "max": 229.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 113.66666666666667,
+    "std": 0.5773502691896257,
+    "min": 113.0,
+    "max": 114.0
+   },
+   "exact_deleted_dt": {
+    "mean": 4245.0,
+    "std": 0.0,
+    "min": 4245.0,
+    "max": 4245.0
+   },
+   "overlap_raw_dt": {
+    "mean": 4094.0,
+    "std": 3.605551275463989,
+    "min": 4091.0,
+    "max": 4098.0
+   },
+   "overlap_verified_dt": {
+    "mean": 4108.0,
+    "std": 2.6457513110645907,
+    "min": 4106.0,
+    "max": 4111.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:29:43Z"
+ },
+ "wet|t0.75": {
+  "n": 175272,
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "metrics": {
+   "raw_missed_minid": {
+    "mean": 106.66666666666667,
+    "std": 8.736894948054106,
+    "min": 97.0,
+    "max": 114.0
+   },
+   "verified_missed_minid": {
+    "mean": 125.0,
+    "std": 7.0,
+    "min": 117.0,
+    "max": 130.0
+   },
+   "hijacked_raw_minid": {
+    "mean": 116.66666666666667,
+    "std": 5.686240703077327,
+    "min": 112.0,
+    "max": 123.0
+   },
+   "hijacked_verified_minid": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+   },
+   "exact_deleted_minid": {
+    "mean": 5036.0,
+    "std": 0.0,
+    "min": 5036.0,
+    "max": 5036.0
+   },
+   "overlap_raw_minid": {
+    "mean": 4929.333333333333,
+    "std": 8.736894948054106,
+    "min": 4922.0,
+    "max": 4939.0
+   },
+   "overlap_verified_minid": {
+    "mean": 4911.0,
+    "std": 7.0,
+    "min": 4906.0,
+    "max": 4919.0
+   },
+   "witness_missed_minid": {
+    "mean": 270.3333333333333,
+    "std": 13.868429375143146,
+    "min": 255.0,
+    "max": 282.0
+   },
+   "overlap_witness_minid": {
+    "mean": 4765.666666666667,
+    "std": 13.868429375143148,
+    "min": 4754.0,
+    "max": 4781.0
+   },
+   "raw_missed_dt": {
+    "mean": 284.0,
+    "std": 6.557438524302,
+    "min": 277.0,
+    "max": 290.0
+   },
+   "verified_missed_dt": {
+    "mean": 284.0,
+    "std": 7.810249675906654,
+    "min": 275.0,
+    "max": 289.0
+   },
+   "hijacked_raw_dt": {
+    "mean": 258.0,
+    "std": 3.605551275463989,
+    "min": 254.0,
+    "max": 261.0
+   },
+   "hijacked_verified_dt": {
+    "mean": 159.0,
+    "std": 1.7320508075688772,
+    "min": 158.0,
+    "max": 161.0
+   },
+   "exact_deleted_dt": {
+    "mean": 5036.0,
+    "std": 0.0,
+    "min": 5036.0,
+    "max": 5036.0
+   },
+   "overlap_raw_dt": {
+    "mean": 4752.0,
+    "std": 6.557438524302,
+    "min": 4746.0,
+    "max": 4759.0
+   },
+   "overlap_verified_dt": {
+    "mean": 4752.0,
+    "std": 7.810249675906654,
+    "min": 4747.0,
+    "max": 4761.0
+   }
+  },
+  "evidence_tier": "rerun",
+  "ts_utc": "2026-11-19T08:29:49Z"
+ }
+}

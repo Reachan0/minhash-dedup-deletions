@@ -1,0 +1,96 @@
+{
+ "generated_utc": "2026-11-19T05:10:41Z",
+ "pool_order": "fw -> c4 -> wet",
+ "pool_counts": {
+  "fw": 1048581,
+  "c4": 2850538,
+  "wet": 175272
+ },
+ "workloads": {
+  "c4": {
+   "n": 700000,
+   "pool_ranges": [
+    {
+     "source": "c4",
+     "local_start": 0,
+     "count": 700000,
+     "pool_row_id_start": 1048581
+    }
+   ],
+   "id_sha256": "1d4158208fed0817ff56285e305172fbad9bc283b1f1aef10a6b8e6ade2a11dd",
+   "first_id": "c4-00000-0",
+   "last_id": "c4-00001-343682",
+   "cache_meta": ".work/dedupjoin/rerun/c4_700000_meta.parquet",
+   "cache_ids_identical": true,
+   "cache_n": 700000
+  },
+  "fw": {
+   "n": 1000000,
+   "pool_ranges": [
+    {
+     "source": "fw",
+     "local_start": 0,
+     "count": 1000000,
+     "pool_row_id_start": 0
+    }
+   ],
+   "id_sha256": "0ade62b91820a9e8fa11a4a6708e689c2f0bbf998ee9c6073295ed8216dc1803",
+   "first_id": "<urn:uuid:39147604-bfbe-4ed5-b19c-54105f8ae8a7>",
+   "last_id": "<urn:uuid:d5a57a2d-d730-43ba-985d-308f321de81a>",
+   "cache_meta": ".work/dedupjoin/rerun/fw_1000000_meta.parquet",
+   "cache_ids_identical": true,
+   "cache_n": 1000000
+  },
+  "mix": {
+   "n": 1000000,
+   "pool_ranges": [
+    {
+     "source": "fw",
+     "local_start": 0,
+     "count": 500000,
+     "pool_row_id_start": 0
+    },
+    {
+     "source": "c4",
+     "local_start": 0,
+     "count": 500000,
+     "pool_row_id_start": 1048581
+    }
+   ],
+   "id_sha256": "9b01f586e45f9926f1951b3fb6e912fd573558248f44a65443c2b37c247254ec",
+   "first_id": "<urn:uuid:39147604-bfbe-4ed5-b19c-54105f8ae8a7>",
+   "last_id": "c4-00001-143682",
+   "cache_meta": ".work/dedupjoin/main/mix_1000000_meta.parquet",
+   "cache_ids_identical": true,
+   "cache_n": 1000000,
+   "construction": "first 500,000 FineWeb rows followed by first 500,000 C4 rows; 100% overlap with the FW and C4 prefixes; NOT an independent corpus",
+   "overlap_with_fw_c4": {
+    "fw_prefix_docs": 500000,
+    "c4_prefix_docs": 500000,
+    "share_of_mix": 1.0
+   }
+  },
+  "wet": {
+   "n": 175272,
+   "pool_ranges": [
+    {
+     "source": "wet",
+     "local_start": 0,
+     "count": 175272,
+     "pool_row_id_start": 3899119
+    }
+   ],
+   "id_sha256": "4e2bd66a4ebd567f6cf184f43c958ae96eeb9bee31dff3983fe07fa453133bec",
+   "first_id": "wet-00011-0",
+   "last_id": "wet-00519-44107",
+   "cache_meta": ".work/dedupjoin/main/wet_175272_meta.parquet",
+   "cache_ids_identical": true,
+   "cache_n": 175272
+  }
+ },
+ "audit_provenance_overlap": {
+  "source": "audit/provenance_overlap.json",
+  "mix_prefix_identical": null,
+  "wet_snapshot": null
+ }
+}

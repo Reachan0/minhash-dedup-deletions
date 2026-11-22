@@ -1,0 +1,47 @@
+# Environment for dedupjoin-pvldb-v3 audit step
+# created 2026-11-19T03:12:54Z
+Python 3.11.2
+nproc=8
+               total         used         free       shared   buff/cache    available
+Mem:              32            0            0            0           31           31
+cgroup_memory_max=34359738368
+numpy==2.4.6
+scipy==1.17.1
+pyarrow==26.0.1
+xxhash==4.0.2
+scikit-learn==1.9.1
+pandas==3.1.1
+numba: NOT INSTALLED (ModuleNotFoundError)
+datatrove: NOT INSTALLED; 0.6.0 wheel unpacked read-only at
+  code/audit/_wheel/datatrove-0.6.0-py3-none-any.whl (sha256
+  f231eb894fd79189a4c96b4d2188ece1a3804a922dc49bdf3ddcecd274f68ab9) for
+  source inspection only. No audit script imports it.
+# appended 2026-11-19T04:27:48Z (newsnap step)
+fasttext-wheel==0.9.2 (imported by code/wet_extract.py; lid.176.bin at .work/dedupjoin/raw/)
+spacy: NOT INSTALLED (not needed until dedup runs)
+curl: system binary used for WET download
+
+# appended 2026-11-19T05:45Z (core-cost-benchmark step)
+Python 3.11.2
+cpu_model: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+processors_online(/proc/cpuinfo): 16
+os.sched_getaffinity: 16 (0-15); cgroup cpu.max: max 100000
+OMP_NUM_THREADS env (nproc reports this): 12
+cgroup memory.max: 51539607552 bytes (48 GiB)
+fixed thread count for all timed paths: 12; 1-thread variant also reported
+page cache: pool parquet and frozen shingle caches were warm for most runs; read_bytes recorded per run
+
+numpy==2.4.6
+scipy==1.17.1
+pyarrow==26.0.1
+xxhash==4.0.2
+scikit-learn==1.9.1
+pandas==3.1.1
+numba==0.68.1
+datatrove==0.6.0
+regex==2026.11.19
+orjson==3.13.0
+loguru==0.8.0
+tqdm==4.70.1
+tokenizers==0.23.3
+fasttext-wheel: NOT INSTALLED

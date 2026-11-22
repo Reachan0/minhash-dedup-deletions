@@ -1,0 +1,169 @@
+{
+ "load_shingles_s": 27.08,
+ "signature_s": 69.78,
+ "signature_cached": false,
+ "banding_s": 0.21,
+ "n": 531597,
+ "valid_docs": 530603,
+ "largest_bucket": 86771,
+ "largest_bucket_band": 0,
+ "bucket_pairs_sum": 52711914044,
+ "pairs_per_doc": 99343.41502780799,
+ "top_buckets": [
+  {
+   "size": 86771,
+   "band": 13
+  },
+  {
+   "size": 86771,
+   "band": 12
+  },
+  {
+   "size": 86771,
+   "band": 11
+  },
+  {
+   "size": 86771,
+   "band": 10
+  },
+  {
+   "size": 86771,
+   "band": 9
+  },
+  {
+   "size": 86771,
+   "band": 8
+  },
+  {
+   "size": 86771,
+   "band": 7
+  },
+  {
+   "size": 86771,
+   "band": 6
+  },
+  {
+   "size": 86771,
+   "band": 5
+  },
+  {
+   "size": 86771,
+   "band": 4
+  }
+ ],
+ "per_band": [
+  {
+   "band": 0,
+   "n_buckets": 421316,
+   "n_multi": 8101,
+   "max_bucket": 86771,
+   "pairs": 3765061144
+  },
+  {
+   "band": 1,
+   "n_buckets": 421243,
+   "n_multi": 7870,
+   "max_bucket": 86771,
+   "pairs": 3765157009
+  },
+  {
+   "band": 2,
+   "n_buckets": 421928,
+   "n_multi": 8096,
+   "max_bucket": 86771,
+   "pairs": 3765077090
+  },
+  {
+   "band": 3,
+   "n_buckets": 421523,
+   "n_multi": 8024,
+   "max_bucket": 86771,
+   "pairs": 3765132896
+  },
+  {
+   "band": 4,
+   "n_buckets": 421583,
+   "n_multi": 8139,
+   "max_bucket": 86771,
+   "pairs": 3765087687
+  },
+  {
+   "band": 5,
+   "n_buckets": 421029,
+   "n_multi": 7974,
+   "max_bucket": 86771,
+   "pairs": 3765259006
+  },
+  {
+   "band": 6,
+   "n_buckets": 421729,
+   "n_multi": 8039,
+   "max_bucket": 86771,
+   "pairs": 3765127841
+  },
+  {
+   "band": 7,
+   "n_buckets": 421780,
+   "n_multi": 7913,
+   "max_bucket": 86771,
+   "pairs": 3765094575
+  },
+  {
+   "band": 8,
+   "n_buckets": 421485,
+   "n_multi": 8049,
+   "max_bucket": 86771,
+   "pairs": 3765204453
+  },
+  {
+   "band": 9,
+   "n_buckets": 421538,
+   "n_multi": 7960,
+   "max_bucket": 86771,
+   "pairs": 3765175164
+  },
+  {
+   "band": 10,
+   "n_buckets": 421493,
+   "n_multi": 8099,
+   "max_bucket": 86771,
+   "pairs": 3765115346
+  },
+  {
+   "band": 11,
+   "n_buckets": 421332,
+   "n_multi": 8043,
+   "max_bucket": 86771,
+   "pairs": 3765099021
+  },
+  {
+   "band": 12,
+   "n_buckets": 421453,
+   "n_multi": 8159,
+   "max_bucket": 86771,
+   "pairs": 3765094948
+  },
+  {
+   "band": 13,
+   "n_buckets": 421190,
+   "n_multi": 7965,
+   "max_bucket": 86771,
+   "pairs": 3765227864
+  }
+ ],
+ "wall_s": 98.0,
+ "peak_rss_mb": 4197.5,
+ "evidence_tier": "rerun",
+ "hw": {
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz",
+  "nproc_affinity": 16,
+  "cpus_online_proc_cpuinfo": 16,
+  "omp_num_threads": "12",
+  "cgroup_memory_max_bytes": 34359738368,
+  "cgroup_cpu_max": "max 100000",
+  "threads": 12,
+  "python": "3.11.2",
+  "numpy": "2.4.6"
+ },
+ "ts_utc": "2026-11-20T04:38:57Z"
+}

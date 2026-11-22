@@ -1,0 +1,6 @@
+615d46e156e749e89fbcfcc833d243eeb682e729d5e8cb40145549731d0a470c  .work/dedupjoin-pvldb-v3/newsnap/corpus/shard-00000.parquet
+25690a668b5898f7d67ec4457d81d5514ce504adb62b4b2ee6f4eb4906f6e3d6  .work/dedupjoin-pvldb-v3/newsnap/corpus/shard-00001.parquet
+005703987d1d2080b530d70d8eaf1cae3fff8333c9b5bc831af9edd63759d511  .work/dedupjoin-pvldb-v3/newsnap/corpus/shard-00002.parquet
+0d84f7cda02a69c33247b2e439e15eeee214487c4a6304ddf80c5df251bc8b66  .work/dedupjoin-pvldb-v3/newsnap/corpus/shard-00003.parquet
+ae015a2aa9894c21ac874900f5436230afa57ecb6d921c3b7ad067677f1e23be  .work/dedupjoin-pvldb-v3/newsnap/corpus/shard-00004.parquet
+cd86ac62afa2bb0618703c6768804440c08c78d636a8783d5c87e1d01c35f140  .work/dedupjoin-pvldb-v3/newsnap/corpus/shard-00005.parquet

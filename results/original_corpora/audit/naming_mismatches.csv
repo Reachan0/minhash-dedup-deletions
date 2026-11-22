@@ -1,0 +1,25 @@
+location,term,severity,problem,correction
+02-problem.tex:24,definition,high,'deletes exactly the non-isolated vertices' vs one representative per component,"Every pipeline keeps the min-id document of each component; 5,123 non-isolated vs 3,910 deletions at C4 tau=0.8."
+02-problem.tex:28,hijacked,low-medium,mechanism sentence used as the definition,Definition is |K_raw & N(G) & ~K_exact|; the lower-id mechanism holds only under min-id union.
+04-protocol.tex:15,clustering,medium,'union-by-size clustering',Audited code uses min-id union; union-by-size is datatrove stage 3.
+04-protocol.tex:19,banding scope,high,'all corpora',Only C4 and WET were swept (120 rows).
+04-protocol.tex:9,component sizes,low,49-74 words; one to three words,Measured ranges are 45-74 and 1-4 words.
+04-protocol.tex:7,147 URL pairs,low,147 pairs presented as a count,"8 of 1,024 C4 shards scanned; 147 is a lower bound."
+04-protocol.tex:24,hardware,medium,15 threads on 16-core 48 GiB; 24-core 64 GiB,Not recorded in the stored result files; only the ladder's thread count (16) is recorded.
+01-introduction.tex:15,configuration count,low,'five configurations',Four banding configurations; four methods.
+01-introduction.tex:21,variance share,medium,99.99%,99.97% of summed per-component variance; 100.1% of total.
+01-introduction.tex:28,cost ratio,low,'about nine LSH passes' at 1M,9.5x (Mix) and 11.6x (FineWeb) at 1M; 7.7-11.6x across corpora.
+01-introduction.tex:13,gap mechanism,low,'missing edges leave their endpoints isolated',A missed edge need not isolate its endpoints; the measured cause is edge recall.
+05-results.tex:42,verification residual,high,"0, 13, 14, 109 called verification residuals",These are raw_missed; verification was not run for those configurations.
+05-results.tex:73,variance share,medium,99.99%,Same denominator error as the abstract/introduction.
+05-results.tex:86,figure 2 caption,medium,largest component carries 99.99%,99.97% of within-component variance; figure drawn from the same decomposition.
+05-results.tex:118,rank limit,low,2.05e9 shingles / five million documents,"2.05e9 is V; 1.96e9 shingles, 4.78M documents."
+05-results.tex:59,memory units,low,4.3 GiB and 12.7 GiB earlier exact peaks,"4,346 MB and 12,718 MB are 4.24 and 12.42 GiB; 4.3/12.7 are decimal-GB conversions."
+06-discussion.tex:21,rank limit,low,'about five million documents',4.78M by the same arithmetic.
+07-conclusion.tex:3,flip share population,medium,0.05% / 0.004% 'ever change status' without qualifier,Only documents with a true neighbour; all flips are 1.14% / 0.31%.
+07-conclusion.tex:3,variance flag,low,'corpus statistics can flag before running',The pre-run model stratifies documents (AUC 0.74); it does not flag the component at corpus level.
+tables/tab2_banding.tex:8,caption 'missed',high,'exact deletions the configuration's verified edges never reach',The sweep never verifies; the column is raw_missed.
+tables/tab6_methods.tex:6,column 'witness',low-medium,column 'witness' reports 0.317 for raw LSH,That is 1 - unsupported/|K_raw|; witness coverage (K_wit) is 1.000 and is a different quantity.
+code/make_tables_banding.py:31,caption string,high,same false caption as tab2,Generator carries the claim into the PDF.
+code/banding_sweep.py:101,field name 'missed',high,emits raw_missed under the name 'missed',Source of the 23-vs-13 confusion when joined to the main table.
+results/paired_before_after.json (note),tokenizer note,low,note says NLTK tokenizer,The run used datatrove's SpaCyTokenizer (parity.json).

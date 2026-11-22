@@ -1,0 +1,1491 @@
+corpus,config,tau,seed,n_docs,exact_deleted,raw_deleted,raw_missed,verified_missed,unsupported,hijacked,witness_missed,residual_raw,residual_ver,residual_wit,residual_pairs_recorded,sources,metrics_available,note
+c4,14x8,0.6,1,700000,10837,10250,1807,2020,1113,107,2865,2253,2519,4741,2253,.work/dedupjoin/main/c4_s1_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.6,2,700000,10837,10473,1817,2024,1329,124,2898,2202,2478,4798,2202,.work/dedupjoin/main/c4_s2_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.6,3,700000,10837,10496,1768,1958,1305,122,2872,2266,2588,4787,2266,.work/dedupjoin/main/c4_s3_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.6,4,700000,10837,10261,1881,2065,1201,104,2958,2660,2927,5611,2660,.work/dedupjoin/main/c4_s4_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.6,5,700000,10837,10505,1785,1997,1335,118,2919,2324,2655,5026,2324,.work/dedupjoin/main/c4_s5_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.7,1,700000,6955,10250,301,415,3363,233,838,266,364,810,266,.work/dedupjoin/main/c4_s1_t0.7_sets.npz;banding_sweep_rows.jsonl;c4_var_s1_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.7,2,700000,6955,10473,327,436,3614,231,882,307,408,902,307,.work/dedupjoin/main/c4_s2_t0.7_sets.npz;banding_sweep_rows.jsonl;c4_var_s2_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.7,3,700000,6955,10496,299,396,3612,228,836,260,357,821,260,.work/dedupjoin/main/c4_s3_t0.7_sets.npz;banding_sweep_rows.jsonl;c4_var_s3_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.7,4,700000,6955,10261,318,411,3402,222,868,285,376,862,285,.work/dedupjoin/main/c4_s4_t0.7_sets.npz;banding_sweep_rows.jsonl;c4_var_s4_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.7,5,700000,6955,10505,304,402,3621,233,866,274,364,843,274,.work/dedupjoin/main/c4_s5_t0.7_sets.npz;banding_sweep_rows.jsonl;c4_var_s5_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.7,6,700000,6955,10466,266,,3534,243,,,,,233,c4_var_s6_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,7,700000,6955,10290,329,,3425,239,,,,,311,c4_var_s7_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,8,700000,6955,10494,264,,3567,236,,,,,243,c4_var_s8_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,9,700000,6955,10256,324,,3401,224,,,,,312,c4_var_s9_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,10,700000,6955,10329,275,,3406,243,,,,,236,c4_var_s10_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,11,700000,6955,10407,323,,3546,229,,,,,286,c4_var_s11_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,12,700000,6955,10441,300,,3557,229,,,,,269,c4_var_s12_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,13,700000,6955,10422,313,,3549,231,,,,,270,c4_var_s13_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,14,700000,6955,10507,301,,3631,222,,,,,262,c4_var_s14_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,15,700000,6955,10433,316,,3576,218,,,,,299,c4_var_s15_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,16,700000,6955,10418,282,,3505,240,,,,,239,c4_var_s16_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,17,700000,6955,10270,302,,3384,233,,,,,275,c4_var_s17_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,18,700000,6955,10294,307,,3415,231,,,,,270,c4_var_s18_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,19,700000,6955,10371,294,,3484,226,,,,,261,c4_var_s19_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,20,700000,6955,10415,281,,3511,230,,,,,251,c4_var_s20_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,21,700000,6955,10309,309,,3422,241,,,,,266,c4_var_s21_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,22,700000,6955,10469,296,,3582,228,,,,,282,c4_var_s22_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,23,700000,6955,10463,303,,3576,235,,,,,273,c4_var_s23_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,24,700000,6955,10388,287,,3497,223,,,,,265,c4_var_s24_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,25,700000,6955,10349,309,,3455,248,,,,,278,c4_var_s25_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,26,700000,6955,10447,265,,3528,229,,,,,230,c4_var_s26_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,27,700000,6955,10357,307,,3485,224,,,,,278,c4_var_s27_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,28,700000,6955,10466,262,,3543,230,,,,,218,c4_var_s28_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,29,700000,6955,10509,302,,3618,238,,,,,279,c4_var_s29_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,30,700000,6955,10363,299,,3464,243,,,,,273,c4_var_s30_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,31,700000,6955,10339,308,,3454,238,,,,,268,c4_var_s31_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,32,700000,6955,10483,292,,3589,231,,,,,268,c4_var_s32_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,33,700000,6955,10262,318,,3397,228,,,,,278,c4_var_s33_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,34,700000,6955,10363,310,,3496,222,,,,,281,c4_var_s34_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,35,700000,6955,10428,312,,3553,232,,,,,283,c4_var_s35_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,36,700000,6955,10496,304,,3612,233,,,,,272,c4_var_s36_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,37,700000,6955,10296,295,,3410,226,,,,,259,c4_var_s37_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,38,700000,6955,10307,314,,3434,232,,,,,285,c4_var_s38_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,39,700000,6955,10634,313,,3756,236,,,,,275,c4_var_s39_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,40,700000,6955,10406,313,,3530,234,,,,,286,c4_var_s40_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,41,700000,6955,10482,314,,3612,229,,,,,284,c4_var_s41_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,42,700000,6955,10416,308,,3521,248,,,,,284,c4_var_s42_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,43,700000,6955,10352,315,,3480,232,,,,,276,c4_var_s43_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,44,700000,6955,10363,288,,3463,233,,,,,235,c4_var_s44_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,45,700000,6955,10438,284,,3541,226,,,,,238,c4_var_s45_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,46,700000,6955,10438,315,,3572,226,,,,,284,c4_var_s46_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,47,700000,6955,10418,297,,3538,222,,,,,271,c4_var_s47_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,48,700000,6955,10367,328,,3512,228,,,,,285,c4_var_s48_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,49,700000,6955,10426,323,,3558,236,,,,,296,c4_var_s49_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,50,700000,6955,10595,285,,3686,239,,,,,256,c4_var_s50_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,51,700000,6955,10272,336,,3432,221,,,,,300,c4_var_s51_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,52,700000,6955,10273,320,,3413,225,,,,,289,c4_var_s52_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,53,700000,6955,10456,303,,3575,229,,,,,272,c4_var_s53_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,54,700000,6955,10369,317,,3499,232,,,,,294,c4_var_s54_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,55,700000,6955,10373,310,,3497,231,,,,,277,c4_var_s55_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,56,700000,6955,10423,284,,3513,239,,,,,250,c4_var_s56_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,57,700000,6955,10439,305,,3563,226,,,,,258,c4_var_s57_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,58,700000,6955,10500,314,,3620,239,,,,,283,c4_var_s58_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,59,700000,6955,10390,297,,3509,223,,,,,265,c4_var_s59_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,60,700000,6955,10581,312,,3693,245,,,,,268,c4_var_s60_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,61,700000,6955,10380,296,,3499,222,,,,,255,c4_var_s61_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,62,700000,6955,10397,308,,3525,225,,,,,281,c4_var_s62_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,63,700000,6955,10327,301,,3454,219,,,,,277,c4_var_s63_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,64,700000,6955,10482,300,,3593,234,,,,,261,c4_var_s64_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,65,700000,6955,10338,289,,3441,231,,,,,242,c4_var_s65_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,66,700000,6955,10308,323,,3445,231,,,,,291,c4_var_s66_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,67,700000,6955,10533,296,,3633,241,,,,,275,c4_var_s67_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,68,700000,6955,10431,286,,3527,235,,,,,254,c4_var_s68_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,69,700000,6955,10252,297,,3364,230,,,,,272,c4_var_s69_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,70,700000,6955,10344,292,,3450,231,,,,,252,c4_var_s70_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,71,700000,6955,10528,276,,3613,236,,,,,233,c4_var_s71_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,72,700000,6955,10332,318,,3463,232,,,,,282,c4_var_s72_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,73,700000,6955,10377,316,,3507,231,,,,,297,c4_var_s73_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,74,700000,6955,10366,296,,3483,224,,,,,279,c4_var_s74_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,75,700000,6955,10304,313,,3420,242,,,,,274,c4_var_s75_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,76,700000,6955,10356,300,,3478,223,,,,,262,c4_var_s76_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,77,700000,6955,10330,289,,3438,226,,,,,270,c4_var_s77_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,78,700000,6955,10385,281,,3467,244,,,,,258,c4_var_s78_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,79,700000,6955,10425,315,,3562,223,,,,,273,c4_var_s79_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,80,700000,6955,10294,281,,3391,229,,,,,246,c4_var_s80_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,81,700000,6955,10407,283,,3496,239,,,,,255,c4_var_s81_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,82,700000,6955,10338,306,,3458,231,,,,,279,c4_var_s82_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,83,700000,6955,10442,301,,3561,227,,,,,277,c4_var_s83_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,84,700000,6955,10276,320,,3426,215,,,,,280,c4_var_s84_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,85,700000,6955,10512,289,,3618,228,,,,,268,c4_var_s85_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,86,700000,6955,10360,319,,3488,236,,,,,299,c4_var_s86_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,87,700000,6955,10327,306,,3444,234,,,,,276,c4_var_s87_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,88,700000,6955,10381,275,,3477,224,,,,,255,c4_var_s88_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,89,700000,6955,10369,286,,3466,234,,,,,261,c4_var_s89_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,90,700000,6955,10452,283,,3542,238,,,,,246,c4_var_s90_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,91,700000,6955,10404,309,,3522,236,,,,,282,c4_var_s91_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,92,700000,6955,10444,299,,3558,230,,,,,275,c4_var_s92_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,93,700000,6955,10479,303,,3594,233,,,,,258,c4_var_s93_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,94,700000,6955,10365,339,,3500,249,,,,,305,c4_var_s94_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,95,700000,6955,10235,321,,3390,211,,,,,276,c4_var_s95_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,96,700000,6955,10293,302,,3412,228,,,,,283,c4_var_s96_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,97,700000,6955,10487,280,,3579,233,,,,,245,c4_var_s97_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,98,700000,6955,10375,307,,3511,216,,,,,264,c4_var_s98_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,99,700000,6955,10470,265,,3557,223,,,,,228,c4_var_s99_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.7,100,700000,6955,10397,331,,3548,225,,,,,307,c4_var_s100_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,1,700000,3910,10250,12,24,6158,194,231,11,20,40,11,.work/dedupjoin/main/c4_s1_t0.8_sets.npz;banding_sweep_rows.jsonl;c4_var_s1_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.8,2,700000,3910,10473,12,21,6388,187,231,8,16,40,8,.work/dedupjoin/main/c4_s2_t0.8_sets.npz;banding_sweep_rows.jsonl;c4_var_s2_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.8,3,700000,3910,10496,10,18,6407,189,240,7,14,49,7,.work/dedupjoin/main/c4_s3_t0.8_sets.npz;banding_sweep_rows.jsonl;c4_var_s3_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.8,4,700000,3910,10261,17,26,6185,183,239,14,22,44,14,.work/dedupjoin/main/c4_s4_t0.8_sets.npz;banding_sweep_rows.jsonl;c4_var_s4_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.8,5,700000,3910,10505,13,25,6421,187,238,11,21,45,11,.work/dedupjoin/main/c4_s5_t0.8_sets.npz;banding_sweep_rows.jsonl;c4_var_s5_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.8,6,700000,3910,10466,7,,6366,197,,,,,7,c4_var_s6_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,7,700000,3910,10290,6,,6198,188,,,,,6,c4_var_s7_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,8,700000,3910,10494,6,,6391,199,,,,,6,c4_var_s8_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,9,700000,3910,10256,8,,6172,182,,,,,6,c4_var_s9_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,10,700000,3910,10329,10,,6234,195,,,,,7,c4_var_s10_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,11,700000,3910,10407,19,,6331,185,,,,,17,c4_var_s11_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,12,700000,3910,10441,7,,6355,183,,,,,7,c4_var_s12_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,13,700000,3910,10422,10,,6337,185,,,,,9,c4_var_s13_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,14,700000,3910,10507,11,,6425,183,,,,,8,c4_var_s14_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,15,700000,3910,10433,13,,6346,190,,,,,10,c4_var_s15_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,16,700000,3910,10418,10,,6331,187,,,,,7,c4_var_s16_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,17,700000,3910,10270,13,,6187,186,,,,,7,c4_var_s17_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,18,700000,3910,10294,13,,6206,191,,,,,12,c4_var_s18_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,19,700000,3910,10371,12,,6285,188,,,,,7,c4_var_s19_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,20,700000,3910,10415,15,,6335,185,,,,,12,c4_var_s20_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,21,700000,3910,10309,16,,6226,189,,,,,13,c4_var_s21_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,22,700000,3910,10469,11,,6393,177,,,,,8,c4_var_s22_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,23,700000,3910,10463,17,,6388,182,,,,,15,c4_var_s23_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,24,700000,3910,10388,8,,6296,190,,,,,7,c4_var_s24_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,25,700000,3910,10349,11,,6255,195,,,,,6,c4_var_s25_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,26,700000,3910,10447,7,,6356,188,,,,,7,c4_var_s26_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,27,700000,3910,10357,17,,6284,180,,,,,15,c4_var_s27_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,28,700000,3910,10466,12,,6383,185,,,,,12,c4_var_s28_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,29,700000,3910,10509,6,,6412,193,,,,,5,c4_var_s29_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,30,700000,3910,10363,13,,6278,188,,,,,13,c4_var_s30_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,31,700000,3910,10339,17,,6244,202,,,,,14,c4_var_s31_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,32,700000,3910,10483,14,,6401,186,,,,,14,c4_var_s32_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,33,700000,3910,10262,12,,6177,187,,,,,9,c4_var_s33_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,34,700000,3910,10363,9,,6275,187,,,,,6,c4_var_s34_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,35,700000,3910,10428,11,,6344,185,,,,,11,c4_var_s35_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,36,700000,3910,10496,11,,6416,181,,,,,9,c4_var_s36_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,37,700000,3910,10296,8,,6209,185,,,,,6,c4_var_s37_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,38,700000,3910,10307,7,,6212,192,,,,,5,c4_var_s38_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,39,700000,3910,10634,10,,6542,192,,,,,7,c4_var_s39_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,40,700000,3910,10406,10,,6312,194,,,,,9,c4_var_s40_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,41,700000,3910,10482,8,,6391,189,,,,,6,c4_var_s41_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,42,700000,3910,10416,10,,6319,197,,,,,9,c4_var_s42_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,43,700000,3910,10352,12,,6261,193,,,,,12,c4_var_s43_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,44,700000,3910,10363,14,,6271,196,,,,,10,c4_var_s44_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,45,700000,3910,10438,8,,6351,185,,,,,7,c4_var_s45_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,46,700000,3910,10438,9,,6356,181,,,,,9,c4_var_s46_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,47,700000,3910,10418,13,,6332,189,,,,,12,c4_var_s47_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,48,700000,3910,10367,9,,6275,191,,,,,8,c4_var_s48_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,49,700000,3910,10426,15,,6340,191,,,,,14,c4_var_s49_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,50,700000,3910,10595,14,,6512,187,,,,,12,c4_var_s50_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,51,700000,3910,10272,11,,6184,189,,,,,10,c4_var_s51_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,52,700000,3910,10273,11,,6179,195,,,,,10,c4_var_s52_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,53,700000,3910,10456,15,,6378,183,,,,,12,c4_var_s53_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,54,700000,3910,10369,16,,6292,183,,,,,14,c4_var_s54_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,55,700000,3910,10373,11,,6283,191,,,,,9,c4_var_s55_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,56,700000,3910,10423,9,,6329,193,,,,,7,c4_var_s56_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,57,700000,3910,10439,11,,6357,183,,,,,10,c4_var_s57_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,58,700000,3910,10500,14,,6419,185,,,,,12,c4_var_s58_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,59,700000,3910,10390,7,,6297,190,,,,,6,c4_var_s59_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,60,700000,3910,10581,12,,6498,185,,,,,10,c4_var_s60_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,61,700000,3910,10380,5,,6292,183,,,,,4,c4_var_s61_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,62,700000,3910,10397,13,,6305,195,,,,,9,c4_var_s62_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,63,700000,3910,10327,11,,6248,180,,,,,9,c4_var_s63_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,64,700000,3910,10482,13,,6393,192,,,,,11,c4_var_s64_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,65,700000,3910,10338,8,,6252,184,,,,,7,c4_var_s65_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,66,700000,3910,10308,19,,6226,191,,,,,17,c4_var_s66_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,67,700000,3910,10533,17,,6453,187,,,,,14,c4_var_s67_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,68,700000,3910,10431,5,,6338,188,,,,,4,c4_var_s68_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,69,700000,3910,10252,16,,6166,192,,,,,13,c4_var_s69_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,70,700000,3910,10344,13,,6261,186,,,,,11,c4_var_s70_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,71,700000,3910,10528,8,,6438,188,,,,,5,c4_var_s71_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,72,700000,3910,10332,13,,6257,178,,,,,12,c4_var_s72_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,73,700000,3910,10377,11,,6292,186,,,,,8,c4_var_s73_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,74,700000,3910,10366,12,,6280,188,,,,,11,c4_var_s74_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,75,700000,3910,10304,14,,6214,194,,,,,13,c4_var_s75_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,76,700000,3910,10356,15,,6269,192,,,,,11,c4_var_s76_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,77,700000,3910,10330,14,,6251,183,,,,,9,c4_var_s77_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,78,700000,3910,10385,9,,6283,201,,,,,8,c4_var_s78_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,79,700000,3910,10425,14,,6346,183,,,,,14,c4_var_s79_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,80,700000,3910,10294,10,,6200,194,,,,,10,c4_var_s80_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,81,700000,3910,10407,10,,6322,185,,,,,8,c4_var_s81_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,82,700000,3910,10338,7,,6250,185,,,,,7,c4_var_s82_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,83,700000,3910,10442,8,,6356,184,,,,,8,c4_var_s83_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,84,700000,3910,10276,10,,6189,187,,,,,10,c4_var_s84_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,85,700000,3910,10512,14,,6436,180,,,,,11,c4_var_s85_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,86,700000,3910,10360,14,,6269,195,,,,,13,c4_var_s86_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,87,700000,3910,10327,10,,6239,188,,,,,8,c4_var_s87_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,88,700000,3910,10381,9,,6293,187,,,,,6,c4_var_s88_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,89,700000,3910,10369,9,,6283,185,,,,,7,c4_var_s89_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,90,700000,3910,10452,7,,6363,186,,,,,6,c4_var_s90_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,91,700000,3910,10404,13,,6315,192,,,,,11,c4_var_s91_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,92,700000,3910,10444,8,,6361,181,,,,,6,c4_var_s92_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,93,700000,3910,10479,5,,6377,197,,,,,3,c4_var_s93_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,94,700000,3910,10365,9,,6265,199,,,,,8,c4_var_s94_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,95,700000,3910,10235,14,,6155,184,,,,,10,c4_var_s95_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,96,700000,3910,10293,5,,6197,191,,,,,5,c4_var_s96_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,97,700000,3910,10487,7,,6390,194,,,,,6,c4_var_s97_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,98,700000,3910,10375,10,,6286,189,,,,,9,c4_var_s98_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,99,700000,3910,10470,7,,6378,189,,,,,7,c4_var_s99_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.8,100,700000,3910,10397,15,,6313,189,,,,,13,c4_var_s100_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,1,700000,1441,10250,0,0,8630,179,33,0,0,0,0,.work/dedupjoin/main/c4_s1_t0.9_sets.npz;banding_sweep_rows.jsonl;c4_var_s1_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.9,2,700000,1441,10473,0,0,8852,180,33,0,0,0,0,.work/dedupjoin/main/c4_s2_t0.9_sets.npz;banding_sweep_rows.jsonl;c4_var_s2_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.9,3,700000,1441,10496,0,0,8873,182,33,0,0,0,0,.work/dedupjoin/main/c4_s3_t0.9_sets.npz;banding_sweep_rows.jsonl;c4_var_s3_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.9,4,700000,1441,10261,0,0,8645,175,34,0,0,2,0,.work/dedupjoin/main/c4_s4_t0.9_sets.npz;banding_sweep_rows.jsonl;c4_var_s4_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.9,5,700000,1441,10505,0,0,8884,180,33,0,0,0,0,.work/dedupjoin/main/c4_s5_t0.9_sets.npz;banding_sweep_rows.jsonl;c4_var_s5_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+c4,14x8,0.9,6,700000,1441,10466,0,,8847,178,,,,,0,c4_var_s6_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,7,700000,1441,10290,0,,8674,175,,,,,0,c4_var_s7_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,8,700000,1441,10494,0,,8873,180,,,,,0,c4_var_s8_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,9,700000,1441,10256,0,,8639,176,,,,,0,c4_var_s9_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,10,700000,1441,10329,0,,8709,179,,,,,0,c4_var_s10_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,11,700000,1441,10407,0,,8787,179,,,,,0,c4_var_s11_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,12,700000,1441,10441,0,,8824,176,,,,,0,c4_var_s12_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,13,700000,1441,10422,0,,8801,180,,,,,0,c4_var_s13_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,14,700000,1441,10507,0,,8891,175,,,,,0,c4_var_s14_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,15,700000,1441,10433,0,,8812,180,,,,,0,c4_var_s15_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,16,700000,1441,10418,0,,8800,177,,,,,0,c4_var_s16_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,17,700000,1441,10270,0,,8653,176,,,,,0,c4_var_s17_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,18,700000,1441,10294,0,,8675,178,,,,,0,c4_var_s18_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,19,700000,1441,10371,0,,8755,175,,,,,0,c4_var_s19_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,20,700000,1441,10415,0,,8798,176,,,,,0,c4_var_s20_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,21,700000,1441,10309,0,,8688,180,,,,,0,c4_var_s21_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,22,700000,1441,10469,0,,8853,175,,,,,0,c4_var_s22_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,23,700000,1441,10463,0,,8845,177,,,,,0,c4_var_s23_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,24,700000,1441,10388,0,,8771,176,,,,,0,c4_var_s24_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,25,700000,1441,10349,0,,8727,181,,,,,0,c4_var_s25_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,26,700000,1441,10447,0,,8827,179,,,,,0,c4_var_s26_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,27,700000,1441,10357,0,,8742,174,,,,,0,c4_var_s27_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,28,700000,1441,10466,0,,8851,174,,,,,0,c4_var_s28_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,29,700000,1441,10509,0,,8887,181,,,,,0,c4_var_s29_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,30,700000,1441,10363,0,,8743,179,,,,,0,c4_var_s30_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,31,700000,1441,10339,0,,8714,184,,,,,0,c4_var_s31_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,32,700000,1441,10483,0,,8861,181,,,,,0,c4_var_s32_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,33,700000,1441,10262,0,,8648,173,,,,,0,c4_var_s33_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,34,700000,1441,10363,0,,8746,176,,,,,0,c4_var_s34_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,35,700000,1441,10428,0,,8811,176,,,,,0,c4_var_s35_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,36,700000,1441,10496,0,,8879,176,,,,,0,c4_var_s36_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,37,700000,1441,10296,0,,8676,179,,,,,0,c4_var_s37_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,38,700000,1441,10307,0,,8692,174,,,,,0,c4_var_s38_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,39,700000,1441,10634,0,,9017,176,,,,,0,c4_var_s39_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,40,700000,1441,10406,0,,8782,183,,,,,0,c4_var_s40_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,41,700000,1441,10482,0,,8865,176,,,,,0,c4_var_s41_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,42,700000,1441,10416,0,,8790,185,,,,,0,c4_var_s42_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,43,700000,1441,10352,0,,8733,178,,,,,0,c4_var_s43_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,44,700000,1441,10363,0,,8739,183,,,,,0,c4_var_s44_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,45,700000,1441,10438,0,,8822,175,,,,,0,c4_var_s45_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,46,700000,1441,10438,0,,8822,175,,,,,0,c4_var_s46_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,47,700000,1441,10418,0,,8800,177,,,,,0,c4_var_s47_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,48,700000,1441,10367,0,,8747,179,,,,,0,c4_var_s48_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,49,700000,1441,10426,0,,8805,180,,,,,0,c4_var_s49_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,50,700000,1441,10595,0,,8979,175,,,,,0,c4_var_s50_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,51,700000,1441,10272,0,,8654,177,,,,,0,c4_var_s51_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,52,700000,1441,10273,0,,8652,180,,,,,0,c4_var_s52_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,53,700000,1441,10456,0,,8839,176,,,,,0,c4_var_s53_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,54,700000,1441,10369,0,,8751,177,,,,,0,c4_var_s54_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,55,700000,1441,10373,0,,8756,176,,,,,0,c4_var_s55_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,56,700000,1441,10423,0,,8800,182,,,,,0,c4_var_s56_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,57,700000,1441,10439,0,,8822,176,,,,,0,c4_var_s57_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,58,700000,1441,10500,0,,8883,176,,,,,0,c4_var_s58_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,59,700000,1441,10390,0,,8773,176,,,,,0,c4_var_s59_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,60,700000,1441,10581,0,,8964,176,,,,,0,c4_var_s60_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,61,700000,1441,10380,0,,8767,172,,,,,0,c4_var_s61_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,62,700000,1441,10397,0,,8774,182,,,,,0,c4_var_s62_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,63,700000,1441,10327,0,,8711,175,,,,,0,c4_var_s63_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,64,700000,1441,10482,0,,8861,180,,,,,0,c4_var_s64_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,65,700000,1441,10338,0,,8723,174,,,,,0,c4_var_s65_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,66,700000,1441,10308,0,,8691,176,,,,,0,c4_var_s66_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,67,700000,1441,10533,0,,8913,179,,,,,0,c4_var_s67_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,68,700000,1441,10431,0,,8815,175,,,,,0,c4_var_s68_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,69,700000,1441,10252,0,,8634,177,,,,,0,c4_var_s69_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,70,700000,1441,10344,0,,8728,175,,,,,0,c4_var_s70_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,71,700000,1441,10528,0,,8909,178,,,,,0,c4_var_s71_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,72,700000,1441,10332,0,,8718,173,,,,,0,c4_var_s72_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,73,700000,1441,10377,0,,8762,174,,,,,0,c4_var_s73_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,74,700000,1441,10366,0,,8749,176,,,,,0,c4_var_s74_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,75,700000,1441,10304,0,,8681,182,,,,,0,c4_var_s75_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,76,700000,1441,10356,0,,8736,179,,,,,0,c4_var_s76_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,77,700000,1441,10330,0,,8712,177,,,,,0,c4_var_s77_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,78,700000,1441,10385,0,,8762,182,,,,,0,c4_var_s78_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,79,700000,1441,10425,0,,8807,177,,,,,0,c4_var_s79_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,80,700000,1441,10294,0,,8671,182,,,,,0,c4_var_s80_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,81,700000,1441,10407,0,,8791,175,,,,,0,c4_var_s81_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,82,700000,1441,10338,0,,8715,182,,,,,0,c4_var_s82_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,83,700000,1441,10442,0,,8823,178,,,,,0,c4_var_s83_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,84,700000,1441,10276,0,,8657,178,,,,,0,c4_var_s84_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,85,700000,1441,10512,0,,8896,175,,,,,0,c4_var_s85_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,86,700000,1441,10360,0,,8739,180,,,,,0,c4_var_s86_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,87,700000,1441,10327,0,,8711,175,,,,,0,c4_var_s87_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,88,700000,1441,10381,0,,8761,179,,,,,0,c4_var_s88_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,89,700000,1441,10369,0,,8748,180,,,,,0,c4_var_s89_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,90,700000,1441,10452,0,,8835,176,,,,,0,c4_var_s90_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,91,700000,1441,10404,0,,8784,179,,,,,0,c4_var_s91_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,92,700000,1441,10444,0,,8829,174,,,,,0,c4_var_s92_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,93,700000,1441,10479,0,,8857,181,,,,,0,c4_var_s93_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,94,700000,1441,10365,0,,8742,182,,,,,0,c4_var_s94_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,95,700000,1441,10235,0,,8617,177,,,,,0,c4_var_s95_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,96,700000,1441,10293,0,,8667,185,,,,,0,c4_var_s96_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,97,700000,1441,10487,0,,8867,179,,,,,0,c4_var_s97_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,98,700000,1441,10375,0,,8759,175,,,,,0,c4_var_s98_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,99,700000,1441,10470,0,,8849,180,,,,,0,c4_var_s99_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,14x8,0.9,100,700000,1441,10397,0,,8774,182,,,,,0,c4_var_s100_t0.7/t0.8.npz;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded for this seed
+c4,20x5,0.7,1,700000,6955,18051,5,,10675,426,,,,,5,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.7,2,700000,6955,18373,4,,10987,435,,,,,3,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.7,3,700000,6955,18218,4,,10831,436,,,,,3,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.7,4,700000,6955,18176,3,,10800,424,,,,,3,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.7,5,700000,6955,18316,3,,10937,427,,,,,2,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.7,6,700000,6955,18207,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,7,700000,6955,18230,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,8,700000,6955,18159,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,9,700000,6955,18284,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,10,700000,6955,18165,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,11,700000,6955,18501,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,12,700000,6955,18703,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,13,700000,6955,18489,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,14,700000,6955,18444,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,15,700000,6955,18645,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,16,700000,6955,18448,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,17,700000,6955,18097,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.7,18,700000,6955,18347,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,19,700000,6955,18098,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,20,700000,6955,18280,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,21,700000,6955,18253,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,22,700000,6955,18101,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,23,700000,6955,18189,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,24,700000,6955,18121,,,,,,,,,9,seed_variance_rows.jsonl,,
+c4,20x5,0.7,25,700000,6955,18222,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,26,700000,6955,18315,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,27,700000,6955,18531,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,28,700000,6955,18372,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,29,700000,6955,18381,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,30,700000,6955,18270,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,31,700000,6955,18342,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,32,700000,6955,18500,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,33,700000,6955,18037,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,34,700000,6955,18301,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,35,700000,6955,18165,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,36,700000,6955,18357,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,37,700000,6955,17895,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,38,700000,6955,18011,,,,,,,,,8,seed_variance_rows.jsonl,,
+c4,20x5,0.7,39,700000,6955,18191,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,40,700000,6955,18448,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,41,700000,6955,18559,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,42,700000,6955,18176,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,43,700000,6955,18218,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,44,700000,6955,18287,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,45,700000,6955,18217,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,46,700000,6955,18419,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,47,700000,6955,18377,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,48,700000,6955,18135,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,49,700000,6955,18500,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,50,700000,6955,18259,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,51,700000,6955,18294,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,52,700000,6955,18334,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,53,700000,6955,18204,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,54,700000,6955,18293,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,55,700000,6955,18031,,,,,,,,,10,seed_variance_rows.jsonl,,
+c4,20x5,0.7,56,700000,6955,18398,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,57,700000,6955,18131,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,58,700000,6955,18421,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,59,700000,6955,18439,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,60,700000,6955,18378,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,61,700000,6955,18138,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,62,700000,6955,18209,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,63,700000,6955,18217,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,64,700000,6955,18500,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,65,700000,6955,18260,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,66,700000,6955,18452,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,67,700000,6955,18361,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,68,700000,6955,18542,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,69,700000,6955,18097,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,70,700000,6955,18532,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,71,700000,6955,18302,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,72,700000,6955,18394,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,73,700000,6955,18177,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,74,700000,6955,18321,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,75,700000,6955,18578,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,76,700000,6955,18372,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,77,700000,6955,18488,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,78,700000,6955,18204,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,79,700000,6955,18579,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,80,700000,6955,18489,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,81,700000,6955,18253,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,82,700000,6955,18115,,,,,,,,,7,seed_variance_rows.jsonl,,
+c4,20x5,0.7,83,700000,6955,18309,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,84,700000,6955,18193,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,85,700000,6955,18258,,,,,,,,,8,seed_variance_rows.jsonl,,
+c4,20x5,0.7,86,700000,6955,18260,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,87,700000,6955,18331,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,88,700000,6955,18309,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,89,700000,6955,18167,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,90,700000,6955,18639,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.7,91,700000,6955,18204,,,,,,,,,6,seed_variance_rows.jsonl,,
+c4,20x5,0.7,92,700000,6955,18369,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.7,93,700000,6955,18384,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,94,700000,6955,18012,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,20x5,0.7,95,700000,6955,18264,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,96,700000,6955,18497,,,,,,,,,3,seed_variance_rows.jsonl,,
+c4,20x5,0.7,97,700000,6955,18412,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,98,700000,6955,18338,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,99,700000,6955,18136,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,20x5,0.7,100,700000,6955,18002,,,,,,,,,5,seed_variance_rows.jsonl,,
+c4,20x5,0.8,1,700000,3910,18051,0,,13873,268,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.8,2,700000,3910,18373,0,,14190,273,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.8,3,700000,3910,18218,0,,14029,279,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.8,4,700000,3910,18176,0,,14007,259,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.8,5,700000,3910,18316,0,,14136,270,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.8,6,700000,3910,18207,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,7,700000,3910,18230,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,8,700000,3910,18159,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,9,700000,3910,18284,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,10,700000,3910,18165,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,11,700000,3910,18501,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,12,700000,3910,18703,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,13,700000,3910,18489,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,14,700000,3910,18444,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,15,700000,3910,18645,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,16,700000,3910,18448,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,17,700000,3910,18097,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,18,700000,3910,18347,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,19,700000,3910,18098,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,20,700000,3910,18280,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,21,700000,3910,18253,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,22,700000,3910,18101,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,23,700000,3910,18189,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,24,700000,3910,18121,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,25,700000,3910,18222,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,26,700000,3910,18315,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,27,700000,3910,18531,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,28,700000,3910,18372,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,29,700000,3910,18381,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,30,700000,3910,18270,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,31,700000,3910,18342,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,32,700000,3910,18500,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,33,700000,3910,18037,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,34,700000,3910,18301,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,35,700000,3910,18165,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,36,700000,3910,18357,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,37,700000,3910,17895,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,38,700000,3910,18011,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,39,700000,3910,18191,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,40,700000,3910,18448,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,41,700000,3910,18559,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,42,700000,3910,18176,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,43,700000,3910,18218,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,44,700000,3910,18287,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,45,700000,3910,18217,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,46,700000,3910,18419,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,47,700000,3910,18377,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,48,700000,3910,18135,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,49,700000,3910,18500,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,50,700000,3910,18259,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,51,700000,3910,18294,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,52,700000,3910,18334,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.8,53,700000,3910,18204,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,54,700000,3910,18293,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,55,700000,3910,18031,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,56,700000,3910,18398,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,57,700000,3910,18131,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,58,700000,3910,18421,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,59,700000,3910,18439,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,60,700000,3910,18378,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,61,700000,3910,18138,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,62,700000,3910,18209,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,63,700000,3910,18217,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,64,700000,3910,18500,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,65,700000,3910,18260,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,66,700000,3910,18452,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,20x5,0.8,67,700000,3910,18361,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,68,700000,3910,18542,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,69,700000,3910,18097,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,70,700000,3910,18532,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,71,700000,3910,18302,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,72,700000,3910,18394,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,73,700000,3910,18177,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,74,700000,3910,18321,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,75,700000,3910,18578,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,76,700000,3910,18372,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,77,700000,3910,18488,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,78,700000,3910,18204,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,79,700000,3910,18579,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,80,700000,3910,18489,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,81,700000,3910,18253,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,82,700000,3910,18115,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,83,700000,3910,18309,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,84,700000,3910,18193,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,85,700000,3910,18258,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,86,700000,3910,18260,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,87,700000,3910,18331,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,88,700000,3910,18309,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,89,700000,3910,18167,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,90,700000,3910,18639,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,91,700000,3910,18204,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,92,700000,3910,18369,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,93,700000,3910,18384,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,94,700000,3910,18012,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,95,700000,3910,18264,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,96,700000,3910,18497,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,97,700000,3910,18412,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,98,700000,3910,18338,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,99,700000,3910,18136,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.8,100,700000,3910,18002,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,1,700000,1441,18051,0,,16393,217,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.9,2,700000,1441,18373,0,,16711,221,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.9,3,700000,1441,18218,0,,16554,223,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.9,4,700000,1441,18176,0,,16522,213,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.9,5,700000,1441,18316,0,,16657,218,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,20x5,0.9,6,700000,1441,18207,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,7,700000,1441,18230,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,8,700000,1441,18159,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,9,700000,1441,18284,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,10,700000,1441,18165,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,11,700000,1441,18501,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,12,700000,1441,18703,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,13,700000,1441,18489,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,14,700000,1441,18444,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,15,700000,1441,18645,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,16,700000,1441,18448,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,17,700000,1441,18097,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,18,700000,1441,18347,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,19,700000,1441,18098,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,20,700000,1441,18280,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,21,700000,1441,18253,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,22,700000,1441,18101,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,23,700000,1441,18189,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,24,700000,1441,18121,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,25,700000,1441,18222,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,26,700000,1441,18315,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,27,700000,1441,18531,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,28,700000,1441,18372,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,29,700000,1441,18381,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,30,700000,1441,18270,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,31,700000,1441,18342,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,32,700000,1441,18500,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,33,700000,1441,18037,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,34,700000,1441,18301,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,35,700000,1441,18165,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,36,700000,1441,18357,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,37,700000,1441,17895,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,38,700000,1441,18011,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,39,700000,1441,18191,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,40,700000,1441,18448,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,41,700000,1441,18559,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,42,700000,1441,18176,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,43,700000,1441,18218,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,44,700000,1441,18287,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,45,700000,1441,18217,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,46,700000,1441,18419,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,47,700000,1441,18377,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,48,700000,1441,18135,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,49,700000,1441,18500,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,50,700000,1441,18259,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,51,700000,1441,18294,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,52,700000,1441,18334,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,53,700000,1441,18204,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,54,700000,1441,18293,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,55,700000,1441,18031,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,56,700000,1441,18398,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,57,700000,1441,18131,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,58,700000,1441,18421,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,59,700000,1441,18439,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,60,700000,1441,18378,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,61,700000,1441,18138,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,62,700000,1441,18209,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,63,700000,1441,18217,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,64,700000,1441,18500,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,65,700000,1441,18260,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,66,700000,1441,18452,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,67,700000,1441,18361,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,68,700000,1441,18542,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,69,700000,1441,18097,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,70,700000,1441,18532,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,71,700000,1441,18302,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,72,700000,1441,18394,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,73,700000,1441,18177,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,74,700000,1441,18321,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,75,700000,1441,18578,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,76,700000,1441,18372,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,77,700000,1441,18488,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,78,700000,1441,18204,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,79,700000,1441,18579,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,80,700000,1441,18489,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,81,700000,1441,18253,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,82,700000,1441,18115,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,83,700000,1441,18309,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,84,700000,1441,18193,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,85,700000,1441,18258,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,86,700000,1441,18260,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,87,700000,1441,18331,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,88,700000,1441,18309,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,89,700000,1441,18167,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,90,700000,1441,18639,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,91,700000,1441,18204,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,92,700000,1441,18369,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,93,700000,1441,18384,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,94,700000,1441,18012,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,95,700000,1441,18264,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,96,700000,1441,18497,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,97,700000,1441,18412,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,98,700000,1441,18338,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,99,700000,1441,18136,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,20x5,0.9,100,700000,1441,18002,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.7,1,700000,6955,7201,1104,,1243,107,,,,,1379,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.7,2,700000,6955,7301,1118,,1370,94,,,,,1542,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.7,3,700000,6955,7243,1157,,1354,91,,,,,1709,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.7,4,700000,6955,7070,1164,,1186,93,,,,,1697,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.7,5,700000,6955,7216,1159,,1305,115,,,,,1545,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.7,6,700000,6955,7211,,,,,,,,,1461,seed_variance_rows.jsonl,,
+c4,10x10,0.7,7,700000,6955,7112,,,,,,,,,1786,seed_variance_rows.jsonl,,
+c4,10x10,0.7,8,700000,6955,7204,,,,,,,,,1417,seed_variance_rows.jsonl,,
+c4,10x10,0.7,9,700000,6955,7147,,,,,,,,,1663,seed_variance_rows.jsonl,,
+c4,10x10,0.7,10,700000,6955,7091,,,,,,,,,1476,seed_variance_rows.jsonl,,
+c4,10x10,0.7,11,700000,6955,7178,,,,,,,,,1566,seed_variance_rows.jsonl,,
+c4,10x10,0.7,12,700000,6955,7214,,,,,,,,,1625,seed_variance_rows.jsonl,,
+c4,10x10,0.7,13,700000,6955,7198,,,,,,,,,1507,seed_variance_rows.jsonl,,
+c4,10x10,0.7,14,700000,6955,7227,,,,,,,,,1492,seed_variance_rows.jsonl,,
+c4,10x10,0.7,15,700000,6955,7113,,,,,,,,,1766,seed_variance_rows.jsonl,,
+c4,10x10,0.7,16,700000,6955,7366,,,,,,,,,1559,seed_variance_rows.jsonl,,
+c4,10x10,0.7,17,700000,6955,7193,,,,,,,,,1777,seed_variance_rows.jsonl,,
+c4,10x10,0.7,18,700000,6955,7155,,,,,,,,,1828,seed_variance_rows.jsonl,,
+c4,10x10,0.7,19,700000,6955,7224,,,,,,,,,1539,seed_variance_rows.jsonl,,
+c4,10x10,0.7,20,700000,6955,7171,,,,,,,,,1550,seed_variance_rows.jsonl,,
+c4,10x10,0.7,21,700000,6955,7146,,,,,,,,,1375,seed_variance_rows.jsonl,,
+c4,10x10,0.7,22,700000,6955,7134,,,,,,,,,1716,seed_variance_rows.jsonl,,
+c4,10x10,0.7,23,700000,6955,7242,,,,,,,,,1516,seed_variance_rows.jsonl,,
+c4,10x10,0.7,24,700000,6955,7187,,,,,,,,,1475,seed_variance_rows.jsonl,,
+c4,10x10,0.7,25,700000,6955,7163,,,,,,,,,1363,seed_variance_rows.jsonl,,
+c4,10x10,0.7,26,700000,6955,7352,,,,,,,,,1285,seed_variance_rows.jsonl,,
+c4,10x10,0.7,27,700000,6955,7176,,,,,,,,,1671,seed_variance_rows.jsonl,,
+c4,10x10,0.7,28,700000,6955,7283,,,,,,,,,1335,seed_variance_rows.jsonl,,
+c4,10x10,0.7,29,700000,6955,7212,,,,,,,,,1434,seed_variance_rows.jsonl,,
+c4,10x10,0.7,30,700000,6955,7243,,,,,,,,,1442,seed_variance_rows.jsonl,,
+c4,10x10,0.7,31,700000,6955,7147,,,,,,,,,1465,seed_variance_rows.jsonl,,
+c4,10x10,0.7,32,700000,6955,7231,,,,,,,,,1397,seed_variance_rows.jsonl,,
+c4,10x10,0.7,33,700000,6955,7118,,,,,,,,,1840,seed_variance_rows.jsonl,,
+c4,10x10,0.7,34,700000,6955,7182,,,,,,,,,1490,seed_variance_rows.jsonl,,
+c4,10x10,0.7,35,700000,6955,7302,,,,,,,,,1573,seed_variance_rows.jsonl,,
+c4,10x10,0.7,36,700000,6955,7260,,,,,,,,,1632,seed_variance_rows.jsonl,,
+c4,10x10,0.7,37,700000,6955,7174,,,,,,,,,1316,seed_variance_rows.jsonl,,
+c4,10x10,0.7,38,700000,6955,7144,,,,,,,,,1930,seed_variance_rows.jsonl,,
+c4,10x10,0.7,39,700000,6955,7264,,,,,,,,,1492,seed_variance_rows.jsonl,,
+c4,10x10,0.7,40,700000,6955,7222,,,,,,,,,1537,seed_variance_rows.jsonl,,
+c4,10x10,0.7,41,700000,6955,7165,,,,,,,,,1529,seed_variance_rows.jsonl,,
+c4,10x10,0.7,42,700000,6955,7253,,,,,,,,,1504,seed_variance_rows.jsonl,,
+c4,10x10,0.7,43,700000,6955,7228,,,,,,,,,1413,seed_variance_rows.jsonl,,
+c4,10x10,0.7,44,700000,6955,7160,,,,,,,,,1414,seed_variance_rows.jsonl,,
+c4,10x10,0.7,45,700000,6955,7144,,,,,,,,,1507,seed_variance_rows.jsonl,,
+c4,10x10,0.7,46,700000,6955,7326,,,,,,,,,1327,seed_variance_rows.jsonl,,
+c4,10x10,0.7,47,700000,6955,7175,,,,,,,,,1463,seed_variance_rows.jsonl,,
+c4,10x10,0.7,48,700000,6955,6979,,,,,,,,,1768,seed_variance_rows.jsonl,,
+c4,10x10,0.7,49,700000,6955,7197,,,,,,,,,1683,seed_variance_rows.jsonl,,
+c4,10x10,0.7,50,700000,6955,7318,,,,,,,,,1493,seed_variance_rows.jsonl,,
+c4,10x10,0.7,51,700000,6955,7130,,,,,,,,,1612,seed_variance_rows.jsonl,,
+c4,10x10,0.7,52,700000,6955,7087,,,,,,,,,1438,seed_variance_rows.jsonl,,
+c4,10x10,0.7,53,700000,6955,7195,,,,,,,,,1357,seed_variance_rows.jsonl,,
+c4,10x10,0.7,54,700000,6955,7120,,,,,,,,,1781,seed_variance_rows.jsonl,,
+c4,10x10,0.7,55,700000,6955,7158,,,,,,,,,1434,seed_variance_rows.jsonl,,
+c4,10x10,0.7,56,700000,6955,7177,,,,,,,,,1915,seed_variance_rows.jsonl,,
+c4,10x10,0.7,57,700000,6955,7189,,,,,,,,,1441,seed_variance_rows.jsonl,,
+c4,10x10,0.7,58,700000,6955,7188,,,,,,,,,1553,seed_variance_rows.jsonl,,
+c4,10x10,0.7,59,700000,6955,7219,,,,,,,,,1575,seed_variance_rows.jsonl,,
+c4,10x10,0.7,60,700000,6955,7320,,,,,,,,,1691,seed_variance_rows.jsonl,,
+c4,10x10,0.7,61,700000,6955,7066,,,,,,,,,1458,seed_variance_rows.jsonl,,
+c4,10x10,0.7,62,700000,6955,7223,,,,,,,,,1428,seed_variance_rows.jsonl,,
+c4,10x10,0.7,63,700000,6955,7169,,,,,,,,,1465,seed_variance_rows.jsonl,,
+c4,10x10,0.7,64,700000,6955,7295,,,,,,,,,1356,seed_variance_rows.jsonl,,
+c4,10x10,0.7,65,700000,6955,7143,,,,,,,,,1447,seed_variance_rows.jsonl,,
+c4,10x10,0.7,66,700000,6955,7099,,,,,,,,,1760,seed_variance_rows.jsonl,,
+c4,10x10,0.7,67,700000,6955,7322,,,,,,,,,1486,seed_variance_rows.jsonl,,
+c4,10x10,0.7,68,700000,6955,7202,,,,,,,,,1541,seed_variance_rows.jsonl,,
+c4,10x10,0.7,69,700000,6955,7209,,,,,,,,,1433,seed_variance_rows.jsonl,,
+c4,10x10,0.7,70,700000,6955,7179,,,,,,,,,1494,seed_variance_rows.jsonl,,
+c4,10x10,0.7,71,700000,6955,7248,,,,,,,,,1601,seed_variance_rows.jsonl,,
+c4,10x10,0.7,72,700000,6955,7236,,,,,,,,,1521,seed_variance_rows.jsonl,,
+c4,10x10,0.7,73,700000,6955,7074,,,,,,,,,1934,seed_variance_rows.jsonl,,
+c4,10x10,0.7,74,700000,6955,7261,,,,,,,,,1345,seed_variance_rows.jsonl,,
+c4,10x10,0.7,75,700000,6955,7058,,,,,,,,,1825,seed_variance_rows.jsonl,,
+c4,10x10,0.7,76,700000,6955,7156,,,,,,,,,1666,seed_variance_rows.jsonl,,
+c4,10x10,0.7,77,700000,6955,7233,,,,,,,,,1441,seed_variance_rows.jsonl,,
+c4,10x10,0.7,78,700000,6955,7208,,,,,,,,,1339,seed_variance_rows.jsonl,,
+c4,10x10,0.7,79,700000,6955,7088,,,,,,,,,1499,seed_variance_rows.jsonl,,
+c4,10x10,0.7,80,700000,6955,7203,,,,,,,,,1291,seed_variance_rows.jsonl,,
+c4,10x10,0.7,81,700000,6955,7137,,,,,,,,,1628,seed_variance_rows.jsonl,,
+c4,10x10,0.7,82,700000,6955,7072,,,,,,,,,1685,seed_variance_rows.jsonl,,
+c4,10x10,0.7,83,700000,6955,7110,,,,,,,,,1625,seed_variance_rows.jsonl,,
+c4,10x10,0.7,84,700000,6955,7137,,,,,,,,,1545,seed_variance_rows.jsonl,,
+c4,10x10,0.7,85,700000,6955,7314,,,,,,,,,1443,seed_variance_rows.jsonl,,
+c4,10x10,0.7,86,700000,6955,7186,,,,,,,,,1843,seed_variance_rows.jsonl,,
+c4,10x10,0.7,87,700000,6955,7150,,,,,,,,,1587,seed_variance_rows.jsonl,,
+c4,10x10,0.7,88,700000,6955,7202,,,,,,,,,1323,seed_variance_rows.jsonl,,
+c4,10x10,0.7,89,700000,6955,7245,,,,,,,,,1614,seed_variance_rows.jsonl,,
+c4,10x10,0.7,90,700000,6955,7128,,,,,,,,,1706,seed_variance_rows.jsonl,,
+c4,10x10,0.7,91,700000,6955,7240,,,,,,,,,1623,seed_variance_rows.jsonl,,
+c4,10x10,0.7,92,700000,6955,7157,,,,,,,,,1481,seed_variance_rows.jsonl,,
+c4,10x10,0.7,93,700000,6955,7149,,,,,,,,,1547,seed_variance_rows.jsonl,,
+c4,10x10,0.7,94,700000,6955,7285,,,,,,,,,1377,seed_variance_rows.jsonl,,
+c4,10x10,0.7,95,700000,6955,7022,,,,,,,,,1637,seed_variance_rows.jsonl,,
+c4,10x10,0.7,96,700000,6955,7179,,,,,,,,,1559,seed_variance_rows.jsonl,,
+c4,10x10,0.7,97,700000,6955,7241,,,,,,,,,1537,seed_variance_rows.jsonl,,
+c4,10x10,0.7,98,700000,6955,7076,,,,,,,,,1680,seed_variance_rows.jsonl,,
+c4,10x10,0.7,99,700000,6955,7138,,,,,,,,,1486,seed_variance_rows.jsonl,,
+c4,10x10,0.7,100,700000,6955,7231,,,,,,,,,1572,seed_variance_rows.jsonl,,
+c4,10x10,0.8,1,700000,3910,7201,103,,3254,140,,,,,86,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.8,2,700000,3910,7301,91,,3347,135,,,,,75,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.8,3,700000,3910,7243,129,,3329,133,,,,,117,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.8,4,700000,3910,7070,111,,3147,124,,,,,128,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.8,5,700000,3910,7216,109,,3289,126,,,,,91,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.8,6,700000,3910,7211,,,,,,,,,73,seed_variance_rows.jsonl,,
+c4,10x10,0.8,7,700000,3910,7112,,,,,,,,,96,seed_variance_rows.jsonl,,
+c4,10x10,0.8,8,700000,3910,7204,,,,,,,,,78,seed_variance_rows.jsonl,,
+c4,10x10,0.8,9,700000,3910,7147,,,,,,,,,82,seed_variance_rows.jsonl,,
+c4,10x10,0.8,10,700000,3910,7091,,,,,,,,,133,seed_variance_rows.jsonl,,
+c4,10x10,0.8,11,700000,3910,7178,,,,,,,,,82,seed_variance_rows.jsonl,,
+c4,10x10,0.8,12,700000,3910,7214,,,,,,,,,92,seed_variance_rows.jsonl,,
+c4,10x10,0.8,13,700000,3910,7198,,,,,,,,,85,seed_variance_rows.jsonl,,
+c4,10x10,0.8,14,700000,3910,7227,,,,,,,,,113,seed_variance_rows.jsonl,,
+c4,10x10,0.8,15,700000,3910,7113,,,,,,,,,126,seed_variance_rows.jsonl,,
+c4,10x10,0.8,16,700000,3910,7366,,,,,,,,,80,seed_variance_rows.jsonl,,
+c4,10x10,0.8,17,700000,3910,7193,,,,,,,,,124,seed_variance_rows.jsonl,,
+c4,10x10,0.8,18,700000,3910,7155,,,,,,,,,103,seed_variance_rows.jsonl,,
+c4,10x10,0.8,19,700000,3910,7224,,,,,,,,,81,seed_variance_rows.jsonl,,
+c4,10x10,0.8,20,700000,3910,7171,,,,,,,,,103,seed_variance_rows.jsonl,,
+c4,10x10,0.8,21,700000,3910,7146,,,,,,,,,88,seed_variance_rows.jsonl,,
+c4,10x10,0.8,22,700000,3910,7134,,,,,,,,,96,seed_variance_rows.jsonl,,
+c4,10x10,0.8,23,700000,3910,7242,,,,,,,,,98,seed_variance_rows.jsonl,,
+c4,10x10,0.8,24,700000,3910,7187,,,,,,,,,86,seed_variance_rows.jsonl,,
+c4,10x10,0.8,25,700000,3910,7163,,,,,,,,,92,seed_variance_rows.jsonl,,
+c4,10x10,0.8,26,700000,3910,7352,,,,,,,,,71,seed_variance_rows.jsonl,,
+c4,10x10,0.8,27,700000,3910,7176,,,,,,,,,116,seed_variance_rows.jsonl,,
+c4,10x10,0.8,28,700000,3910,7283,,,,,,,,,77,seed_variance_rows.jsonl,,
+c4,10x10,0.8,29,700000,3910,7212,,,,,,,,,86,seed_variance_rows.jsonl,,
+c4,10x10,0.8,30,700000,3910,7243,,,,,,,,,93,seed_variance_rows.jsonl,,
+c4,10x10,0.8,31,700000,3910,7147,,,,,,,,,102,seed_variance_rows.jsonl,,
+c4,10x10,0.8,32,700000,3910,7231,,,,,,,,,86,seed_variance_rows.jsonl,,
+c4,10x10,0.8,33,700000,3910,7118,,,,,,,,,106,seed_variance_rows.jsonl,,
+c4,10x10,0.8,34,700000,3910,7182,,,,,,,,,85,seed_variance_rows.jsonl,,
+c4,10x10,0.8,35,700000,3910,7302,,,,,,,,,118,seed_variance_rows.jsonl,,
+c4,10x10,0.8,36,700000,3910,7260,,,,,,,,,77,seed_variance_rows.jsonl,,
+c4,10x10,0.8,37,700000,3910,7174,,,,,,,,,82,seed_variance_rows.jsonl,,
+c4,10x10,0.8,38,700000,3910,7144,,,,,,,,,138,seed_variance_rows.jsonl,,
+c4,10x10,0.8,39,700000,3910,7264,,,,,,,,,100,seed_variance_rows.jsonl,,
+c4,10x10,0.8,40,700000,3910,7222,,,,,,,,,108,seed_variance_rows.jsonl,,
+c4,10x10,0.8,41,700000,3910,7165,,,,,,,,,96,seed_variance_rows.jsonl,,
+c4,10x10,0.8,42,700000,3910,7253,,,,,,,,,91,seed_variance_rows.jsonl,,
+c4,10x10,0.8,43,700000,3910,7228,,,,,,,,,99,seed_variance_rows.jsonl,,
+c4,10x10,0.8,44,700000,3910,7160,,,,,,,,,91,seed_variance_rows.jsonl,,
+c4,10x10,0.8,45,700000,3910,7144,,,,,,,,,105,seed_variance_rows.jsonl,,
+c4,10x10,0.8,46,700000,3910,7326,,,,,,,,,88,seed_variance_rows.jsonl,,
+c4,10x10,0.8,47,700000,3910,7175,,,,,,,,,82,seed_variance_rows.jsonl,,
+c4,10x10,0.8,48,700000,3910,6979,,,,,,,,,90,seed_variance_rows.jsonl,,
+c4,10x10,0.8,49,700000,3910,7197,,,,,,,,,87,seed_variance_rows.jsonl,,
+c4,10x10,0.8,50,700000,3910,7318,,,,,,,,,93,seed_variance_rows.jsonl,,
+c4,10x10,0.8,51,700000,3910,7130,,,,,,,,,93,seed_variance_rows.jsonl,,
+c4,10x10,0.8,52,700000,3910,7087,,,,,,,,,87,seed_variance_rows.jsonl,,
+c4,10x10,0.8,53,700000,3910,7195,,,,,,,,,106,seed_variance_rows.jsonl,,
+c4,10x10,0.8,54,700000,3910,7120,,,,,,,,,88,seed_variance_rows.jsonl,,
+c4,10x10,0.8,55,700000,3910,7158,,,,,,,,,79,seed_variance_rows.jsonl,,
+c4,10x10,0.8,56,700000,3910,7177,,,,,,,,,119,seed_variance_rows.jsonl,,
+c4,10x10,0.8,57,700000,3910,7189,,,,,,,,,74,seed_variance_rows.jsonl,,
+c4,10x10,0.8,58,700000,3910,7188,,,,,,,,,116,seed_variance_rows.jsonl,,
+c4,10x10,0.8,59,700000,3910,7219,,,,,,,,,88,seed_variance_rows.jsonl,,
+c4,10x10,0.8,60,700000,3910,7320,,,,,,,,,100,seed_variance_rows.jsonl,,
+c4,10x10,0.8,61,700000,3910,7066,,,,,,,,,88,seed_variance_rows.jsonl,,
+c4,10x10,0.8,62,700000,3910,7223,,,,,,,,,72,seed_variance_rows.jsonl,,
+c4,10x10,0.8,63,700000,3910,7169,,,,,,,,,82,seed_variance_rows.jsonl,,
+c4,10x10,0.8,64,700000,3910,7295,,,,,,,,,97,seed_variance_rows.jsonl,,
+c4,10x10,0.8,65,700000,3910,7143,,,,,,,,,107,seed_variance_rows.jsonl,,
+c4,10x10,0.8,66,700000,3910,7099,,,,,,,,,114,seed_variance_rows.jsonl,,
+c4,10x10,0.8,67,700000,3910,7322,,,,,,,,,96,seed_variance_rows.jsonl,,
+c4,10x10,0.8,68,700000,3910,7202,,,,,,,,,77,seed_variance_rows.jsonl,,
+c4,10x10,0.8,69,700000,3910,7209,,,,,,,,,108,seed_variance_rows.jsonl,,
+c4,10x10,0.8,70,700000,3910,7179,,,,,,,,,81,seed_variance_rows.jsonl,,
+c4,10x10,0.8,71,700000,3910,7248,,,,,,,,,84,seed_variance_rows.jsonl,,
+c4,10x10,0.8,72,700000,3910,7236,,,,,,,,,102,seed_variance_rows.jsonl,,
+c4,10x10,0.8,73,700000,3910,7074,,,,,,,,,108,seed_variance_rows.jsonl,,
+c4,10x10,0.8,74,700000,3910,7261,,,,,,,,,83,seed_variance_rows.jsonl,,
+c4,10x10,0.8,75,700000,3910,7058,,,,,,,,,113,seed_variance_rows.jsonl,,
+c4,10x10,0.8,76,700000,3910,7156,,,,,,,,,90,seed_variance_rows.jsonl,,
+c4,10x10,0.8,77,700000,3910,7233,,,,,,,,,84,seed_variance_rows.jsonl,,
+c4,10x10,0.8,78,700000,3910,7208,,,,,,,,,67,seed_variance_rows.jsonl,,
+c4,10x10,0.8,79,700000,3910,7088,,,,,,,,,99,seed_variance_rows.jsonl,,
+c4,10x10,0.8,80,700000,3910,7203,,,,,,,,,85,seed_variance_rows.jsonl,,
+c4,10x10,0.8,81,700000,3910,7137,,,,,,,,,112,seed_variance_rows.jsonl,,
+c4,10x10,0.8,82,700000,3910,7072,,,,,,,,,80,seed_variance_rows.jsonl,,
+c4,10x10,0.8,83,700000,3910,7110,,,,,,,,,81,seed_variance_rows.jsonl,,
+c4,10x10,0.8,84,700000,3910,7137,,,,,,,,,101,seed_variance_rows.jsonl,,
+c4,10x10,0.8,85,700000,3910,7314,,,,,,,,,77,seed_variance_rows.jsonl,,
+c4,10x10,0.8,86,700000,3910,7186,,,,,,,,,105,seed_variance_rows.jsonl,,
+c4,10x10,0.8,87,700000,3910,7150,,,,,,,,,90,seed_variance_rows.jsonl,,
+c4,10x10,0.8,88,700000,3910,7202,,,,,,,,,83,seed_variance_rows.jsonl,,
+c4,10x10,0.8,89,700000,3910,7245,,,,,,,,,129,seed_variance_rows.jsonl,,
+c4,10x10,0.8,90,700000,3910,7128,,,,,,,,,96,seed_variance_rows.jsonl,,
+c4,10x10,0.8,91,700000,3910,7240,,,,,,,,,95,seed_variance_rows.jsonl,,
+c4,10x10,0.8,92,700000,3910,7157,,,,,,,,,84,seed_variance_rows.jsonl,,
+c4,10x10,0.8,93,700000,3910,7149,,,,,,,,,85,seed_variance_rows.jsonl,,
+c4,10x10,0.8,94,700000,3910,7285,,,,,,,,,82,seed_variance_rows.jsonl,,
+c4,10x10,0.8,95,700000,3910,7022,,,,,,,,,111,seed_variance_rows.jsonl,,
+c4,10x10,0.8,96,700000,3910,7179,,,,,,,,,97,seed_variance_rows.jsonl,,
+c4,10x10,0.8,97,700000,3910,7241,,,,,,,,,73,seed_variance_rows.jsonl,,
+c4,10x10,0.8,98,700000,3910,7076,,,,,,,,,109,seed_variance_rows.jsonl,,
+c4,10x10,0.8,99,700000,3910,7138,,,,,,,,,95,seed_variance_rows.jsonl,,
+c4,10x10,0.8,100,700000,3910,7231,,,,,,,,,106,seed_variance_rows.jsonl,,
+c4,10x10,0.9,1,700000,1441,7201,0,,5600,160,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.9,2,700000,1441,7301,1,,5703,158,,,,,1,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.9,3,700000,1441,7243,1,,5645,158,,,,,1,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.9,4,700000,1441,7070,2,,5475,156,,,,,2,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.9,5,700000,1441,7216,0,,5620,155,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,10x10,0.9,6,700000,1441,7211,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,7,700000,1441,7112,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,8,700000,1441,7204,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,9,700000,1441,7147,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,10,700000,1441,7091,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,11,700000,1441,7178,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,12,700000,1441,7214,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,13,700000,1441,7198,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,14,700000,1441,7227,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,15,700000,1441,7113,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,16,700000,1441,7366,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,17,700000,1441,7193,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,18,700000,1441,7155,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,19,700000,1441,7224,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,20,700000,1441,7171,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,21,700000,1441,7146,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,22,700000,1441,7134,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,23,700000,1441,7242,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,24,700000,1441,7187,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,25,700000,1441,7163,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,26,700000,1441,7352,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,27,700000,1441,7176,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,28,700000,1441,7283,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,29,700000,1441,7212,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,30,700000,1441,7243,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,31,700000,1441,7147,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,32,700000,1441,7231,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,33,700000,1441,7118,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,34,700000,1441,7182,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,35,700000,1441,7302,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,36,700000,1441,7260,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,37,700000,1441,7174,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,38,700000,1441,7144,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,39,700000,1441,7264,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,40,700000,1441,7222,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,41,700000,1441,7165,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,42,700000,1441,7253,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,43,700000,1441,7228,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,44,700000,1441,7160,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,45,700000,1441,7144,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,46,700000,1441,7326,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,47,700000,1441,7175,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,48,700000,1441,6979,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,49,700000,1441,7197,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,50,700000,1441,7318,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,51,700000,1441,7130,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,52,700000,1441,7087,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,53,700000,1441,7195,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,54,700000,1441,7120,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,55,700000,1441,7158,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,56,700000,1441,7177,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,57,700000,1441,7189,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,58,700000,1441,7188,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,59,700000,1441,7219,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,60,700000,1441,7320,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,61,700000,1441,7066,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,62,700000,1441,7223,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,63,700000,1441,7169,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,64,700000,1441,7295,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,65,700000,1441,7143,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,66,700000,1441,7099,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,67,700000,1441,7322,,,,,,,,,2,seed_variance_rows.jsonl,,
+c4,10x10,0.9,68,700000,1441,7202,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,69,700000,1441,7209,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,70,700000,1441,7179,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,71,700000,1441,7248,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,72,700000,1441,7236,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,73,700000,1441,7074,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,74,700000,1441,7261,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,75,700000,1441,7058,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,76,700000,1441,7156,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,77,700000,1441,7233,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,78,700000,1441,7208,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,79,700000,1441,7088,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,80,700000,1441,7203,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,81,700000,1441,7137,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,82,700000,1441,7072,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,83,700000,1441,7110,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,84,700000,1441,7137,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,85,700000,1441,7314,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,86,700000,1441,7186,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,87,700000,1441,7150,,,,,,,,,4,seed_variance_rows.jsonl,,
+c4,10x10,0.9,88,700000,1441,7202,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,89,700000,1441,7245,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,90,700000,1441,7128,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,91,700000,1441,7240,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,92,700000,1441,7157,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,93,700000,1441,7149,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,94,700000,1441,7285,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,95,700000,1441,7022,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,96,700000,1441,7179,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,97,700000,1441,7241,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,98,700000,1441,7076,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,10x10,0.9,99,700000,1441,7138,,,,,,,,,0,seed_variance_rows.jsonl,,
+c4,10x10,0.9,100,700000,1441,7231,,,,,,,,,1,seed_variance_rows.jsonl,,
+c4,26x11,0.7,1,700000,6955,8539,490,,1904,170,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.7,2,700000,6955,8681,452,,2012,166,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.7,3,700000,6955,8562,484,,1918,173,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.7,4,700000,6955,8662,441,,1969,179,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.7,5,700000,6955,8576,481,,1951,151,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.8,1,700000,3910,8539,20,,4486,163,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.8,2,700000,3910,8681,13,,4620,164,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.8,3,700000,3910,8562,13,,4489,176,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.8,4,700000,3910,8662,15,,4593,174,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.8,5,700000,3910,8576,11,,4512,165,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.9,1,700000,1441,8539,0,,6931,167,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.9,2,700000,1441,8681,0,,7074,166,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.9,3,700000,1441,8562,0,,6948,173,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.9,4,700000,1441,8662,0,,7050,171,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+c4,26x11,0.9,5,700000,1441,8576,0,,6962,173,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+fw,14x8,0.6,1,1000000,881,1068,214,239,392,9,310,225,249,374,225,.work/dedupjoin/main/fw_s1_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.6,2,1000000,881,1124,214,242,439,18,295,192,240,325,192,.work/dedupjoin/main/fw_s2_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.6,3,1000000,881,1102,214,236,421,14,305,217,247,370,217,.work/dedupjoin/main/fw_s3_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.6,4,1000000,881,1094,215,240,414,14,311,197,227,351,197,.work/dedupjoin/main/fw_s4_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.6,5,1000000,881,1078,210,235,388,19,304,194,224,335,194,.work/dedupjoin/main/fw_s5_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.7,1,1000000,489,1068,30,43,596,13,78,26,37,42,26,.work/dedupjoin/main/fw_s1_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.7,2,1000000,489,1124,38,51,655,18,80,27,38,46,27,.work/dedupjoin/main/fw_s2_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.7,3,1000000,489,1102,30,44,627,16,76,22,32,42,22,.work/dedupjoin/main/fw_s3_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.7,4,1000000,489,1094,27,42,617,15,77,22,31,47,22,.work/dedupjoin/main/fw_s4_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.7,5,1000000,489,1078,29,37,600,18,75,22,30,43,22,.work/dedupjoin/main/fw_s5_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.7,6,1000000,489,1092,,,,,,,,,27,seed_variance_rows.jsonl,,
+fw,14x8,0.7,7,1000000,489,1057,,,,,,,,,26,seed_variance_rows.jsonl,,
+fw,14x8,0.7,8,1000000,489,1072,,,,,,,,,30,seed_variance_rows.jsonl,,
+fw,14x8,0.7,9,1000000,489,1143,,,,,,,,,22,seed_variance_rows.jsonl,,
+fw,14x8,0.7,10,1000000,489,1088,,,,,,,,,19,seed_variance_rows.jsonl,,
+fw,14x8,0.7,11,1000000,489,1113,,,,,,,,,15,seed_variance_rows.jsonl,,
+fw,14x8,0.7,12,1000000,489,1101,,,,,,,,,24,seed_variance_rows.jsonl,,
+fw,14x8,0.7,13,1000000,489,1153,,,,,,,,,23,seed_variance_rows.jsonl,,
+fw,14x8,0.7,14,1000000,489,1061,,,,,,,,,24,seed_variance_rows.jsonl,,
+fw,14x8,0.7,15,1000000,489,1106,,,,,,,,,23,seed_variance_rows.jsonl,,
+fw,14x8,0.7,16,1000000,489,1123,,,,,,,,,25,seed_variance_rows.jsonl,,
+fw,14x8,0.7,17,1000000,489,1029,,,,,,,,,20,seed_variance_rows.jsonl,,
+fw,14x8,0.7,18,1000000,489,1167,,,,,,,,,24,seed_variance_rows.jsonl,,
+fw,14x8,0.7,19,1000000,489,1120,,,,,,,,,21,seed_variance_rows.jsonl,,
+fw,14x8,0.7,20,1000000,489,1056,,,,,,,,,23,seed_variance_rows.jsonl,,
+fw,14x8,0.8,1,1000000,314,1068,0,0,748,6,5,0,0,0,0,.work/dedupjoin/main/fw_s1_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.8,2,1000000,314,1124,1,1,804,7,6,1,1,1,1,.work/dedupjoin/main/fw_s2_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.8,3,1000000,314,1102,1,1,785,4,6,1,1,1,1,.work/dedupjoin/main/fw_s3_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.8,4,1000000,314,1094,1,2,773,8,6,1,1,2,1,.work/dedupjoin/main/fw_s4_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.8,5,1000000,314,1078,0,0,757,7,5,0,0,0,0,.work/dedupjoin/main/fw_s5_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.8,6,1000000,314,1092,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,14x8,0.8,7,1000000,314,1057,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,14x8,0.8,8,1000000,314,1072,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,14x8,0.8,9,1000000,314,1143,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,14x8,0.8,10,1000000,314,1088,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.8,11,1000000,314,1113,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.8,12,1000000,314,1101,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.8,13,1000000,314,1153,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,14x8,0.8,14,1000000,314,1061,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.8,15,1000000,314,1106,,,,,,,,,2,seed_variance_rows.jsonl,,
+fw,14x8,0.8,16,1000000,314,1123,,,,,,,,,2,seed_variance_rows.jsonl,,
+fw,14x8,0.8,17,1000000,314,1029,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,14x8,0.8,18,1000000,314,1167,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,14x8,0.8,19,1000000,314,1120,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.8,20,1000000,314,1056,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,1,1000000,244,1068,0,0,817,7,3,0,0,0,0,.work/dedupjoin/main/fw_s1_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.9,2,1000000,244,1124,0,0,873,7,3,0,0,0,0,.work/dedupjoin/main/fw_s2_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.9,3,1000000,244,1102,0,0,852,6,3,0,0,0,0,.work/dedupjoin/main/fw_s3_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.9,4,1000000,244,1094,0,0,843,7,3,0,0,0,0,.work/dedupjoin/main/fw_s4_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.9,5,1000000,244,1078,0,0,827,7,3,0,0,0,0,.work/dedupjoin/main/fw_s5_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+fw,14x8,0.9,6,1000000,244,1092,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,7,1000000,244,1057,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,8,1000000,244,1072,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,9,1000000,244,1143,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,10,1000000,244,1088,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,11,1000000,244,1113,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,12,1000000,244,1101,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,13,1000000,244,1153,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,14,1000000,244,1061,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,15,1000000,244,1106,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,16,1000000,244,1123,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,17,1000000,244,1029,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,18,1000000,244,1167,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,19,1000000,244,1120,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,14x8,0.9,20,1000000,244,1056,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,1,1000000,489,5163,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,2,1000000,489,5213,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,3,1000000,489,5207,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,4,1000000,489,5027,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,5,1000000,489,5175,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,6,1000000,489,5160,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,7,1000000,489,5200,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,8,1000000,489,5108,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,9,1000000,489,5188,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,10,1000000,489,5308,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,11,1000000,489,5259,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,12,1000000,489,5216,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,13,1000000,489,5149,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,14,1000000,489,5150,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,15,1000000,489,5093,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,16,1000000,489,5238,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,17,1000000,489,5048,,,,,,,,,1,seed_variance_rows.jsonl,,
+fw,20x5,0.7,18,1000000,489,5392,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,19,1000000,489,5246,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.7,20,1000000,489,5155,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,1,1000000,314,5163,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,2,1000000,314,5213,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,3,1000000,314,5207,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,4,1000000,314,5027,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,5,1000000,314,5175,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,6,1000000,314,5160,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,7,1000000,314,5200,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,8,1000000,314,5108,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,9,1000000,314,5188,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,10,1000000,314,5308,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,11,1000000,314,5259,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,12,1000000,314,5216,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,13,1000000,314,5149,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,14,1000000,314,5150,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,15,1000000,314,5093,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,16,1000000,314,5238,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,17,1000000,314,5048,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,18,1000000,314,5392,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,19,1000000,314,5246,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.8,20,1000000,314,5155,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,1,1000000,244,5163,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,2,1000000,244,5213,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,3,1000000,244,5207,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,4,1000000,244,5027,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,5,1000000,244,5175,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,6,1000000,244,5160,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,7,1000000,244,5200,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,8,1000000,244,5108,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,9,1000000,244,5188,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,10,1000000,244,5308,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,11,1000000,244,5259,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,12,1000000,244,5216,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,13,1000000,244,5149,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,14,1000000,244,5150,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,15,1000000,244,5093,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,16,1000000,244,5238,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,17,1000000,244,5048,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,18,1000000,244,5392,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,19,1000000,244,5246,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,20x5,0.9,20,1000000,244,5155,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.7,1,1000000,489,543,,,,,,,,,89,seed_variance_rows.jsonl,,
+fw,10x10,0.7,2,1000000,489,583,,,,,,,,,80,seed_variance_rows.jsonl,,
+fw,10x10,0.7,3,1000000,489,561,,,,,,,,,78,seed_variance_rows.jsonl,,
+fw,10x10,0.7,4,1000000,489,560,,,,,,,,,99,seed_variance_rows.jsonl,,
+fw,10x10,0.7,5,1000000,489,557,,,,,,,,,80,seed_variance_rows.jsonl,,
+fw,10x10,0.7,6,1000000,489,562,,,,,,,,,79,seed_variance_rows.jsonl,,
+fw,10x10,0.7,7,1000000,489,527,,,,,,,,,98,seed_variance_rows.jsonl,,
+fw,10x10,0.7,8,1000000,489,546,,,,,,,,,88,seed_variance_rows.jsonl,,
+fw,10x10,0.7,9,1000000,489,536,,,,,,,,,88,seed_variance_rows.jsonl,,
+fw,10x10,0.7,10,1000000,489,560,,,,,,,,,73,seed_variance_rows.jsonl,,
+fw,10x10,0.7,11,1000000,489,622,,,,,,,,,66,seed_variance_rows.jsonl,,
+fw,10x10,0.7,12,1000000,489,562,,,,,,,,,92,seed_variance_rows.jsonl,,
+fw,10x10,0.7,13,1000000,489,572,,,,,,,,,81,seed_variance_rows.jsonl,,
+fw,10x10,0.7,14,1000000,489,525,,,,,,,,,90,seed_variance_rows.jsonl,,
+fw,10x10,0.7,15,1000000,489,570,,,,,,,,,68,seed_variance_rows.jsonl,,
+fw,10x10,0.7,16,1000000,489,548,,,,,,,,,80,seed_variance_rows.jsonl,,
+fw,10x10,0.7,17,1000000,489,525,,,,,,,,,89,seed_variance_rows.jsonl,,
+fw,10x10,0.7,18,1000000,489,573,,,,,,,,,90,seed_variance_rows.jsonl,,
+fw,10x10,0.7,19,1000000,489,556,,,,,,,,,78,seed_variance_rows.jsonl,,
+fw,10x10,0.7,20,1000000,489,558,,,,,,,,,73,seed_variance_rows.jsonl,,
+fw,10x10,0.8,1,1000000,314,543,,,,,,,,,5,seed_variance_rows.jsonl,,
+fw,10x10,0.8,2,1000000,314,583,,,,,,,,,5,seed_variance_rows.jsonl,,
+fw,10x10,0.8,3,1000000,314,561,,,,,,,,,5,seed_variance_rows.jsonl,,
+fw,10x10,0.8,4,1000000,314,560,,,,,,,,,2,seed_variance_rows.jsonl,,
+fw,10x10,0.8,5,1000000,314,557,,,,,,,,,7,seed_variance_rows.jsonl,,
+fw,10x10,0.8,6,1000000,314,562,,,,,,,,,7,seed_variance_rows.jsonl,,
+fw,10x10,0.8,7,1000000,314,527,,,,,,,,,12,seed_variance_rows.jsonl,,
+fw,10x10,0.8,8,1000000,314,546,,,,,,,,,5,seed_variance_rows.jsonl,,
+fw,10x10,0.8,9,1000000,314,536,,,,,,,,,6,seed_variance_rows.jsonl,,
+fw,10x10,0.8,10,1000000,314,560,,,,,,,,,2,seed_variance_rows.jsonl,,
+fw,10x10,0.8,11,1000000,314,622,,,,,,,,,4,seed_variance_rows.jsonl,,
+fw,10x10,0.8,12,1000000,314,562,,,,,,,,,8,seed_variance_rows.jsonl,,
+fw,10x10,0.8,13,1000000,314,572,,,,,,,,,6,seed_variance_rows.jsonl,,
+fw,10x10,0.8,14,1000000,314,525,,,,,,,,,6,seed_variance_rows.jsonl,,
+fw,10x10,0.8,15,1000000,314,570,,,,,,,,,10,seed_variance_rows.jsonl,,
+fw,10x10,0.8,16,1000000,314,548,,,,,,,,,6,seed_variance_rows.jsonl,,
+fw,10x10,0.8,17,1000000,314,525,,,,,,,,,5,seed_variance_rows.jsonl,,
+fw,10x10,0.8,18,1000000,314,573,,,,,,,,,8,seed_variance_rows.jsonl,,
+fw,10x10,0.8,19,1000000,314,556,,,,,,,,,6,seed_variance_rows.jsonl,,
+fw,10x10,0.8,20,1000000,314,558,,,,,,,,,6,seed_variance_rows.jsonl,,
+fw,10x10,0.9,1,1000000,244,543,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,2,1000000,244,583,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,3,1000000,244,561,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,4,1000000,244,560,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,5,1000000,244,557,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,6,1000000,244,562,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,7,1000000,244,527,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,8,1000000,244,546,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,9,1000000,244,536,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,10,1000000,244,560,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,11,1000000,244,622,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,12,1000000,244,562,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,13,1000000,244,572,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,14,1000000,244,525,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,15,1000000,244,570,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,16,1000000,244,548,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,17,1000000,244,525,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,18,1000000,244,573,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,19,1000000,244,556,,,,,,,,,0,seed_variance_rows.jsonl,,
+fw,10x10,0.9,20,1000000,244,558,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.6,1,1000000,7330,6902,1323,1449,819,76,1983,1603,1766,2965,1603,.work/dedupjoin/main/mix_s1_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.6,2,1000000,7330,7068,1317,1445,973,82,2021,1509,1690,3124,1509,.work/dedupjoin/main/mix_s2_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.6,3,1000000,7330,7085,1340,1455,1005,90,2038,1740,1945,3249,1740,.work/dedupjoin/main/mix_s3_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.6,4,1000000,7330,6931,1396,1517,927,70,2078,1872,2048,3598,1872,.work/dedupjoin/main/mix_s4_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.6,5,1000000,7330,7054,1347,1469,983,88,2035,1698,1924,3343,1698,.work/dedupjoin/main/mix_s5_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.7,1,1000000,4654,6902,221,289,2321,148,545,202,263,520,202,.work/dedupjoin/main/mix_s1_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.7,2,1000000,4654,7068,238,301,2501,151,583,227,283,604,227,.work/dedupjoin/main/mix_s2_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.7,3,1000000,4654,7085,225,287,2499,157,550,197,265,533,197,.work/dedupjoin/main/mix_s3_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.7,4,1000000,4654,6931,233,294,2371,139,579,220,284,589,220,.work/dedupjoin/main/mix_s4_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.7,5,1000000,4654,7054,237,291,2481,156,567,211,266,560,211,.work/dedupjoin/main/mix_s5_t0.7_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.7,6,1000000,4654,7011,,,,,,,,,195,seed_variance_rows.jsonl,,
+mix,14x8,0.7,7,1000000,4654,6942,,,,,,,,,230,seed_variance_rows.jsonl,,
+mix,14x8,0.7,8,1000000,4654,7123,,,,,,,,,178,seed_variance_rows.jsonl,,
+mix,14x8,0.7,9,1000000,4654,6974,,,,,,,,,222,seed_variance_rows.jsonl,,
+mix,14x8,0.7,10,1000000,4654,6960,,,,,,,,,171,seed_variance_rows.jsonl,,
+mix,14x8,0.7,11,1000000,4654,7032,,,,,,,,,203,seed_variance_rows.jsonl,,
+mix,14x8,0.7,12,1000000,4654,7102,,,,,,,,,186,seed_variance_rows.jsonl,,
+mix,14x8,0.7,13,1000000,4654,7096,,,,,,,,,191,seed_variance_rows.jsonl,,
+mix,14x8,0.7,14,1000000,4654,7079,,,,,,,,,192,seed_variance_rows.jsonl,,
+mix,14x8,0.7,15,1000000,4654,7066,,,,,,,,,211,seed_variance_rows.jsonl,,
+mix,14x8,0.7,16,1000000,4654,7093,,,,,,,,,181,seed_variance_rows.jsonl,,
+mix,14x8,0.7,17,1000000,4654,6936,,,,,,,,,190,seed_variance_rows.jsonl,,
+mix,14x8,0.7,18,1000000,4654,6991,,,,,,,,,196,seed_variance_rows.jsonl,,
+mix,14x8,0.7,19,1000000,4654,6967,,,,,,,,,198,seed_variance_rows.jsonl,,
+mix,14x8,0.7,20,1000000,4654,7021,,,,,,,,,178,seed_variance_rows.jsonl,,
+mix,14x8,0.8,1,1000000,2632,6902,10,18,4181,99,141,10,15,23,10,.work/dedupjoin/main/mix_s1_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.8,2,1000000,2632,7068,9,14,4348,97,140,8,12,26,8,.work/dedupjoin/main/mix_s2_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.8,3,1000000,2632,7085,5,11,4358,100,138,3,8,21,3,.work/dedupjoin/main/mix_s3_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.8,4,1000000,2632,6931,13,17,4217,95,146,11,14,29,11,.work/dedupjoin/main/mix_s4_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.8,5,1000000,2632,7054,9,15,4339,92,142,8,12,24,8,.work/dedupjoin/main/mix_s5_t0.8_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.8,6,1000000,2632,7011,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,14x8,0.8,7,1000000,2632,6942,,,,,,,,,6,seed_variance_rows.jsonl,,
+mix,14x8,0.8,8,1000000,2632,7123,,,,,,,,,4,seed_variance_rows.jsonl,,
+mix,14x8,0.8,9,1000000,2632,6974,,,,,,,,,2,seed_variance_rows.jsonl,,
+mix,14x8,0.8,10,1000000,2632,6960,,,,,,,,,5,seed_variance_rows.jsonl,,
+mix,14x8,0.8,11,1000000,2632,7032,,,,,,,,,12,seed_variance_rows.jsonl,,
+mix,14x8,0.8,12,1000000,2632,7102,,,,,,,,,4,seed_variance_rows.jsonl,,
+mix,14x8,0.8,13,1000000,2632,7096,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,14x8,0.8,14,1000000,2632,7079,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,14x8,0.8,15,1000000,2632,7066,,,,,,,,,5,seed_variance_rows.jsonl,,
+mix,14x8,0.8,16,1000000,2632,7093,,,,,,,,,5,seed_variance_rows.jsonl,,
+mix,14x8,0.8,17,1000000,2632,6936,,,,,,,,,6,seed_variance_rows.jsonl,,
+mix,14x8,0.8,18,1000000,2632,6991,,,,,,,,,6,seed_variance_rows.jsonl,,
+mix,14x8,0.8,19,1000000,2632,6967,,,,,,,,,5,seed_variance_rows.jsonl,,
+mix,14x8,0.8,20,1000000,2632,7021,,,,,,,,,9,seed_variance_rows.jsonl,,
+mix,14x8,0.9,1,1000000,999,6902,0,0,5801,102,16,0,0,0,0,.work/dedupjoin/main/mix_s1_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.9,2,1000000,999,7068,0,0,5968,101,16,0,0,0,0,.work/dedupjoin/main/mix_s2_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.9,3,1000000,999,7085,0,0,5985,101,16,0,0,0,0,.work/dedupjoin/main/mix_s3_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.9,4,1000000,999,6931,0,0,5832,100,17,0,0,1,0,.work/dedupjoin/main/mix_s4_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.9,5,1000000,999,7054,0,0,5955,100,16,0,0,0,0,.work/dedupjoin/main/mix_s5_t0.9_sets.npz;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+mix,14x8,0.9,6,1000000,999,7011,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,7,1000000,999,6942,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,8,1000000,999,7123,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,9,1000000,999,6974,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,10,1000000,999,6960,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,11,1000000,999,7032,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,12,1000000,999,7102,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,13,1000000,999,7096,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,14,1000000,999,7079,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,15,1000000,999,7066,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,16,1000000,999,7093,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,17,1000000,999,6936,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,18,1000000,999,6991,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,19,1000000,999,6967,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,14x8,0.9,20,1000000,999,7021,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.7,1,1000000,4654,13716,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,20x5,0.7,2,1000000,4654,13904,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,3,1000000,4654,13776,,,,,,,,,5,seed_variance_rows.jsonl,,
+mix,20x5,0.7,4,1000000,4654,13719,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,20x5,0.7,5,1000000,4654,13806,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,6,1000000,4654,13731,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,7,1000000,4654,13696,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,8,1000000,4654,13724,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,9,1000000,4654,13792,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,10,1000000,4654,13828,,,,,,,,,4,seed_variance_rows.jsonl,,
+mix,20x5,0.7,11,1000000,4654,14070,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,12,1000000,4654,14209,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.7,13,1000000,4654,13969,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,14,1000000,4654,13865,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,15,1000000,4654,14079,,,,,,,,,3,seed_variance_rows.jsonl,,
+mix,20x5,0.7,16,1000000,4654,13975,,,,,,,,,2,seed_variance_rows.jsonl,,
+mix,20x5,0.7,17,1000000,4654,13571,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.7,18,1000000,4654,14082,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,20x5,0.7,19,1000000,4654,13692,,,,,,,,,4,seed_variance_rows.jsonl,,
+mix,20x5,0.7,20,1000000,4654,13780,,,,,,,,,5,seed_variance_rows.jsonl,,
+mix,20x5,0.8,1,1000000,2632,13716,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,2,1000000,2632,13904,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,3,1000000,2632,13776,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,4,1000000,2632,13719,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,5,1000000,2632,13806,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,6,1000000,2632,13731,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,7,1000000,2632,13696,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,8,1000000,2632,13724,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,9,1000000,2632,13792,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,10,1000000,2632,13828,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,11,1000000,2632,14070,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,12,1000000,2632,14209,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,13,1000000,2632,13969,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,14,1000000,2632,13865,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,15,1000000,2632,14079,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,16,1000000,2632,13975,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,17,1000000,2632,13571,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,18,1000000,2632,14082,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,19,1000000,2632,13692,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.8,20,1000000,2632,13780,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,1,1000000,999,13716,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,2,1000000,999,13904,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,3,1000000,999,13776,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,4,1000000,999,13719,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,5,1000000,999,13806,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,6,1000000,999,13731,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,7,1000000,999,13696,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,8,1000000,999,13724,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,9,1000000,999,13792,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,10,1000000,999,13828,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,11,1000000,999,14070,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,12,1000000,999,14209,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,13,1000000,999,13969,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,14,1000000,999,13865,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,15,1000000,999,14079,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,16,1000000,999,13975,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,17,1000000,999,13571,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,18,1000000,999,14082,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,19,1000000,999,13692,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,20x5,0.9,20,1000000,999,13780,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.7,1,1000000,4654,4765,,,,,,,,,915,seed_variance_rows.jsonl,,
+mix,10x10,0.7,2,1000000,4654,4842,,,,,,,,,1039,seed_variance_rows.jsonl,,
+mix,10x10,0.7,3,1000000,4654,4797,,,,,,,,,1125,seed_variance_rows.jsonl,,
+mix,10x10,0.7,4,1000000,4654,4662,,,,,,,,,1200,seed_variance_rows.jsonl,,
+mix,10x10,0.7,5,1000000,4654,4708,,,,,,,,,1041,seed_variance_rows.jsonl,,
+mix,10x10,0.7,6,1000000,4654,4745,,,,,,,,,1013,seed_variance_rows.jsonl,,
+mix,10x10,0.7,7,1000000,4654,4733,,,,,,,,,1194,seed_variance_rows.jsonl,,
+mix,10x10,0.7,8,1000000,4654,4779,,,,,,,,,961,seed_variance_rows.jsonl,,
+mix,10x10,0.7,9,1000000,4654,4769,,,,,,,,,1095,seed_variance_rows.jsonl,,
+mix,10x10,0.7,10,1000000,4654,4666,,,,,,,,,973,seed_variance_rows.jsonl,,
+mix,10x10,0.7,11,1000000,4654,4742,,,,,,,,,1076,seed_variance_rows.jsonl,,
+mix,10x10,0.7,12,1000000,4654,4809,,,,,,,,,1100,seed_variance_rows.jsonl,,
+mix,10x10,0.7,13,1000000,4654,4713,,,,,,,,,1097,seed_variance_rows.jsonl,,
+mix,10x10,0.7,14,1000000,4654,4811,,,,,,,,,993,seed_variance_rows.jsonl,,
+mix,10x10,0.7,15,1000000,4654,4740,,,,,,,,,1171,seed_variance_rows.jsonl,,
+mix,10x10,0.7,16,1000000,4654,4877,,,,,,,,,1054,seed_variance_rows.jsonl,,
+mix,10x10,0.7,17,1000000,4654,4717,,,,,,,,,1318,seed_variance_rows.jsonl,,
+mix,10x10,0.7,18,1000000,4654,4761,,,,,,,,,1148,seed_variance_rows.jsonl,,
+mix,10x10,0.7,19,1000000,4654,4729,,,,,,,,,1103,seed_variance_rows.jsonl,,
+mix,10x10,0.7,20,1000000,4654,4733,,,,,,,,,1047,seed_variance_rows.jsonl,,
+mix,10x10,0.8,1,1000000,2632,4765,,,,,,,,,57,seed_variance_rows.jsonl,,
+mix,10x10,0.8,2,1000000,2632,4842,,,,,,,,,71,seed_variance_rows.jsonl,,
+mix,10x10,0.8,3,1000000,2632,4797,,,,,,,,,74,seed_variance_rows.jsonl,,
+mix,10x10,0.8,4,1000000,2632,4662,,,,,,,,,83,seed_variance_rows.jsonl,,
+mix,10x10,0.8,5,1000000,2632,4708,,,,,,,,,57,seed_variance_rows.jsonl,,
+mix,10x10,0.8,6,1000000,2632,4745,,,,,,,,,53,seed_variance_rows.jsonl,,
+mix,10x10,0.8,7,1000000,2632,4733,,,,,,,,,75,seed_variance_rows.jsonl,,
+mix,10x10,0.8,8,1000000,2632,4779,,,,,,,,,61,seed_variance_rows.jsonl,,
+mix,10x10,0.8,9,1000000,2632,4769,,,,,,,,,57,seed_variance_rows.jsonl,,
+mix,10x10,0.8,10,1000000,2632,4666,,,,,,,,,85,seed_variance_rows.jsonl,,
+mix,10x10,0.8,11,1000000,2632,4742,,,,,,,,,58,seed_variance_rows.jsonl,,
+mix,10x10,0.8,12,1000000,2632,4809,,,,,,,,,53,seed_variance_rows.jsonl,,
+mix,10x10,0.8,13,1000000,2632,4713,,,,,,,,,52,seed_variance_rows.jsonl,,
+mix,10x10,0.8,14,1000000,2632,4811,,,,,,,,,69,seed_variance_rows.jsonl,,
+mix,10x10,0.8,15,1000000,2632,4740,,,,,,,,,74,seed_variance_rows.jsonl,,
+mix,10x10,0.8,16,1000000,2632,4877,,,,,,,,,50,seed_variance_rows.jsonl,,
+mix,10x10,0.8,17,1000000,2632,4717,,,,,,,,,90,seed_variance_rows.jsonl,,
+mix,10x10,0.8,18,1000000,2632,4761,,,,,,,,,65,seed_variance_rows.jsonl,,
+mix,10x10,0.8,19,1000000,2632,4729,,,,,,,,,59,seed_variance_rows.jsonl,,
+mix,10x10,0.8,20,1000000,2632,4733,,,,,,,,,64,seed_variance_rows.jsonl,,
+mix,10x10,0.9,1,1000000,999,4765,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,2,1000000,999,4842,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,10x10,0.9,3,1000000,999,4797,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,10x10,0.9,4,1000000,999,4662,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,10x10,0.9,5,1000000,999,4708,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,6,1000000,999,4745,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,7,1000000,999,4733,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,8,1000000,999,4779,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,10x10,0.9,9,1000000,999,4769,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,10,1000000,999,4666,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,11,1000000,999,4742,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,12,1000000,999,4809,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,13,1000000,999,4713,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,14,1000000,999,4811,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,15,1000000,999,4740,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,16,1000000,999,4877,,,,,,,,,1,seed_variance_rows.jsonl,,
+mix,10x10,0.9,17,1000000,999,4717,,,,,,,,,2,seed_variance_rows.jsonl,,
+mix,10x10,0.9,18,1000000,999,4761,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,19,1000000,999,4729,,,,,,,,,0,seed_variance_rows.jsonl,,
+mix,10x10,0.9,20,1000000,999,4733,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.6,1,175272,7633,6800,1306,1358,431,42,1624,1295,1350,1807,1295,.work/dedupjoin/main/wet_s1_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.6,2,175272,7633,6753,1314,1360,399,35,1628,1284,1323,1687,1284,.work/dedupjoin/main/wet_s2_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.6,3,175272,7633,6839,1274,1329,433,47,1579,1252,1313,1713,1252,.work/dedupjoin/main/wet_s3_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.6,4,175272,7633,6777,1308,1369,413,39,1570,1330,1393,1788,1330,.work/dedupjoin/main/wet_s4_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.6,5,175272,7633,6764,1332,1381,423,40,1643,1292,1353,1729,1292,.work/dedupjoin/main/wet_s5_t0.6_sets.npz,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.7,1,175272,5828,6800,317,358,1193,96,529,281,306,436,281,.work/dedupjoin/main/wet_s1_t0.7_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.7,2,175272,5828,6753,314,348,1151,88,547,285,312,426,285,.work/dedupjoin/main/wet_s2_t0.7_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.7,3,175272,5828,6839,281,323,1210,82,510,256,293,403,256,.work/dedupjoin/main/wet_s3_t0.7_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.7,4,175272,5828,6777,313,341,1171,91,519,289,313,400,289,.work/dedupjoin/main/wet_s4_t0.7_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.7,5,175272,5828,6764,325,357,1170,91,546,305,330,416,305,.work/dedupjoin/main/wet_s5_t0.7_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.7,6,175272,5828,6799,,,,,,,,,283,seed_variance_rows.jsonl,,
+wet,14x8,0.7,7,175272,5828,6794,,,,,,,,,290,seed_variance_rows.jsonl,,
+wet,14x8,0.7,8,175272,5828,6830,,,,,,,,,283,seed_variance_rows.jsonl,,
+wet,14x8,0.7,9,175272,5828,6765,,,,,,,,,281,seed_variance_rows.jsonl,,
+wet,14x8,0.7,10,175272,5828,6745,,,,,,,,,298,seed_variance_rows.jsonl,,
+wet,14x8,0.7,11,175272,5828,6828,,,,,,,,,268,seed_variance_rows.jsonl,,
+wet,14x8,0.7,12,175272,5828,6812,,,,,,,,,261,seed_variance_rows.jsonl,,
+wet,14x8,0.7,13,175272,5828,6728,,,,,,,,,307,seed_variance_rows.jsonl,,
+wet,14x8,0.7,14,175272,5828,6726,,,,,,,,,289,seed_variance_rows.jsonl,,
+wet,14x8,0.7,15,175272,5828,6770,,,,,,,,,282,seed_variance_rows.jsonl,,
+wet,14x8,0.7,16,175272,5828,6708,,,,,,,,,287,seed_variance_rows.jsonl,,
+wet,14x8,0.7,17,175272,5828,6840,,,,,,,,,264,seed_variance_rows.jsonl,,
+wet,14x8,0.7,18,175272,5828,6752,,,,,,,,,304,seed_variance_rows.jsonl,,
+wet,14x8,0.7,19,175272,5828,6719,,,,,,,,,284,seed_variance_rows.jsonl,,
+wet,14x8,0.7,20,175272,5828,6781,,,,,,,,,294,seed_variance_rows.jsonl,,
+wet,14x8,0.8,1,175272,4245,6800,16,24,2425,146,130,15,20,34,15,.work/dedupjoin/main/wet_s1_t0.8_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.8,2,175272,4245,6753,20,25,2402,126,130,17,21,29,17,.work/dedupjoin/main/wet_s2_t0.8_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.8,3,175272,4245,6839,19,21,2484,129,128,16,20,28,16,.work/dedupjoin/main/wet_s3_t0.8_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.8,4,175272,4245,6777,18,25,2412,138,125,16,18,26,16,.work/dedupjoin/main/wet_s4_t0.8_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.8,5,175272,4245,6764,13,16,2394,138,121,11,14,20,11,.work/dedupjoin/main/wet_s5_t0.8_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.8,6,175272,4245,6799,,,,,,,,,12,seed_variance_rows.jsonl,,
+wet,14x8,0.8,7,175272,4245,6794,,,,,,,,,19,seed_variance_rows.jsonl,,
+wet,14x8,0.8,8,175272,4245,6830,,,,,,,,,18,seed_variance_rows.jsonl,,
+wet,14x8,0.8,9,175272,4245,6765,,,,,,,,,25,seed_variance_rows.jsonl,,
+wet,14x8,0.8,10,175272,4245,6745,,,,,,,,,15,seed_variance_rows.jsonl,,
+wet,14x8,0.8,11,175272,4245,6828,,,,,,,,,14,seed_variance_rows.jsonl,,
+wet,14x8,0.8,12,175272,4245,6812,,,,,,,,,17,seed_variance_rows.jsonl,,
+wet,14x8,0.8,13,175272,4245,6728,,,,,,,,,22,seed_variance_rows.jsonl,,
+wet,14x8,0.8,14,175272,4245,6726,,,,,,,,,21,seed_variance_rows.jsonl,,
+wet,14x8,0.8,15,175272,4245,6770,,,,,,,,,17,seed_variance_rows.jsonl,,
+wet,14x8,0.8,16,175272,4245,6708,,,,,,,,,23,seed_variance_rows.jsonl,,
+wet,14x8,0.8,17,175272,4245,6840,,,,,,,,,19,seed_variance_rows.jsonl,,
+wet,14x8,0.8,18,175272,4245,6752,,,,,,,,,22,seed_variance_rows.jsonl,,
+wet,14x8,0.8,19,175272,4245,6719,,,,,,,,,13,seed_variance_rows.jsonl,,
+wet,14x8,0.8,20,175272,4245,6781,,,,,,,,,11,seed_variance_rows.jsonl,,
+wet,14x8,0.9,1,175272,2839,6800,0,0,3837,124,52,0,0,0,0,.work/dedupjoin/main/wet_s1_t0.9_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.9,2,175272,2839,6753,0,0,3801,113,52,0,0,0,0,.work/dedupjoin/main/wet_s2_t0.9_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.9,3,175272,2839,6839,0,0,3886,114,52,0,0,0,0,.work/dedupjoin/main/wet_s3_t0.9_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.9,4,175272,2839,6777,0,0,3817,121,52,0,0,0,0,.work/dedupjoin/main/wet_s4_t0.9_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.9,5,175272,2839,6764,0,0,3810,115,52,0,0,0,0,.work/dedupjoin/main/wet_s5_t0.9_sets.npz;banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;verified_missed;unsupported;hijacked;witness_missed,
+wet,14x8,0.9,6,175272,2839,6799,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,7,175272,2839,6794,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,8,175272,2839,6830,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,9,175272,2839,6765,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,10,175272,2839,6745,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,11,175272,2839,6828,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,12,175272,2839,6812,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,13,175272,2839,6728,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,14,175272,2839,6726,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,15,175272,2839,6770,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,16,175272,2839,6708,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,17,175272,2839,6840,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,18,175272,2839,6752,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,19,175272,2839,6719,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,14x8,0.9,20,175272,2839,6781,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.7,1,175272,5828,11228,7,,5156,251,,,,,6,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.7,2,175272,5828,11135,7,,5054,260,,,,,7,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.7,3,175272,5828,11238,9,,5163,256,,,,,9,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.7,4,175272,5828,11232,2,,5158,248,,,,,2,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.7,5,175272,5828,11085,7,,5019,245,,,,,7,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.7,6,175272,5828,11282,,,,,,,,,9,seed_variance_rows.jsonl,,
+wet,20x5,0.7,7,175272,5828,11205,,,,,,,,,4,seed_variance_rows.jsonl,,
+wet,20x5,0.7,8,175272,5828,11292,,,,,,,,,2,seed_variance_rows.jsonl,,
+wet,20x5,0.7,9,175272,5828,11199,,,,,,,,,9,seed_variance_rows.jsonl,,
+wet,20x5,0.7,10,175272,5828,11210,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,20x5,0.7,11,175272,5828,11193,,,,,,,,,6,seed_variance_rows.jsonl,,
+wet,20x5,0.7,12,175272,5828,11132,,,,,,,,,5,seed_variance_rows.jsonl,,
+wet,20x5,0.7,13,175272,5828,11150,,,,,,,,,7,seed_variance_rows.jsonl,,
+wet,20x5,0.7,14,175272,5828,11199,,,,,,,,,7,seed_variance_rows.jsonl,,
+wet,20x5,0.7,15,175272,5828,11184,,,,,,,,,9,seed_variance_rows.jsonl,,
+wet,20x5,0.7,16,175272,5828,11119,,,,,,,,,7,seed_variance_rows.jsonl,,
+wet,20x5,0.7,17,175272,5828,11168,,,,,,,,,4,seed_variance_rows.jsonl,,
+wet,20x5,0.7,18,175272,5828,11037,,,,,,,,,6,seed_variance_rows.jsonl,,
+wet,20x5,0.7,19,175272,5828,11136,,,,,,,,,6,seed_variance_rows.jsonl,,
+wet,20x5,0.7,20,175272,5828,11199,,,,,,,,,5,seed_variance_rows.jsonl,,
+wet,20x5,0.8,1,175272,4245,11228,0,,6741,242,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.8,2,175272,4245,11135,0,,6648,242,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.8,3,175272,4245,11238,0,,6747,246,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.8,4,175272,4245,11232,0,,6749,238,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.8,5,175272,4245,11085,0,,6607,233,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.8,6,175272,4245,11282,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,7,175272,4245,11205,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,8,175272,4245,11292,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,9,175272,4245,11199,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,10,175272,4245,11210,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,11,175272,4245,11193,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,12,175272,4245,11132,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,13,175272,4245,11150,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,14,175272,4245,11199,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,15,175272,4245,11184,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,16,175272,4245,11119,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,17,175272,4245,11168,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,18,175272,4245,11037,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,19,175272,4245,11136,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.8,20,175272,4245,11199,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,1,175272,2839,11228,0,,8217,172,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.9,2,175272,2839,11135,0,,8122,174,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.9,3,175272,2839,11238,0,,8218,181,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.9,4,175272,2839,11232,0,,8220,173,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.9,5,175272,2839,11085,0,,8075,171,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,20x5,0.9,6,175272,2839,11282,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,7,175272,2839,11205,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,8,175272,2839,11292,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,9,175272,2839,11199,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,10,175272,2839,11210,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,11,175272,2839,11193,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,12,175272,2839,11132,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,13,175272,2839,11150,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,14,175272,2839,11199,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,15,175272,2839,11184,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,16,175272,2839,11119,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,17,175272,2839,11168,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,18,175272,2839,11037,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,19,175272,2839,11136,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,20x5,0.9,20,175272,2839,11199,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,10x10,0.7,1,175272,5828,5334,902,,379,29,,,,,917,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.7,2,175272,5828,5292,924,,362,26,,,,,895,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.7,3,175272,5828,5376,877,,392,33,,,,,874,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.7,4,175272,5828,5330,894,,363,33,,,,,878,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.7,5,175272,5828,5285,925,,352,30,,,,,914,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.7,6,175272,5828,5314,,,,,,,,,890,seed_variance_rows.jsonl,,
+wet,10x10,0.7,7,175272,5828,5377,,,,,,,,,826,seed_variance_rows.jsonl,,
+wet,10x10,0.7,8,175272,5828,5332,,,,,,,,,891,seed_variance_rows.jsonl,,
+wet,10x10,0.7,9,175272,5828,5326,,,,,,,,,900,seed_variance_rows.jsonl,,
+wet,10x10,0.7,10,175272,5828,5270,,,,,,,,,900,seed_variance_rows.jsonl,,
+wet,10x10,0.7,11,175272,5828,5350,,,,,,,,,851,seed_variance_rows.jsonl,,
+wet,10x10,0.7,12,175272,5828,5293,,,,,,,,,886,seed_variance_rows.jsonl,,
+wet,10x10,0.7,13,175272,5828,5274,,,,,,,,,930,seed_variance_rows.jsonl,,
+wet,10x10,0.7,14,175272,5828,5318,,,,,,,,,879,seed_variance_rows.jsonl,,
+wet,10x10,0.7,15,175272,5828,5321,,,,,,,,,912,seed_variance_rows.jsonl,,
+wet,10x10,0.7,16,175272,5828,5337,,,,,,,,,859,seed_variance_rows.jsonl,,
+wet,10x10,0.7,17,175272,5828,5373,,,,,,,,,878,seed_variance_rows.jsonl,,
+wet,10x10,0.7,18,175272,5828,5342,,,,,,,,,858,seed_variance_rows.jsonl,,
+wet,10x10,0.7,19,175272,5828,5357,,,,,,,,,870,seed_variance_rows.jsonl,,
+wet,10x10,0.7,20,175272,5828,5317,,,,,,,,,890,seed_variance_rows.jsonl,,
+wet,10x10,0.8,1,175272,4245,5334,122,,1131,80,,,,,106,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.8,2,175272,4245,5292,129,,1104,72,,,,,114,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.8,3,175272,4245,5376,151,,1202,80,,,,,138,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.8,4,175272,4245,5330,133,,1124,94,,,,,118,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.8,5,175272,4245,5285,132,,1092,80,,,,,123,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.8,6,175272,4245,5314,,,,,,,,,119,seed_variance_rows.jsonl,,
+wet,10x10,0.8,7,175272,4245,5377,,,,,,,,,92,seed_variance_rows.jsonl,,
+wet,10x10,0.8,8,175272,4245,5332,,,,,,,,,112,seed_variance_rows.jsonl,,
+wet,10x10,0.8,9,175272,4245,5326,,,,,,,,,126,seed_variance_rows.jsonl,,
+wet,10x10,0.8,10,175272,4245,5270,,,,,,,,,128,seed_variance_rows.jsonl,,
+wet,10x10,0.8,11,175272,4245,5350,,,,,,,,,104,seed_variance_rows.jsonl,,
+wet,10x10,0.8,12,175272,4245,5293,,,,,,,,,134,seed_variance_rows.jsonl,,
+wet,10x10,0.8,13,175272,4245,5274,,,,,,,,,137,seed_variance_rows.jsonl,,
+wet,10x10,0.8,14,175272,4245,5318,,,,,,,,,123,seed_variance_rows.jsonl,,
+wet,10x10,0.8,15,175272,4245,5321,,,,,,,,,130,seed_variance_rows.jsonl,,
+wet,10x10,0.8,16,175272,4245,5337,,,,,,,,,124,seed_variance_rows.jsonl,,
+wet,10x10,0.8,17,175272,4245,5373,,,,,,,,,116,seed_variance_rows.jsonl,,
+wet,10x10,0.8,18,175272,4245,5342,,,,,,,,,109,seed_variance_rows.jsonl,,
+wet,10x10,0.8,19,175272,4245,5357,,,,,,,,,113,seed_variance_rows.jsonl,,
+wet,10x10,0.8,20,175272,4245,5317,,,,,,,,,132,seed_variance_rows.jsonl,,
+wet,10x10,0.9,1,175272,2839,5334,1,,2399,97,,,,,1,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.9,2,175272,2839,5292,1,,2367,87,,,,,1,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.9,3,175272,2839,5376,3,,2454,86,,,,,3,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.9,4,175272,2839,5330,0,,2393,98,,,,,0,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.9,5,175272,2839,5285,4,,2358,92,,,,,4,banding_sweep_rows.jsonl;seed_variance_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,10x10,0.9,6,175272,2839,5314,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,10x10,0.9,7,175272,2839,5377,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,10x10,0.9,8,175272,2839,5332,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,10x10,0.9,9,175272,2839,5326,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,10x10,0.9,10,175272,2839,5270,,,,,,,,,2,seed_variance_rows.jsonl,,
+wet,10x10,0.9,11,175272,2839,5350,,,,,,,,,4,seed_variance_rows.jsonl,,
+wet,10x10,0.9,12,175272,2839,5293,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,10x10,0.9,13,175272,2839,5274,,,,,,,,,2,seed_variance_rows.jsonl,,
+wet,10x10,0.9,14,175272,2839,5318,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,10x10,0.9,15,175272,2839,5321,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,10x10,0.9,16,175272,2839,5337,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,10x10,0.9,17,175272,2839,5373,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,10x10,0.9,18,175272,2839,5342,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,10x10,0.9,19,175272,2839,5357,,,,,,,,,0,seed_variance_rows.jsonl,,
+wet,10x10,0.9,20,175272,2839,5317,,,,,,,,,1,seed_variance_rows.jsonl,,
+wet,26x11,0.7,1,175272,5828,6022,456,,607,43,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.7,2,175272,5828,6027,449,,603,45,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.7,3,175272,5828,6019,454,,594,51,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.7,4,175272,5828,6022,422,,577,39,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.7,5,175272,5828,6015,444,,581,50,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.8,1,175272,4245,6022,14,,1687,104,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.8,2,175272,4245,6027,23,,1689,116,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.8,3,175272,4245,6019,18,,1686,106,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.8,4,175272,4245,6022,15,,1681,111,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.8,5,175272,4245,6015,28,,1685,113,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.9,1,175272,2839,6022,0,,3082,101,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.9,2,175272,2839,6027,0,,3081,107,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.9,3,175272,2839,6019,0,,3077,103,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.9,4,175272,2839,6022,0,,3077,106,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges
+wet,26x11,0.9,5,175272,2839,6015,0,,3063,113,,,,,,banding_sweep_rows.jsonl,raw_missed;unsupported;hijacked,verified_missed not recorded: banding_sweep.py never verifies edges

@@ -1,0 +1,206 @@
+{
+ "provenance": "rerun (parquet metadata)",
+ "corpora": {
+  "c4": {
+   "n_docs": 700000,
+   "n_unique_ids": 700000,
+   "n_unique_urls_raw": 700000,
+   "n_unique_urls_normalised": 700000
+  },
+  "fw": {
+   "n_docs": 1000000,
+   "n_unique_ids": 1000000,
+   "n_unique_urls_raw": 999880,
+   "n_unique_urls_normalised": 999833
+  },
+  "mix": {
+   "n_docs": 1000000,
+   "n_unique_ids": 1000000,
+   "n_unique_urls_raw": 999910,
+   "n_unique_urls_normalised": 999880
+  },
+  "wet": {
+   "n_docs": 175272,
+   "n_unique_ids": 175272,
+   "n_unique_urls_raw": 175271,
+   "n_unique_urls_normalised": 175271
+  }
+ },
+ "mix": {
+  "first_500k_equals_fw_first_500k_by_id": true,
+  "second_500k_equals_c4_first_500k_by_id": true,
+  "n_mix_ids_found_in_fw": 500000,
+  "n_mix_ids_found_in_c4": 500000
+ },
+ "pairwise": {
+  "c4|fw": {
+   "raw_url_intersection": 177,
+   "raw_url_intersection_share_of_smaller": 0.00025285714285714283,
+   "normalised_url_intersection": 222,
+   "normalised_url_intersection_share_of_smaller": 0.00031714285714285715,
+   "id_intersection": 0
+  },
+  "c4|mix": {
+   "raw_url_intersection": 500035,
+   "raw_url_intersection_share_of_smaller": 0.7143357142857143,
+   "normalised_url_intersection": 500042,
+   "normalised_url_intersection_share_of_smaller": 0.7143457142857143,
+   "id_intersection": 500000
+  },
+  "c4|wet": {
+   "raw_url_intersection": 42,
+   "raw_url_intersection_share_of_smaller": 0.00023962891750489243,
+   "normalised_url_intersection": 42,
+   "normalised_url_intersection_share_of_smaller": 0.00023962891750489243,
+   "id_intersection": 0
+  },
+  "fw|mix": {
+   "raw_url_intersection": 500034,
+   "raw_url_intersection_share_of_smaller": 0.5000940112813538,
+   "normalised_url_intersection": 500039,
+   "normalised_url_intersection_share_of_smaller": 0.500122520460917,
+   "id_intersection": 500000
+  },
+  "fw|wet": {
+   "raw_url_intersection": 8,
+   "raw_url_intersection_share_of_smaller": 4.564360333426522e-05,
+   "normalised_url_intersection": 9,
+   "normalised_url_intersection_share_of_smaller": 5.134905375104838e-05,
+   "id_intersection": 0
+  },
+  "mix|wet": {
+   "raw_url_intersection": 30,
+   "raw_url_intersection_share_of_smaller": 0.00017116351250349459,
+   "normalised_url_intersection": 31,
+   "normalised_url_intersection_share_of_smaller": 0.00017686896292027775,
+   "id_intersection": 0
+  }
+ },
+ "cross_source_content_pool_scope": {
+  "scope": "pool: C4 shards 0-7 (2,850,538), full FineWeb file (1,048,581), WET (175,272); not the 700k/1M main subsets",
+  "exact_raw_hash": {
+   "n_hashes_shared_across_sources": 96,
+   "docs_in_shared_hashes": {
+    "c4": 96,
+    "fw": 96
+   },
+   "source_pairs": {
+    "c4|fw": 96
+   }
+  },
+  "exact_norm_hash": {
+   "n_hashes_shared_across_sources": 97,
+   "docs_in_shared_hashes": {
+    "c4": 97,
+    "fw": 97
+   },
+   "source_pairs": {
+    "c4|fw": 97
+   }
+  },
+  "lsh_clusters_by_source": {
+   "c4": 13456,
+   "wet": 3745,
+   "c4|fw": 849,
+   "fw": 716,
+   "c4|wet": 45,
+   "fw|wet": 6,
+   "c4|fw|wet": 1
+  },
+  "lsh_docs_by_source": {
+   "c4": 73085,
+   "wet": 11933,
+   "c4|fw": 6027,
+   "fw": 1890,
+   "c4|wet": 458,
+   "fw|wet": 13,
+   "c4|fw|wet": 12
+  },
+  "per_source_cross_share": {
+   "c4": {
+    "n": 2850538,
+    "docs_in_lsh_cluster_ge2": 78578,
+    "docs_in_cross_source_cluster": 5493,
+    "fraction_in_cross_source_cluster": 0.001927,
+    "partner_sources": {
+     "c4|fw": 5077,
+     "c4|wet": 410,
+     "c4|fw|wet": 6
+    }
+   },
+   "fw": {
+    "n": 1048581,
+    "docs_in_lsh_cluster_ge2": 2850,
+    "docs_in_cross_source_cluster": 960,
+    "fraction_in_cross_source_cluster": 0.000916,
+    "partner_sources": {
+     "c4|fw": 950,
+     "fw|wet": 6,
+     "c4|fw|wet": 4
+    }
+   },
+   "wet": {
+    "n": 175272,
+    "docs_in_lsh_cluster_ge2": 11990,
+    "docs_in_cross_source_cluster": 57,
+    "fraction_in_cross_source_cluster": 0.000325,
+    "partner_sources": {
+     "c4|wet": 48,
+     "fw|wet": 7,
+     "c4|fw|wet": 2
+    }
+   }
+  }
+ },
+ "wet_c4": {
+  "relation": "WET segments are CC-MAIN-2019-18, the crawl from which C4 was built; WET is the pre-extraction, pre-filter conversion record, not a copy of C4",
+  "wet_docs": 175272,
+  "c4_docs_scanned": 2850538,
+  "url_matched_pairs": 147,
+  "jaccard_mean": 0.39606436284467844,
+  "jaccard_p90": 0.7493067899040171,
+  "c4_shorter_frac": 1.0,
+  "note": "147 pairs over 8 of 1,024 C4 shards; a lower bound on coverage"
+ },
+ "official_pairing_set": {
+  "input_docs": 38472,
+  "official_removed": 1183,
+  "relation": "the 38,472 English documents are a language/score subset of the same 175,272 WET documents, not independent data",
+  "exact_truth_scope": "full 175,272-document WET snapshot, project tokeniser; the official run sees 38,472 with datatrove's SpaCy tokeniser",
+  "official_language_filter": "lang == 'en' and lang_score >= 0.8 (DATA.md; the code docstring default 0.99 was not the run value)"
+ },
+ "validation_sets": {
+  "val_clean": {
+   "n_docs": 3000,
+   "source": ".work/data/C03/r2/lm/info.json; output/vldb2027-ai-db-ideas/experiment/data/data_contract.md",
+   "relation": "random sample of the same 700,000-document C4 corpus, np seed 0, excluded from every dedup arm; a same-corpus held-out split, NOT an independent corpus"
+  },
+  "pairing_set": {
+   "relation": "subset of WET (same documents), not a renamed copy of C4"
+  },
+  "d1_lsh_only_removed": {
+   "relation": "documents removed only by raw LSH from the same C4 sample; same corpus, different deletion policy"
+  }
+ },
+ "pool_scope": {
+  "n_docs": 4074391,
+  "sources": {
+   "c4": 2850538,
+   "fw": 1048581,
+   "wet": 175272
+  },
+  "main_subset_relations": {
+   "fw": "main FineWeb 1,000,000 is the first 1,000,000 of the pool's 1,048,581 rows of the same file",
+   "c4": "main C4 700,000 is the first 700,000 of the pool's 2,850,538 documents (shards 0-7)",
+   "wet": "identical 175,272 documents"
+  },
+  "note": "the largest LSH cluster (1,974 documents) spans C4 and FineWeb: 1,972 C4 documents plus 2 FineWeb documents, which is itself cross-source evidence in the pool"
+ },
+ "headline": {
+  "mix_is_renamed_copy": true,
+  "mix_relation": "first half is exactly FineWeb rows 0-499,999; second half is exactly C4 documents 0-499,999",
+  "any_independent_validation_corpus": false,
+  "why": "WET is the same crawl as C4 at a different processing stage; val_clean is a held-out split of the same C4 sample; the pairing set is a subset of WET; Mix is a concatenation of C4 and FineWeb. No corpus in the main table is independent of the others.",
+  "consequence": "cross-corpus contrasts (C4 vs FineWeb vs Mix vs WET) measure processing stage and duplicate density, not independent replication; Mix must be labelled as an overlap of C4 and FineWeb, and WET as the same crawl as C4."
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "provenance": "rerun (masks + parquet) and log-recomputed (JSON)",
+ "population": {
+  "corpus": "c4",
+  "n_docs": 700000,
+  "config": "14x8",
+  "tau": 0.8,
+  "seeds": 100,
+  "total_tokens": 258514546,
+  "total_unique_shingles": 217269688,
+  "docs_with_true_neighbour": 5123,
+  "truth_pairs": 76940
+ },
+ "numbers": {
+  "at_risk_flip_token_share_0.05pct": {
+   "printed": "0.05% (intro, item 4; discussion; conclusion)",
+   "numerator_docs": 689,
+   "numerator_tokens": 119622,
+   "denominator": "total C4 tokens (258,514,546)",
+   "value_frac": 0.0004627283139417617,
+   "value_pct": 0.04627283139417617,
+   "population": "documents with >=1 exact neighbour at tau=0.8 whose raw-LSH keep/delete status differs across the 100 seeds",
+   "source": ".work/dedupjoin/main/c4_var_s*_t0.8.npz + c4_truth_t0.8.npz + c4_meta.parquet",
+   "status": "confirmed for the at-risk population; the conclusion omits that qualifier"
+  },
+  "at_risk_flip_unique_share_0.004pct": {
+   "printed": "0.004% (intro, item 4; discussion)",
+   "numerator_docs": 689,
+   "numerator_unique": 9361,
+   "denominator": "sum of per-document distinct-shingle counts, C4 (217,269,688)",
+   "value_pct": 0.004308470309949541,
+   "population": "same at-risk flipping documents",
+   "status": "confirmed for the at-risk population"
+  },
+  "all_flip_token_share_1.14pct": {
+   "printed": "1.10% for the 17,840 no-neighbour flips (05-results); 1.14% is the all-flip total requested in the work order",
+   "numerator_docs": 18529,
+   "numerator_tokens": 2958778,
+   "denominator": "total C4 tokens (258,514,546)",
+   "value_pct": 1.1445305673437811,
+   "no_neighbour_flip_docs": 17840,
+   "no_neighbour_flip_token_pct": 1.0982577359496049,
+   "no_neighbour_flip_unique_pct": 0.30836422980457356,
+   "population": "all 18,529 documents whose raw-LSH status differs across 100 seeds at tau=0.8",
+   "source": "same masks + parquet; matches variance_mechanism_c4_t0.8.json:flips.flip_tokens_share (0.011445305673437812)",
+   "status": "recomputed; 1.10% + 0.05% does not equal 1.14% exactly because of rounding of two disjoint populations"
+  },
+  "at_risk_flip_share_13.4pct": {
+   "printed": "13.4%",
+   "numerator": 689,
+   "denominator": 5123,
+   "value_pct": 13.449150888151474,
+   "source": "variance_mechanism_c4_t0.8.json:flips.flip_share_of_at_risk (0.13449150888151473)",
+   "status": "confirmed"
+  },
+  "top_component_variance_99.99pct": {
+   "printed": "99.99% of the total variance (intro item 4; 05-results body; figure 2b caption)",
+   "top_component_edges": 62953,
+   "total_edges": 76940,
+   "mean_hit_rate": 0.9614417104824234,
+   "across_seed_sd": 0.02047380954391721,
+   "empirical_var_share_of_summed_component_variance": 0.9996874030652585,
+   "within_component_var_share_of_total": 1.0013008478901475,
+   "empirical_var_share_of_total": 1.000987844314343,
+   "all_or_nothing_bound_over_observed": 9.409208362809336,
+   "quantity": "empirical variance decomposition: Var(H_c)/sum_c Var(H_c), where H_c is the per-seed hit count of exact component c; NOT the all-or-nothing bound and NOT a sampling-error estimate",
+   "corrected_value_pct_of_within": 99.96874030652585,
+   "corrected_value_pct_of_total": 100.0987844314343,
+   "source": "variance_decomposition.json:cells.c4",
+   "status": "corrected: 99.97% of the summed per-component variance, which is 100.1% of the total variance because the covariance term is -0.13%; the printed 99.99% matches neither denominator"
+  },
+  "shared_873_docs_99.994pct": {
+   "printed": "99.994% of the variance (05-results body)",
+   "value": 0.9999406761035075,
+   "quantity": "share of sum_c E_c^2 p_c(1-p_c), the all-or-nothing per-component variance proxy, not the empirical variance decomposition",
+   "docs": 873,
+   "pair_mass_share": 0.8491681829997401,
+   "token_share": 0.0003514076921613533,
+   "status": "confirmed as computed but a different decomposition from the 99.99% claim; do not put the two in one sentence without naming the denominator"
+  },
+  "overdispersion_25.8x": {
+   "printed": "25.8x at tau=0.8; up to 35x in the abstract",
+   "observed_sd": 0.016743587123408767,
+   "binomial_sd": 0.0006483064038757919,
+   "ratio": 25.82665699939106,
+   "tau0.7_ratio": 34.58313496526731,
+   "population": "100 seeds, C4, 14x8, 76,940 truth pairs, mean pair recall 0.96654",
+   "source": "variance_decomposition.json / seed_variance.json",
+   "status": "confirmed (34.58 rounds to 35)"
+  }
+ }
+}

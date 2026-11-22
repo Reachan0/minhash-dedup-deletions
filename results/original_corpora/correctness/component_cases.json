@@ -1,0 +1,361 @@
+{
+ "corpus": "c4",
+ "tau": 0.8,
+ "generated_utc": "2026-11-19T11:58:33Z",
+ "seeds": {
+  "1": {
+   "total_missed_edges": 1946,
+   "total_verified_missed": 24,
+   "giant": {
+    "size": 428,
+    "true_edges": 62953,
+    "missed": 1793,
+    "k": 1
+   },
+   "connected_with_many_missed": 4,
+   "missed_edges_in_those": 1829,
+   "split_with_few_missed": 20,
+   "split_total": 22,
+   "sum_k_minus_1": 24,
+   "examples": {
+    "leaky": {
+     "size": 5,
+     "true_edges": 10,
+     "detected": 7,
+     "missed": 3,
+     "k": 1,
+     "nodes": [
+      121866,
+      407336,
+      516168,
+      535011,
+      638087
+     ],
+     "edges": [
+      [
+       1,
+       2,
+       1
+      ],
+      [
+       1,
+       3,
+       1
+      ],
+      [
+       2,
+       3,
+       1
+      ],
+      [
+       1,
+       4,
+       1
+      ],
+      [
+       2,
+       4,
+       1
+      ],
+      [
+       3,
+       4,
+       1
+      ],
+      [
+       0,
+       4,
+       1
+      ],
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       2,
+       0
+      ],
+      [
+       0,
+       3,
+       0
+      ]
+     ],
+     "blocks": [
+      [
+       0,
+       1,
+       2,
+       3,
+       4
+      ]
+     ],
+     "kept_local": [
+      0
+     ],
+     "class": "connected_with_many_missed"
+    },
+    "split": {
+     "size": 5,
+     "true_edges": 4,
+     "detected": 3,
+     "missed": 1,
+     "k": 2,
+     "nodes": [
+      42788,
+      161205,
+      171699,
+      465998,
+      490896
+     ],
+     "edges": [
+      [
+       0,
+       1,
+       1
+      ],
+      [
+       1,
+       2,
+       1
+      ],
+      [
+       1,
+       3,
+       1
+      ],
+      [
+       1,
+       4,
+       0
+      ]
+     ],
+     "blocks": [
+      [
+       0,
+       1,
+       2,
+       3
+      ],
+      [
+       4
+      ]
+     ],
+     "kept_local": [
+      0,
+      4
+     ],
+     "class": "split_with_few_missed"
+    }
+   },
+   "pair_recall": 0.9747075643358462,
+   "ledger_classes": {
+    "n_components": 1213,
+    "blocks_B": 1237,
+    "sum_k_minus_1": 24,
+    "verified_missed": 24,
+    "assertion_ok": true,
+    "connected_with_many_missed": 4,
+    "missed_edges_in_those": 1829,
+    "split_with_few_missed": 20,
+    "split_total": 22
+   }
+  },
+  "3": {
+   "total_missed_edges": 4120,
+   "total_verified_missed": 18,
+   "giant": {
+    "size": 428,
+    "true_edges": 62953,
+    "missed": 3974,
+    "k": 4
+   },
+   "connected_with_many_missed": 4,
+   "missed_edges_in_those": 41,
+   "split_with_few_missed": 14,
+   "split_total": 16,
+   "sum_k_minus_1": 18,
+   "examples": {
+    "leaky": {
+     "size": 5,
+     "true_edges": 10,
+     "detected": 7,
+     "missed": 3,
+     "k": 1,
+     "nodes": [
+      121866,
+      407336,
+      516168,
+      535011,
+      638087
+     ],
+     "edges": [
+      [
+       1,
+       2,
+       1
+      ],
+      [
+       1,
+       3,
+       1
+      ],
+      [
+       2,
+       3,
+       1
+      ],
+      [
+       1,
+       4,
+       1
+      ],
+      [
+       2,
+       4,
+       1
+      ],
+      [
+       3,
+       4,
+       1
+      ],
+      [
+       0,
+       4,
+       1
+      ],
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       2,
+       0
+      ],
+      [
+       0,
+       3,
+       0
+      ]
+     ],
+     "blocks": [
+      [
+       0,
+       1,
+       2,
+       3,
+       4
+      ]
+     ],
+     "kept_local": [
+      0
+     ],
+     "class": "connected_with_many_missed"
+    },
+    "split": {
+     "size": 3,
+     "true_edges": 2,
+     "detected": 1,
+     "missed": 1,
+     "k": 2,
+     "nodes": [
+      13793,
+      140058,
+      423730
+     ],
+     "edges": [
+      [
+       1,
+       2,
+       1
+      ],
+      [
+       0,
+       2,
+       0
+      ]
+     ],
+     "blocks": [
+      [
+       0
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "kept_local": [
+      0,
+      1
+     ],
+     "class": "split_with_few_missed"
+    }
+   },
+   "pair_recall": 0.9464517806082662,
+   "ledger_classes": {
+    "n_components": 1213,
+    "blocks_B": 1231,
+    "sum_k_minus_1": 18,
+    "verified_missed": 18,
+    "assertion_ok": true,
+    "connected_with_many_missed": 4,
+    "missed_edges_in_those": 41,
+    "split_with_few_missed": 14,
+    "split_total": 16
+   }
+  }
+ },
+ "per_seed": [
+  {
+   "seed": 1,
+   "missed_edges": 1946,
+   "verified_missed": 24,
+   "pair_recall": 0.9747075643358462,
+   "giant_k": 1,
+   "giant_missed": 1793
+  },
+  {
+   "seed": 2,
+   "missed_edges": 2448,
+   "verified_missed": 21,
+   "pair_recall": 0.9681829997400572,
+   "giant_k": null,
+   "giant_missed": null
+  },
+  {
+   "seed": 3,
+   "missed_edges": 4120,
+   "verified_missed": 18,
+   "pair_recall": 0.9464517806082662,
+   "giant_k": 4,
+   "giant_missed": 3974
+  },
+  {
+   "seed": 4,
+   "missed_edges": 5443,
+   "verified_missed": 26,
+   "pair_recall": 0.9292565635560177,
+   "giant_k": null,
+   "giant_missed": null
+  },
+  {
+   "seed": 5,
+   "missed_edges": 2506,
+   "verified_missed": 25,
+   "pair_recall": 0.9674291655835716,
+   "giant_k": null,
+   "giant_missed": null
+  }
+ ],
+ "new_snapshot": {
+  "path_hint": "newsnap",
+  "dedup_result_available": false,
+  "status": "pending: independent-snapshot-eval has not produced deletion sets yet",
+  "note": "two-class counts on CC-MAIN-2025-30 are to be filled by independent-snapshot-eval"
+ }
+}

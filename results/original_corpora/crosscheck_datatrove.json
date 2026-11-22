@@ -1,0 +1,37 @@
+{
+ "evidence_tier": "rerun",
+ "generated_utc": "2026-11-19T05:17:28Z",
+ "datatrove_version": "0.6.0",
+ "config": {
+  "n_grams": 5,
+  "num_buckets": 14,
+  "hashes_per_bucket": 8,
+  "seed": 1,
+  "tokenizer": "patched to project whitespace tokenizer"
+ },
+ "subset_n": 1400,
+ "subset_shingles": 3241295,
+ "docs_without_5grams": 2,
+ "docs_without_5grams_ids": [
+  742,
+  776
+ ],
+ "stage1_seconds": 17.95,
+ "stage2_seconds": 0.51,
+ "stage12_seconds": 18.46,
+ "stage34_seconds": 0.13,
+ "datatrove_pairs": 11155,
+ "datatrove_unique_pairs": 1802,
+ "our_chain_edges": 1802,
+ "pair_sets_identical": true,
+ "pair_symmetric_difference": 0,
+ "datatrove_removed": 988,
+ "our_union_by_size_equals_datatrove_removed": true,
+ "union_by_size_symmetric_difference": 0,
+ "min_id_removed": 988,
+ "min_id_vs_datatrove_symmetric_difference": 12,
+ "largest_bucket": 85,
+ "bucket_pairs_sum": 250797,
+ "n_chain_pairs": 11155,
+ "all_checks_pass": true
+}

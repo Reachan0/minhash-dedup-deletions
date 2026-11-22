@@ -1,0 +1,190 @@
+{
+ "snapshot": "CC-MAIN-2025-30",
+ "checked_utc": "2026-11-20T03:21:41Z",
+ "corpus_dir": ".work/dedupjoin-pvldb-v3/newsnap/corpus",
+ "manifest_total_documents": 531597,
+ "manifest_total_segments": 104,
+ "lang_rule": "fastText lid.176 top-1 'en', score >= 0.8",
+ "document_unit": "one WET conversion record",
+ "shards": [
+  {
+   "file": "shard-00000.parquet",
+   "exists": true,
+   "bytes_measured": 238383754,
+   "bytes_manifest": 238383754,
+   "bytes_ok": true,
+   "sha256_measured": "615d46e156e749e89fbcfcc833d243eeb682e729d5e8cb40145549731d0a470c",
+   "sha256_manifest": "615d46e156e749e89fbcfcc833d243eeb682e729d5e8cb40145549731d0a470c",
+   "rows_measured": 100000,
+   "rows_manifest": 100000,
+   "row_groups": 1,
+   "created_by": "parquet-cpp-arrow version 26.0.1",
+   "sha256_ok": true,
+   "rows_ok": true
+  },
+  {
+   "file": "shard-00001.parquet",
+   "exists": true,
+   "bytes_measured": 234577118,
+   "bytes_manifest": 234577118,
+   "bytes_ok": true,
+   "sha256_measured": "25690a668b5898f7d67ec4457d81d5514ce504adb62b4b2ee6f4eb4906f6e3d6",
+   "sha256_manifest": "25690a668b5898f7d67ec4457d81d5514ce504adb62b4b2ee6f4eb4906f6e3d6",
+   "rows_measured": 100000,
+   "rows_manifest": 100000,
+   "row_groups": 1,
+   "created_by": "parquet-cpp-arrow version 26.0.1",
+   "sha256_ok": true,
+   "rows_ok": true
+  },
+  {
+   "file": "shard-00002.parquet",
+   "exists": true,
+   "bytes_measured": 230052485,
+   "bytes_manifest": 230052485,
+   "bytes_ok": true,
+   "sha256_measured": "005703987d1d2080b530d70d8eaf1cae3fff8333c9b5bc831af9edd63759d511",
+   "sha256_manifest": "005703987d1d2080b530d70d8eaf1cae3fff8333c9b5bc831af9edd63759d511",
+   "rows_measured": 100000,
+   "rows_manifest": 100000,
+   "row_groups": 1,
+   "created_by": "parquet-cpp-arrow version 26.0.1",
+   "sha256_ok": true,
+   "rows_ok": true
+  },
+  {
+   "file": "shard-00003.parquet",
+   "exists": true,
+   "bytes_measured": 236561775,
+   "bytes_manifest": 236561775,
+   "bytes_ok": true,
+   "sha256_measured": "0d84f7cda02a69c33247b2e439e15eeee214487c4a6304ddf80c5df251bc8b66",
+   "sha256_manifest": "0d84f7cda02a69c33247b2e439e15eeee214487c4a6304ddf80c5df251bc8b66",
+   "rows_measured": 100000,
+   "rows_manifest": 100000,
+   "row_groups": 1,
+   "created_by": "parquet-cpp-arrow version 26.0.1",
+   "sha256_ok": true,
+   "rows_ok": true
+  },
+  {
+   "file": "shard-00004.parquet",
+   "exists": true,
+   "bytes_measured": 239822036,
+   "bytes_manifest": 239822036,
+   "bytes_ok": true,
+   "sha256_measured": "ae015a2aa9894c21ac874900f5436230afa57ecb6d921c3b7ad067677f1e23be",
+   "sha256_manifest": "ae015a2aa9894c21ac874900f5436230afa57ecb6d921c3b7ad067677f1e23be",
+   "rows_measured": 100000,
+   "rows_manifest": 100000,
+   "row_groups": 1,
+   "created_by": "parquet-cpp-arrow version 26.0.1",
+   "sha256_ok": true,
+   "rows_ok": true
+  },
+  {
+   "file": "shard-00005.parquet",
+   "exists": true,
+   "bytes_measured": 72886812,
+   "bytes_manifest": 72886812,
+   "bytes_ok": true,
+   "sha256_measured": "cd86ac62afa2bb0618703c6768804440c08c78d636a8783d5c87e1d01c35f140",
+   "sha256_manifest": "cd86ac62afa2bb0618703c6768804440c08c78d636a8783d5c87e1d01c35f140",
+   "rows_measured": 31597,
+   "rows_manifest": 31597,
+   "row_groups": 1,
+   "created_by": "parquet-cpp-arrow version 26.0.1",
+   "sha256_ok": true,
+   "rows_ok": true
+  }
+ ],
+ "checks": {
+  "all_shards_exist": true,
+  "all_bytes_match_manifest": true,
+  "all_sha256_match_manifest": true,
+  "all_row_counts_match_manifest": true,
+  "total_rows_equal_manifest": true,
+  "segment_counts_match_manifest": true,
+  "segment_order_matches_rank_order": true,
+  "language_rule_holds_for_every_document": true,
+  "no_duplicate_ids": true,
+  "no_null_or_empty_text": true,
+  "nchar_equals_text_length_for_every_document": true,
+  "total_words_match_manifest": true,
+  "mean_words_matches_manifest_within_1e-6": true,
+  "median_p10_p90_min_max_match_manifest": true
+ },
+ "warnings": [],
+ "content": {
+  "rows_total": 531597,
+  "unique_ids": 531597,
+  "duplicate_ids": 0,
+  "null_ids": 0,
+  "null_texts": 0,
+  "empty_texts": 0,
+  "nchar_mismatch": 0,
+  "lang_counts": {
+   "en": 531597
+  },
+  "documents_failing_lang_rule": 0,
+  "min_lang_score": 0.8000001907348633,
+  "id_sequence_sha256": "5ee1b3cef926e31c125b22c17f367f888dad180d3bdbeb26b70c4530ddff52fd",
+  "id_sequence_hash_definition": "sha256 over rows in shard order of LE32(len(utf8(id))) || utf8(id)",
+  "content_sha256": "ad4e1646fb09b5e4b9b1a625b84ccf6510d955a5e88a2e56c05873efc3860c1f",
+  "content_hash_definition": "sha256 over per-shard sha256(concat LE64(xxh64_intdigest(utf8(text)))) in shard order; also doc_text_xxh64.npy",
+  "per_shard_content": [
+   {
+    "file": "shard-00000.parquet",
+    "content_sha256": "4c396b6cb1c6ddd33e661de6c117972c897564cda0f23298896a13b6bca92776",
+    "rows": 100000
+   },
+   {
+    "file": "shard-00001.parquet",
+    "content_sha256": "68a619c4a166a792cbc8e901ff17bf11788cdd90b5bfa5c4baa2d45f85bf8fea",
+    "rows": 100000
+   },
+   {
+    "file": "shard-00002.parquet",
+    "content_sha256": "6194de168096a0c5da59192c480ebd70b8e905964d668f49c04a7be28e0aa3cb",
+    "rows": 100000
+   },
+   {
+    "file": "shard-00003.parquet",
+    "content_sha256": "6365e768d047a5927af37988404761947286761c54e8df4332bfdd8ba7845e3c",
+    "rows": 100000
+   },
+   {
+    "file": "shard-00004.parquet",
+    "content_sha256": "656602191e9150395cb4078cdd3394435742b6c16ccd6aa90d93c98fb24badc0",
+    "rows": 100000
+   },
+   {
+    "file": "shard-00005.parquet",
+    "content_sha256": "8cde1abd532088d191a91b1334f6318a2540ae97770ca688cc08068d16e934e0",
+    "rows": 31597
+   }
+  ],
+  "length_stats_words": {
+   "n": 531597,
+   "total": 522207916,
+   "mean": 982.3379665423244,
+   "median": 586.0,
+   "p10": 12.0,
+   "p90": 2035.4000000000233,
+   "min": 1,
+   "max": 399477
+  },
+  "length_stats_manifest": {
+   "mean": 982.3379665423244,
+   "median": 586.0,
+   "p10": 12.0,
+   "p90": 2035.4000000000233,
+   "min": 1,
+   "max": 399477,
+   "total": 522207916
+  }
+ },
+ "input_identity": {
+  "file_level": "six parquet sh
+segment mismatches: 0 elapsed_s 16.61
+EXIT=0

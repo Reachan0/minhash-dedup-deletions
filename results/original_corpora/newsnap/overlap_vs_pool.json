@@ -1,0 +1,47 @@
+{
+ "n_new_documents": 531597,
+ "hash_definitions": {
+  "raw_hash": "xxh64(utf8 text as stored)",
+  "norm_hash": "xxh64(' '.join(text.lower().split()))"
+ },
+ "url_rule": "exact string equality; lower bound across crawls",
+ "by_source": {
+  "fw": {
+   "pool_documents": 1048581,
+   "raw_hash_matches": 0,
+   "raw_hash_share": 0.0,
+   "norm_hash_matches": 0,
+   "norm_hash_share": 0.0,
+   "url_matches": 10,
+   "url_share": 1.881124235087858e-05
+  },
+  "c4": {
+   "pool_documents": 2850538,
+   "raw_hash_matches": 0,
+   "raw_hash_share": 0.0,
+   "norm_hash_matches": 0,
+   "norm_hash_share": 0.0,
+   "url_matches": 60,
+   "url_share": 0.00011286745410527147
+  },
+  "wet": {
+   "pool_documents": 175272,
+   "raw_hash_matches": 478,
+   "raw_hash_share": 0.0008991773843719961,
+   "norm_hash_matches": 484,
+   "norm_hash_share": 0.0009104641297825232,
+   "url_matches": 2,
+   "url_share": 3.7622484701757157e-06
+  }
+ },
+ "any_source": {
+  "raw_hash_matches": 478,
+  "raw_hash_share": 0.0008991773843719961,
+  "norm_hash_matches": 484,
+  "norm_hash_share": 0.0009104641297825232,
+  "url_matches": 72,
+  "url_share": 0.00013544094492632576,
+  "any_of_three_matches": 555,
+  "any_of_three_share": 0.0010440239504737612
+ }
+}

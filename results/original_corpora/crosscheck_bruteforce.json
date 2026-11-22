@@ -1,0 +1,39 @@
+{
+ "evidence_tier": "rerun",
+ "generated_utc": "2026-11-19T05:12:06Z",
+ "workload": "wet",
+ "tau": 0.8,
+ "subset_n": 1000,
+ "subset_shingles": 2814065,
+ "threads": 12,
+ "hash_seed": 1,
+ "selection": "docs of the largest truth components first, then random (seed 20261119) up to 1000",
+ "brute_edges": 19508,
+ "brute_seconds": 16.46,
+ "C": {
+  "edges": 19508,
+  "equals_bruteforce": true,
+  "symmetric_difference": 0
+ },
+ "B": {
+  "candidate_edges": 20305,
+  "verified_edges": 19340,
+  "equals_bruteforce_intersect_candidates": true,
+  "symmetric_difference_vs_brute_and_cand": 0,
+  "lsh_missed_true_edges": 168,
+  "candidate_recall": 0.9913881484519171,
+  "n_pairs_mult": 218242,
+  "largest_bucket": 85,
+  "bucket_pairs_sum": 218242,
+  "n_pairs_unique": 20305
+ },
+ "A": {
+  "chain_edges": 1258,
+  "chain_subset_of_all_pairs": true,
+  "chain_true_edges": 1128,
+  "largest_bucket": 85,
+  "bucket_pairs_sum": 218242,
+  "n_chain_pairs": 8033
+ },
+ "all_checks_pass": true
+}

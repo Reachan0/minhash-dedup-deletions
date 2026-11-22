@@ -1,0 +1,26 @@
+{
+ "recorded_utc": "2026-11-19T05:45:00Z",
+ "cpu_model": "Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz",
+ "nproc": 8,
+ "logical_cpus_proc_cpuinfo": 16,
+ "memory_total_gib": 48,
+ "cgroup_memory_max_bytes": 51539607552,
+ "cgroup_cpu_max": "max 100000",
+ "os": "source record does not state OS",
+ "python": "3.11.2",
+ "omp_num_threads_env": "12",
+ "threads_used_for_snapshot_paths": 12,
+ "packages": {
+  "numpy": "2.4.6",
+  "pyarrow": "26.0.1",
+  "pandas": "3.1.1",
+  "xxhash": "4.0.2",
+  "scipy": "1.17.1",
+  "scikit-learn": "1.9.1",
+  "numba": "0.68.1",
+  "datatrove": "0.6.0",
+  "regex": "2026.11.19"
+ },
+ "source": "output/dedupjoin-pvldb-v3/experiment/analysis/reproduction/environment.txt (appended core-cost-benchmark entry)",
+ "inconsistency": "analysis/reproduction/ACCEPTANCE.md says '4 vCPU' while environment.txt says nproc=8, 16 processors online; the environment.txt entry is the appended benchmark record and is used here"
+}

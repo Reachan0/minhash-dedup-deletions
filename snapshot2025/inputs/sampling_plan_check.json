@@ -1,0 +1,13 @@
+{
+ "wet_paths_sha256": "b00996a663900fbb38df54c3dd29be792bdc58cb488401ed00bc59056cf53338",
+ "wet_paths_sha256_expected": "b00996a663900fbb38df54c3dd29be792bdc58cb488401ed00bc59056cf53338",
+ "wet_paths_sha256_ok": true,
+ "paths_in_file": 100000,
+ "plan_order_len": 100000,
+ "plan_seed": 20261119,
+ "plan_equals_recomputed_shuffle": true,
+ "manifest_segments": 104,
+ "manifest_paths_equal_plan_first_104": true,
+ "manifest_ranks_contiguous_0_103": true,
+ "note": "recomputed with random.Random(20261119).shuffle over 0..99,999"
+}

@@ -1,0 +1,5 @@
+  shingled 50000 docs, 118s
+  shingled 100000 docs, 209s
+  shingled 150000 docs, 314s
+  shingled 200000 docs, 394s
+  shingled 250000 docs, 490s

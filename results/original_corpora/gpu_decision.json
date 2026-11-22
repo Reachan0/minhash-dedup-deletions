@@ -1,0 +1,54 @@
+{
+ "generated_utc": "2026-11-19T14:54:18Z",
+ "sources": {
+  "content_audit": "output/dedupjoin-pvldb/results/content_audit/content_audit_seed1.json",
+  "downstream_probe": "output/dedupjoin-pvldb/results/results.json"
+ },
+ "annotation": {
+  "model_labels_n": 53,
+  "model_labels_k": 2,
+  "model_label_kind": "model (qwen3.5-flash), NOT human",
+  "wilson95": {
+   "p": 0.03773584905660377,
+   "lo": 0.010410287275826845,
+   "hi": 0.12754287197418354,
+   "k": 2,
+   "n": 53
+  },
+  "halfwidth_targets": {
+   "0.02": 349,
+   "0.025": 224,
+   "0.03": 155,
+   "0.05": 56
+  },
+  "hand_labels_n": 29,
+  "hand_labels_note": "QC subset, not a random sample of the 53; model-hand 12/15 agree",
+  "script_labels_note": "rule labels judge template/copy, not partial rewrite vs independent"
+ },
+ "downstream": {
+  "probe_arm_tokens": 149979136,
+  "eval_tokens": 1434624,
+  "probe_seeds": 3,
+  "exact_mean": 4.336619252225997,
+  "exact_sd": 0.006009448292740177,
+  "lsh_mean": 4.335711962150557,
+  "lsh_sd": 0.0037169650578536425,
+  "delta": 0.0009072900754398816,
+  "pooled_seed_sd": 0.0049964636506444615,
+  "delta_over_sigma": 0.18158644571002855,
+  "manipulated_words_lsh_minus_exact": 1227237.0,
+  "lost_words_c4_estimate": 223185.5052075879,
+  "lost_words_pool_estimate": 379319.69365828054,
+  "ratio_c4": 0.18186015024611213,
+  "ratio_pool": 0.30908430373129275,
+  "expected_delta_c4": 0.00016499990943630327,
+  "expected_delta_pool": 0.0002804291212496479,
+  "seeds_needed": {
+   "observed_probe_delta": 477,
+   "scaled_c4": 14395,
+   "scaled_pool": 4984
+  },
+  "tokens_per_seed": 149979136
+ },
+ "decision": "no-go for a GPU/semantic arm in this round"
+}

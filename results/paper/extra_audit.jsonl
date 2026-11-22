@@ -1,0 +1,80 @@
+{"kind": "rep_range", "seed": 1, "tau": 0.8, "scope": "all", "deleted": 130442, "unsup_minid": 15262, "unsup_lo": 14511, "unsup_hi": 15717, "components_mixed": 1206}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 1, "tau": 0.8, "scope": "all", "deleted": 127748, "unsupported": 13204}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 1, "tau": 0.8, "scope": "all", "deleted": 129094, "unsupported": 14234}
+{"kind": "first_seen", "variant": "A_minid", "seed": 1, "tau": 0.8, "scope": "all", "deleted": 130442, "unsupported": 15262}
+{"kind": "rep_range", "seed": 1, "tau": 0.8, "scope": "outside", "deleted": 43672, "unsup_minid": 15262, "unsup_lo": 14511, "unsup_hi": 15717, "components_mixed": 1206}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 1, "tau": 0.8, "scope": "outside", "deleted": 40978, "unsupported": 13204}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 1, "tau": 0.8, "scope": "outside", "deleted": 42324, "unsupported": 14234}
+{"kind": "first_seen", "variant": "A_minid", "seed": 1, "tau": 0.8, "scope": "outside", "deleted": 43672, "unsupported": 15262}
+{"kind": "rep_range", "seed": 1, "tau": 0.75, "scope": "all", "deleted": 130442, "unsup_minid": 11659, "unsup_lo": 10895, "unsup_hi": 12107, "components_mixed": 1212}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 1, "tau": 0.75, "scope": "all", "deleted": 127748, "unsupported": 10019}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 1, "tau": 0.75, "scope": "all", "deleted": 129094, "unsupported": 10818}
+{"kind": "first_seen", "variant": "A_minid", "seed": 1, "tau": 0.75, "scope": "all", "deleted": 130442, "unsupported": 11659}
+{"kind": "rep_range", "seed": 1, "tau": 0.75, "scope": "outside", "deleted": 43672, "unsup_minid": 11659, "unsup_lo": 10895, "unsup_hi": 12107, "components_mixed": 1212}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 1, "tau": 0.75, "scope": "outside", "deleted": 40978, "unsupported": 10019}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 1, "tau": 0.75, "scope": "outside", "deleted": 42324, "unsupported": 10818}
+{"kind": "first_seen", "variant": "A_minid", "seed": 1, "tau": 0.75, "scope": "outside", "deleted": 43672, "unsupported": 11659}
+{"kind": "rep_range", "seed": 2, "tau": 0.8, "scope": "all", "deleted": 130274, "unsup_minid": 15114, "unsup_lo": 14356, "unsup_hi": 15577, "components_mixed": 1221}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 2, "tau": 0.8, "scope": "all", "deleted": 127598, "unsupported": 13102}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 2, "tau": 0.8, "scope": "all", "deleted": 128960, "unsupported": 14128}
+{"kind": "first_seen", "variant": "A_minid", "seed": 2, "tau": 0.8, "scope": "all", "deleted": 130274, "unsupported": 15114}
+{"kind": "rep_range", "seed": 2, "tau": 0.8, "scope": "outside", "deleted": 43504, "unsup_minid": 15114, "unsup_lo": 14356, "unsup_hi": 15577, "components_mixed": 1221}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 2, "tau": 0.8, "scope": "outside", "deleted": 40828, "unsupported": 13102}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 2, "tau": 0.8, "scope": "outside", "deleted": 42190, "unsupported": 14128}
+{"kind": "first_seen", "variant": "A_minid", "seed": 2, "tau": 0.8, "scope": "outside", "deleted": 43504, "unsupported": 15114}
+{"kind": "rep_range", "seed": 2, "tau": 0.75, "scope": "all", "deleted": 130274, "unsup_minid": 11534, "unsup_lo": 10754, "unsup_hi": 11975, "components_mixed": 1221}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 2, "tau": 0.75, "scope": "all", "deleted": 127598, "unsupported": 9895}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 2, "tau": 0.75, "scope": "all", "deleted": 128960, "unsupported": 10718}
+{"kind": "first_seen", "variant": "A_minid", "seed": 2, "tau": 0.75, "scope": "all", "deleted": 130274, "unsupported": 11534}
+{"kind": "rep_range", "seed": 2, "tau": 0.75, "scope": "outside", "deleted": 43504, "unsup_minid": 11534, "unsup_lo": 10754, "unsup_hi": 11975, "components_mixed": 1221}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 2, "tau": 0.75, "scope": "outside", "deleted": 40828, "unsupported": 9895}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 2, "tau": 0.75, "scope": "outside", "deleted": 42190, "unsupported": 10718}
+{"kind": "first_seen", "variant": "A_minid", "seed": 2, "tau": 0.75, "scope": "outside", "deleted": 43504, "unsupported": 11534}
+{"kind": "rep_range", "seed": 3, "tau": 0.8, "scope": "all", "deleted": 130902, "unsup_minid": 15658, "unsup_lo": 14915, "unsup_hi": 16142, "components_mixed": 1227}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 3, "tau": 0.8, "scope": "all", "deleted": 128220, "unsupported": 13600}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 3, "tau": 0.8, "scope": "all", "deleted": 129612, "unsupported": 14671}
+{"kind": "first_seen", "variant": "A_minid", "seed": 3, "tau": 0.8, "scope": "all", "deleted": 130902, "unsupported": 15658}
+{"kind": "rep_range", "seed": 3, "tau": 0.8, "scope": "outside", "deleted": 44132, "unsup_minid": 15658, "unsup_lo": 14915, "unsup_hi": 16142, "components_mixed": 1227}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 3, "tau": 0.8, "scope": "outside", "deleted": 41450, "unsupported": 13600}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 3, "tau": 0.8, "scope": "outside", "deleted": 42842, "unsupported": 14671}
+{"kind": "first_seen", "variant": "A_minid", "seed": 3, "tau": 0.8, "scope": "outside", "deleted": 44132, "unsupported": 15658}
+{"kind": "rep_range", "seed": 3, "tau": 0.75, "scope": "all", "deleted": 130902, "unsup_minid": 12040, "unsup_lo": 11279, "unsup_hi": 12508, "components_mixed": 1229}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 3, "tau": 0.75, "scope": "all", "deleted": 128220, "unsupported": 10362}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 3, "tau": 0.75, "scope": "all", "deleted": 129612, "unsupported": 11229}
+{"kind": "first_seen", "variant": "A_minid", "seed": 3, "tau": 0.75, "scope": "all", "deleted": 130902, "unsupported": 12040}
+{"kind": "rep_range", "seed": 3, "tau": 0.75, "scope": "outside", "deleted": 44132, "unsup_minid": 12040, "unsup_lo": 11279, "unsup_hi": 12508, "components_mixed": 1229}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 3, "tau": 0.75, "scope": "outside", "deleted": 41450, "unsupported": 10362}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 3, "tau": 0.75, "scope": "outside", "deleted": 42842, "unsupported": 11229}
+{"kind": "first_seen", "variant": "A_minid", "seed": 3, "tau": 0.75, "scope": "outside", "deleted": 44132, "unsupported": 12040}
+{"kind": "rep_range", "seed": 4, "tau": 0.8, "scope": "all", "deleted": 130393, "unsup_minid": 15218, "unsup_lo": 14466, "unsup_hi": 15687, "components_mixed": 1221}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 4, "tau": 0.8, "scope": "all", "deleted": 127641, "unsupported": 13133}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 4, "tau": 0.8, "scope": "all", "deleted": 129022, "unsupported": 14177}
+{"kind": "first_seen", "variant": "A_minid", "seed": 4, "tau": 0.8, "scope": "all", "deleted": 130393, "unsupported": 15218}
+{"kind": "rep_range", "seed": 4, "tau": 0.8, "scope": "outside", "deleted": 43623, "unsup_minid": 15218, "unsup_lo": 14466, "unsup_hi": 15687, "components_mixed": 1221}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 4, "tau": 0.8, "scope": "outside", "deleted": 40871, "unsupported": 13133}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 4, "tau": 0.8, "scope": "outside", "deleted": 42252, "unsupported": 14177}
+{"kind": "first_seen", "variant": "A_minid", "seed": 4, "tau": 0.8, "scope": "outside", "deleted": 43623, "unsupported": 15218}
+{"kind": "rep_range", "seed": 4, "tau": 0.75, "scope": "all", "deleted": 130393, "unsup_minid": 11603, "unsup_lo": 10817, "unsup_hi": 12056, "components_mixed": 1239}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 4, "tau": 0.75, "scope": "all", "deleted": 127641, "unsupported": 9919}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 4, "tau": 0.75, "scope": "all", "deleted": 129022, "unsupported": 10751}
+{"kind": "first_seen", "variant": "A_minid", "seed": 4, "tau": 0.75, "scope": "all", "deleted": 130393, "unsupported": 11603}
+{"kind": "rep_range", "seed": 4, "tau": 0.75, "scope": "outside", "deleted": 43623, "unsup_minid": 11603, "unsup_lo": 10817, "unsup_hi": 12056, "components_mixed": 1239}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 4, "tau": 0.75, "scope": "outside", "deleted": 40871, "unsupported": 9919}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 4, "tau": 0.75, "scope": "outside", "deleted": 42252, "unsupported": 10751}
+{"kind": "first_seen", "variant": "A_minid", "seed": 4, "tau": 0.75, "scope": "outside", "deleted": 43623, "unsupported": 11603}
+{"kind": "rep_range", "seed": 5, "tau": 0.8, "scope": "all", "deleted": 130456, "unsup_minid": 15286, "unsup_lo": 14535, "unsup_hi": 15758, "components_mixed": 1223}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 5, "tau": 0.8, "scope": "all", "deleted": 127845, "unsupported": 13292}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 5, "tau": 0.8, "scope": "all", "deleted": 129202, "unsupported": 14319}
+{"kind": "first_seen", "variant": "A_minid", "seed": 5, "tau": 0.8, "scope": "all", "deleted": 130456, "unsupported": 15286}
+{"kind": "rep_range", "seed": 5, "tau": 0.8, "scope": "outside", "deleted": 43686, "unsup_minid": 15286, "unsup_lo": 14535, "unsup_hi": 15758, "components_mixed": 1223}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 5, "tau": 0.8, "scope": "outside", "deleted": 41075, "unsupported": 13292}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 5, "tau": 0.8, "scope": "outside", "deleted": 42432, "unsupported": 14319}
+{"kind": "first_seen", "variant": "A_minid", "seed": 5, "tau": 0.8, "scope": "outside", "deleted": 43686, "unsupported": 15286}
+{"kind": "rep_range", "seed": 5, "tau": 0.75, "scope": "all", "deleted": 130456, "unsup_minid": 11706, "unsup_lo": 10918, "unsup_hi": 12161, "components_mixed": 1243}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 5, "tau": 0.75, "scope": "all", "deleted": 127845, "unsupported": 10091}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 5, "tau": 0.75, "scope": "all", "deleted": 129202, "unsupported": 10914}
+{"kind": "first_seen", "variant": "A_minid", "seed": 5, "tau": 0.75, "scope": "all", "deleted": 130456, "unsupported": 11706}
+{"kind": "rep_range", "seed": 5, "tau": 0.75, "scope": "outside", "deleted": 43686, "unsup_minid": 11706, "unsup_lo": 10918, "unsup_hi": 12161, "components_mixed": 1243}
+{"kind": "first_seen", "variant": "first_seen_kept", "seed": 5, "tau": 0.75, "scope": "outside", "deleted": 41075, "unsupported": 10091}
+{"kind": "first_seen", "variant": "first_seen_all", "seed": 5, "tau": 0.75, "scope": "outside", "deleted": 42432, "unsupported": 10914}
+{"kind": "first_seen", "variant": "A_minid", "seed": 5, "tau": 0.75, "scope": "outside", "deleted": 43686, "unsupported": 11706}

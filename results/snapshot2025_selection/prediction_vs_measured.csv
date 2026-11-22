@@ -1,0 +1,9 @@
+method,tau,pred_cold_s,meas_cold_s,pred_inc_s,meas_inc_s,pred_rss_mb,meas_rss_mb,meas_deleted,meas_unsupported_share_del,meas_unsupported_share_input,meas_residual_pairs,meas_residual_share,meas_witness_coverage,meas_verified_missed_share,quality_source,literal_timing_status
+A,0.8,185.85,73.842,6.99,4.34,5240.22,4197.2,130442.0,0.11961620143313319,0.02945464327300568,69,0.000130,0.8317978334937587,,literal,ok
+A,0.75,185.85,73.965,6.99,4.314,5240.22,4197.3,130442.0,0.0919772043207896,0.02264873579045781,327,0.000615,0.8567172388504377,,literal,ok
+B,0.8,188.54,,9.92,,5240.16,,113613.0,0.0,0.0,101,0.000190,0.9866329924849082,0.0012046074034995165,dup_collapsed_exact,"failed:literal_B_incremental,literal_B_pathcold"
+B,0.75,188.54,,9.92,,5240.16,,117172.0,0.0,0.0,428,0.000805,0.9841922522414925,0.004579439252336449,dup_collapsed_exact,"failed:literal_B_incremental,literal_B_pathcold"
+W,0.8,,,9.95,,5240.03,,112795.0,0.0,0.0,166,0.000312,1.0,0.0012046074034995165,dup_collapsed_exact,"failed:literal_W_incremental,literal_W_pathcold"
+W,0.75,,,9.95,,5240.03,,115981.0,0.0,0.0,759,0.001428,1.0,0.004579439252336449,dup_collapsed_exact,"failed:literal_W_incremental,literal_W_pathcold"
+C,0.8,573.49,,6.25,,6476.26,,113730.0,0.0,0.0,0,0.000000,0.986195375010991,0.0,exact_truth,"failed:literal_C_incremental,literal_C_pathcold"
+C,0.75,573.49,,6.25,,6476.26,,117700.0,0.0,0.0,0,0.000000,0.9823364485981309,0.0,exact_truth,"failed:literal_C_incremental,literal_C_pathcold"

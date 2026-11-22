@@ -1,0 +1,32 @@
+{
+ "unsupported": {
+  "n": 1200,
+  "shown_share": 0.9566646457671176,
+  "median_j_kept": 0.6306306306306306,
+  "median_j_closest": 0.6896551724137931,
+  "kept_is_closest": 0.38004683663631345,
+  "both_kept": 0.18088564554609235,
+  "both_closest": 0.18089492137538177,
+  "both_kept_ci": [
+   0.16004668116123,
+   0.20255063718239877
+  ],
+  "moved_to_unique": 0.0358385230546867,
+  "moved_from_unique": 0.03584779888397613
+ },
+ "supported": {
+  "n": 400,
+  "shown_share": 0.9874855052486857,
+  "median_j_kept": 0.9375,
+  "median_j_closest": 0.9848420153714774,
+  "kept_is_closest": 0.6099448288222762,
+  "both_kept": 0.027511439633931708,
+  "both_closest": 0.02250879971840901,
+  "both_kept_ci": [
+   0.012505628900847849,
+   0.045017933476416486
+  ],
+  "moved_to_unique": 0.012503519887363602,
+  "moved_from_unique": 0.0075008799718409
+ }
+}

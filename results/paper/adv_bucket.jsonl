@@ -1,0 +1,64 @@
+{"m": 1000, "kind": "stream", "groups": "two", "deleted": 998, "verified_pairs": 250998, "enumerated_pairs": 499500, "t_s": 0.49, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 1000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 998, "verified_pairs": 1999, "unchecked_U": 248999, "extra_retained": 0, "t_s": 0.44, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 0.9}
+{"m": 1000, "kind": "W", "groups": "two", "deleted": 998, "verified_pairs": 1498, "t_s": 0.45, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 10000, "kind": "stream", "groups": "two", "deleted": 9998, "verified_pairs": 25009998, "enumerated_pairs": 49995000, "t_s": 5.45, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 6.1}
+{"m": 10000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 5499, "verified_pairs": 10999, "unchecked_U": 37366750, "extra_retained": 4499, "t_s": 0.74, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.4}
+{"m": 10000, "kind": "W", "groups": "two", "deleted": 9998, "verified_pairs": 14998, "t_s": 0.48, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 30000, "kind": "stream", "groups": "two", "deleted": 29998, "verified_pairs": 225029998, "enumerated_pairs": 449985000, "t_s": 45.1, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 46.0}
+{"m": 30000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 15499, "verified_pairs": 30999, "unchecked_U": 337351750, "extra_retained": 14499, "t_s": 2.84, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 3.7}
+{"m": 30000, "kind": "W", "groups": "two", "deleted": 29998, "verified_pairs": 44998, "t_s": 0.57, "peak_rss_gib": 0.17, "status": "ok", "wall_s": 1.4}
+{"m": 100000, "kind": "stream", "groups": "two", "deleted": 99998, "verified_pairs": 2500099998, "enumerated_pairs": 4999950000, "t_s": 496.53, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 498.1}
+{"m": 100000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 50499, "verified_pairs": 100999, "unchecked_U": 3749799250, "extra_retained": 49499, "t_s": 25.94, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 27.6}
+{"m": 100000, "kind": "W", "groups": "two", "deleted": 99998, "verified_pairs": 149998, "t_s": 0.87, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 2.4}
+{"m": 1000, "kind": "stream", "groups": "distinct", "deleted": 0, "verified_pairs": 499500, "enumerated_pairs": 499500, "t_s": 0.5, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 1000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 1999, "unchecked_U": 497501, "extra_retained": 0, "t_s": 0.44, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 0.9}
+{"m": 1000, "kind": "W", "groups": "distinct", "deleted": 0, "verified_pairs": 499500, "t_s": 0.51, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 10000, "kind": "stream", "groups": "distinct", "deleted": 0, "verified_pairs": 49995000, "enumerated_pairs": 49995000, "t_s": 5.14, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 5.7}
+{"m": 10000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 10999, "unchecked_U": 49984001, "extra_retained": 0, "t_s": 0.55, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 10000, "kind": "W", "groups": "distinct", "deleted": 0, "verified_pairs": 49995000, "t_s": 5.48, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 6.0}
+{"m": 30000, "kind": "stream", "groups": "distinct", "deleted": 0, "verified_pairs": 449985000, "enumerated_pairs": 449985000, "t_s": 43.26, "peak_rss_gib": 0.17, "status": "ok", "wall_s": 43.9}
+{"m": 30000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 30999, "unchecked_U": 449954001, "extra_retained": 0, "t_s": 1.41, "peak_rss_gib": 0.17, "status": "ok", "wall_s": 2.1}
+{"m": 30000, "kind": "W", "groups": "distinct", "deleted": 0, "verified_pairs": 449985000, "t_s": 45.61, "peak_rss_gib": 0.17, "status": "ok", "wall_s": 46.3}
+{"m": 100000, "kind": "stream", "groups": "distinct", "deleted": 0, "verified_pairs": 4999950000, "enumerated_pairs": 4999950000, "t_s": 477.48, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 478.3}
+{"m": 100000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 100999, "unchecked_U": 4999849001, "extra_retained": 0, "t_s": 10.48, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 11.3}
+{"m": 100000, "kind": "W", "groups": "distinct", "deleted": 0, "verified_pairs": 4999950000, "t_s": 503.16, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 503.9}
+{"m": 1000, "kind": "stream", "groups": "noisy", "deleted": 998, "verified_pairs": 1997, "enumerated_pairs": 499500, "t_s": 0.45, "peak_rss_gib": 0.15, "status": "ok", "wall_s": 1.0}
+{"m": 1000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 998, "verified_pairs": 1997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.46, "peak_rss_gib": 0.15, "status": "ok", "wall_s": 1.0}
+{"m": 1000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 998, "verified_pairs": 1997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.45, "peak_rss_gib": 0.15, "status": "ok", "wall_s": 1.0}
+{"m": 1000, "kind": "W", "groups": "noisy", "deleted": 998, "verified_pairs": 1997, "t_s": 0.45, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 10000, "kind": "stream", "groups": "noisy", "deleted": 9998, "verified_pairs": 19997, "enumerated_pairs": 49995000, "t_s": 0.83, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.5}
+{"m": 10000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 9998, "verified_pairs": 19997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.48, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 10000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 1000, "verified_pairs": 10999, "unchecked_U": 49484501, "extra_retained": 8998, "t_s": 0.63, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.3}
+{"m": 10000, "kind": "W", "groups": "noisy", "deleted": 9998, "verified_pairs": 19997, "t_s": 0.46, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 30000, "kind": "stream", "groups": "noisy", "deleted": 29998, "verified_pairs": 59997, "enumerated_pairs": 449985000, "t_s": 3.75, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 4.6}
+{"m": 30000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 29998, "verified_pairs": 59997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.55, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 1.4}
+{"m": 30000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 1000, "verified_pairs": 30999, "unchecked_U": 449454501, "extra_retained": 28998, "t_s": 1.8, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 2.7}
+{"m": 30000, "kind": "W", "groups": "noisy", "deleted": 29998, "verified_pairs": 59997, "t_s": 0.55, "peak_rss_gib": 0.17, "status": "ok", "wall_s": 1.5}
+{"m": 100000, "kind": "stream", "groups": "noisy", "deleted": 99998, "verified_pairs": 199997, "enumerated_pairs": 4999950000, "t_s": 36.31, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 37.9}
+{"m": 100000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 99998, "verified_pairs": 199997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.81, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 2.4}
+{"m": 100000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 1000, "verified_pairs": 100999, "unchecked_U": 4999349501, "extra_retained": 98998, "t_s": 13.85, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 15.5}
+{"m": 100000, "kind": "W", "groups": "noisy", "deleted": 99998, "verified_pairs": 199997, "t_s": 0.87, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 2.5}
+{"m": 1000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 998, "verified_pairs": 2997, "unchecked_U": 248001, "extra_retained": 0, "t_s": 0.44, "peak_rss_gib": 0.15, "status": "ok", "wall_s": 1.0}
+{"m": 10000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 9998, "verified_pairs": 20997, "unchecked_U": 24989001, "extra_retained": 0, "t_s": 0.86, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.5}
+{"m": 30000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 29998, "verified_pairs": 60997, "unchecked_U": 224969001, "extra_retained": 0, "t_s": 3.86, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 4.7}
+{"m": 100000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 99998, "verified_pairs": 200997, "unchecked_U": 2499899001, "extra_retained": 0, "t_s": 37.62, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 39.2}
+{"m": 1000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 2997, "unchecked_U": 496503, "extra_retained": 0, "t_s": 0.45, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 10000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 20997, "unchecked_U": 49974003, "extra_retained": 0, "t_s": 0.58, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.2}
+{"m": 30000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 60997, "unchecked_U": 449924003, "extra_retained": 0, "t_s": 1.71, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 2.3}
+{"m": 100000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 200997, "unchecked_U": 4999749003, "extra_retained": 0, "t_s": 13.68, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 14.4}
+{"m": 1000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 998, "verified_pairs": 1997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.45, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 1000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 998, "verified_pairs": 1997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.44, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 10000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 9998, "verified_pairs": 19997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.47, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 10000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 1000, "verified_pairs": 10999, "unchecked_U": 49484501, "extra_retained": 8998, "t_s": 0.49, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 30000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 29998, "verified_pairs": 59997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.56, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 1.4}
+{"m": 30000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 1000, "verified_pairs": 30999, "unchecked_U": 449454501, "extra_retained": 28998, "t_s": 0.56, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 1.4}
+{"m": 100000, "kind": "cap", "groups": "noisy", "q": 1000, "deleted": 99998, "verified_pairs": 199997, "unchecked_U": 0, "extra_retained": 0, "t_s": 0.84, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 2.4}
+{"m": 100000, "kind": "cap1", "groups": "noisy", "q": 1000, "deleted": 1000, "verified_pairs": 100999, "unchecked_U": 4999349501, "extra_retained": 98998, "t_s": 0.84, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 2.4}
+{"m": 1000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 998, "verified_pairs": 2997, "unchecked_U": 248001, "extra_retained": 0, "t_s": 0.44, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 10000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 9998, "verified_pairs": 20997, "unchecked_U": 24989001, "extra_retained": 0, "t_s": 0.48, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.1}
+{"m": 30000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 29998, "verified_pairs": 60997, "unchecked_U": 224969001, "extra_retained": 0, "t_s": 0.54, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 1.4}
+{"m": 100000, "kind": "cap", "groups": "two", "q": 1000, "deleted": 99998, "verified_pairs": 200997, "unchecked_U": 2499899001, "extra_retained": 0, "t_s": 0.82, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 2.4}
+{"m": 1000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 2997, "unchecked_U": 496503, "extra_retained": 0, "t_s": 0.45, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 0.9}
+{"m": 10000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 20997, "unchecked_U": 49974003, "extra_retained": 0, "t_s": 0.45, "peak_rss_gib": 0.16, "status": "ok", "wall_s": 1.0}
+{"m": 30000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 60997, "unchecked_U": 449924003, "extra_retained": 0, "t_s": 0.59, "peak_rss_gib": 0.18, "status": "ok", "wall_s": 1.2}
+{"m": 100000, "kind": "cap", "groups": "distinct", "q": 1000, "deleted": 0, "verified_pairs": 200997, "unchecked_U": 4999749003, "extra_retained": 0, "t_s": 0.77, "peak_rss_gib": 0.22, "status": "ok", "wall_s": 1.5}

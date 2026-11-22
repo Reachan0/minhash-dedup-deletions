@@ -1,0 +1,7 @@
+# 测量前复核：2026-11-20T06:46:36Z
+PREREG.md: OK
+sha256sum: WARNING: 1 line is improperly formatted
+exit=0
+SELECTION_PREREG.md: OK
+sha256sum: WARNING: 1 line is improperly formatted
+exit=0

@@ -1,0 +1,5 @@
+# sha256sum -c PREREG hashes, 2026-11-20 03:21:42Z
+PREREG.md: OK
+sha256sum: WARNING: 1 line is improperly formatted
+SELECTION_PREREG.md: OK
+sha256sum: WARNING: 1 line is improperly formatted

@@ -1,0 +1,4 @@
+{
+ "note": "nwords is the whitespace token count of the frozen shingle cache; the word shares here are not training-token shares under a fixed tokenizer.",
+ "rows_written": 40
+}

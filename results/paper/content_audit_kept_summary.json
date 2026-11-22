@@ -1,0 +1,78 @@
+{
+ "models": [
+  "gpt-6.2-sol",
+  "qwen3.7-plus"
+ ],
+ "n": 2000,
+ "strata": {
+  "unsupported": {
+   "n": 1200,
+   "gpt-6.2-sol": {
+    "template": 0.6148843998863648,
+    "repost": 0.010003254657202702,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.3417744724129098,
+    "unique_content": 0.03333787304353073,
+    "missing": 0
+   },
+   "qwen3.7-plus": {
+    "template": 0.7974484493189138,
+    "repost": 0.009169327535577098,
+    "partial_rewrite": 0.0008334971388634081,
+    "unique_facts": 0.14253540744261972,
+    "unique_content": 0.05001331856402912,
+    "missing": 0
+   },
+   "agreement": 0.7616666666666667,
+   "kappa": 0.48085894247699273,
+   "both_unique_share_docs": 0.18088564554609235,
+   "both_unique_share_words": 0.2967502492985194
+  },
+  "supported": {
+   "n": 400,
+   "gpt-6.2-sol": {
+    "template": 0.7449880120187259,
+    "repost": 0.12997923288485735,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.12503275509641507,
+    "unique_content": 0.0,
+    "missing": 0
+   },
+   "qwen3.7-plus": {
+    "template": 0.8799985239714987,
+    "repost": 0.08748783646496455,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.027511439633931715,
+    "unique_content": 0.0050021999296022525,
+    "missing": 0
+   },
+   "agreement": 0.815,
+   "kappa": 0.43869230477490795,
+   "both_unique_share_docs": 0.027511439633931708,
+   "both_unique_share_words": 0.05144552952750405
+  },
+  "retained": {
+   "n": 400,
+   "gpt-6.2-sol": {
+    "template": 0.26987217612954845,
+    "repost": 0.0,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.010004498200719712,
+    "unique_content": 0.7201233256697328,
+    "missing": 0
+   },
+   "qwen3.7-plus": {
+    "template": 0.282394854558177,
+    "repost": 0.0,
+    "partial_rewrite": 0.0,
+    "unique_facts": 0.005000687225109956,
+    "unique_content": 0.7126044582167143,
+    "missing": 0
+   },
+   "agreement": 0.9225,
+   "kappa": 0.811286296950143,
+   "both_unique_share_docs": 0.6876205455317874,
+   "both_unique_share_words": 0.6766867458028977
+  }
+ }
+}

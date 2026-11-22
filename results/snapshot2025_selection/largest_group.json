@@ -1,0 +1,23 @@
+{
+ "largest_group": 2,
+ "size": 86771,
+ "n_shingles": 8,
+ "first_doc_row": 2,
+ "first_docs": [
+  2,
+  4,
+  5,
+  14,
+  18,
+  20,
+  21,
+  25,
+  28,
+  29
+ ],
+ "last_doc_row": 531596,
+ "doc_id": "wet-CC-MAIN-20250717051146-20250717081146-00517-53",
+ "url": "http://911thology.ru/forum/ucp.php?mode=register&sid=c4b07440849c32d3751095d58fcad187",
+ "nchar": 80,
+ "first_120_chars": "One moment, please...\nLoader\nPlease wait while your request is being verified..."
+}

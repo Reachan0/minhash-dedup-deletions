@@ -1,0 +1,180 @@
+{
+ "snapshot": {
+  "n": 531597,
+  "mean_words": 982.3,
+  "shingles_million": 520.1
+ },
+ "viewed": {
+  "corpora": [
+   "c4",
+   "fw",
+   "mix",
+   "wet"
+  ],
+  "note": "all core benchmark accuracy and timing results were viewed before this freeze; no dedup metric exists for the 2025-30 snapshot"
+ },
+ "fits": {
+  "cold_A": {
+   "wall_s": {
+    "intercept": 26.869847808400472,
+    "slope": 0.30570146096316625,
+    "resid_max": 13.2712028744821
+   },
+   "peak_rss_mb": {
+    "intercept": 1939.0217695127649,
+    "slope": 13.796245305476846,
+    "resid_max": 602.8406607089823
+   }
+  },
+  "cold_B": {
+   "wall_s": {
+    "intercept": 27.39069490059851,
+    "slope": 0.3098660771968315,
+    "resid_max": 12.422687396092954
+   },
+   "peak_rss_mb": {
+    "intercept": 2166.631991584653,
+    "slope": 12.983607868701146,
+    "resid_max": 735.4006131170395
+   }
+  },
+  "cold_C": {
+   "wall_s": {
+    "intercept": -79.15777735657247,
+    "slope": 1.2549372397703107,
+    "resid_max": 12.157668426792156
+   },
+   "peak_rss_mb": {
+    "intercept": 872.9145334340534,
+    "slope": 20.642909314886825,
+    "resid_max": 1031.4386437757003
+   }
+  },
+  "incremental_A": {
+   "wall_s": {
+    "intercept": 0.46562489590885126,
+    "slope": 0.012549797578957618,
+    "resid_max": 0.5081305432700836
+   },
+   "peak_rss_mb": {
+    "intercept": 241.8146701125875,
+    "slope": 9.611186714279444,
+    "resid_max": 154.19429901080207
+   }
+  },
+  "incremental_B": {
+   "wall_s": {
+    "intercept": 1.670414379829791,
+    "slope": 0.015854458922729894,
+    "resid_max": 0.9552760092636134
+   },
+   "peak_rss_mb": {
+    "intercept": 242.8971256205369,
+    "slope": 9.608995618867276,
+    "resid_max": 154.8637972080453
+   }
+  },
+  "incremental_W": {
+   "wall_s": {
+    "intercept": 1.6208201741542265,
+    "slope": 0.016015138813103343,
+    "resid_max": 0.9192854966145294
+   },
+   "peak_rss_mb": {
+    "intercept": 241.27863432815593,
+    "slope": 9.611844707852619,
+    "resid_max": 153.65224539528003
+   }
+  },
+  "incremental_C": {
+   "wall_s": {
+    "intercept": 0.7940761840293981,
+    "slope": 0.01049481868145727,
+    "resid_max": 0.14693109132895277
+   },
+   "peak_rss_mb": {
+    "intercept": 270.27317602663715,
+    "slope": 11.933182821501672,
+    "resid_max": 17.39314972819875
+   }
+  },
+  "ranks_s": {
+   "intercept": -78.75161553590158,
+   "slope": 1.0099601657172483,
+   "resid_max": 13.147826736374043
+  }
+ },
+ "predictions": {
+  "cold_A": {
+   "wall_s": {
+    "pred": 185.85,
+    "resid_max": 13.27
+   },
+   "peak_rss_mb": {
+    "pred": 9113.92,
+    "resid_max": 602.84
+   }
+  },
+  "cold_B": {
+   "wall_s": {
+    "pred": 188.54,
+    "resid_max": 12.42
+   },
+   "peak_rss_mb": {
+    "pred": 8918.9,
+    "resid_max": 735.4
+   }
+  },
+  "cold_C": {
+   "wall_s": {
+    "pred": 573.49,
+    "resid_max": 12.16
+   },
+   "peak_rss_mb": {
+    "pred": 11608.49,
+    "resid_max": 1031.44
+   }
+  },
+  "incremental_A": {
+   "wall_s": {
+    "pred": 6.99,
+    "resid_max": 0.51
+   },
+   "peak_rss_mb": {
+    "pred": 5240.22,
+    "resid_max": 154.19
+   }
+  },
+  "incremental_B": {
+   "wall_s": {
+    "pred": 9.92,
+    "resid_max": 0.96
+   },
+   "peak_rss_mb": {
+    "pred": 5240.16,
+    "resid_max": 154.86
+   }
+  },
+  "incremental_W": {
+   "wall_s": {
+    "pred": 9.95,
+    "resid_max": 0.92
+   },
+   "peak_rss_mb": {
+    "pred": 5240.03,
+    "resid_max": 153.65
+   }
+  },
+  "incremental_C": {
+   "wall_s": {
+    "pred": 6.25,
+    "resid_max": 0.15
+   },
+   "peak_rss_mb": {
+    "pred": 6476.26,
+    "resid_max": 17.39
+   }
+  },
+  "ranks_s": 446.5
+ }
+}
