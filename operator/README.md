@@ -62,7 +62,8 @@ PY
 After `logs/e123.log` contains `E3_DONE`, run the no-collapse 531,597-document
 campaign. It checks the existing `ver_s{seed}_t{tau}.npz` masks for all five
 seeds and both thresholds and appends one JSON row per run to
-`results_post_reveal/operator_E.jsonl`.
+`results_post_reveal/operator_E.jsonl` in the workspace. The rows used in the paper are in
+`results/snapshot2025_post_reveal/operator_E.jsonl`.
 
 ```bash
 env/bin/python dedupjoin-newsnap-selection/code/operator/tests/run_snapshot.py

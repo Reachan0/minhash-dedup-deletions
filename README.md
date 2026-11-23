@@ -27,6 +27,7 @@ lists, for each one, the result file and the script that produced it.
 | `results/paper/` | Result files behind Sections 5–11. |
 | `results/original_corpora/` | Runs, timings and analyses on the four established corpora. |
 | `results/snapshot2025_selection/` | Runs, timings and selection outcome of the pre-registered test. |
+| `results/snapshot2025_post_reveal/` | Runs on Snapshot-2025 after the reveal: A outside the template group (E1), timings (E2), the 50-word filter (E3), datatrove's representative rule, and streaming B, exact W and the anchor check on the uncollapsed documents (`operator_E.jsonl`). `POST_REVEAL_RESULTS.md` summarises them. |
 | `data/snapshot2025/` | Per-document release files for Snapshot-2025 (no document text); see its README. |
 | `environment/` | Machine description and package versions of the snapshot runs. |
 
@@ -91,14 +92,15 @@ those deletions with `nb_080 == False`.
 
 | Paper | Result files | Produced by | Table or figure from |
 |---|---|---|---|
+| Lifted B and W (Section 4) | `results/snapshot2025_post_reveal/operator_E.jsonl` | `operator/tests/run_snapshot.py`, `run_snapshot_w.py` | — |
 | Figure 1 | `results/original_corpora/main_decision_table.json`, `timing.jsonl` | `original_corpora/pipeline/core/run_accuracy.py`, `run_timing.py` | `paper_tables/make_fig_12.py` |
-| Table 1 | `results/original_corpora/main_decision_table.csv`, `results/paper/r1_pool.jsonl`, `results/snapshot2025_selection/per_seed_quality.csv`, `results/paper/b2_base.jsonl` | `original_corpora/pipeline/core/`, `experiments/pool_tools/r1_pool.py`, `snapshot2025/post_reveal/e1_outside_group.py`, `r1_datatrove_rule.py`, `e3_filter50.py` | — |
+| Table 1 | `results/original_corpora/main_decision_table.csv`, `results/paper/r1_pool.jsonl`, `results/snapshot2025_selection/per_seed_quality.csv`, `results/snapshot2025_post_reveal/post_reveal.jsonl`, `r1_datatrove_rule.jsonl`, `results/paper/b2_base.jsonl` | `original_corpora/pipeline/core/`, `experiments/pool_tools/r1_pool.py`, `snapshot2025/post_reveal/e1_outside_group.py`, `r1_datatrove_rule.py`, `e3_filter50.py` | — |
 | Figure 2 | `results/original_corpora/correctness/component_cases.json` | `original_corpora/pipeline/correctness/run_components.py` | `paper_tables/make_fig_12.py` |
 | Table 2 | `results/original_corpora/correctness/variance_decomposition.json` | `original_corpora/pipeline/correctness/run_variance.py` | — |
 | Figure 3, Table 3 | `results/paper/rung_{531597,1000000,2000000,3000000}.jsonl`, `b2_base.jsonl` | `experiments/b1_tools/b1_rung.py` | `paper_tables/make_fig_skew.py` |
 | Table 4 | `results/paper/ladder_ops.jsonl`, `rung_*.jsonl` | `experiments/b1_tools/ladder_ops.py` | `paper_tables/make_tab_ladder.py` |
 | Table 5 | `results/paper/b2_runs.jsonl`, `b2_cap2.jsonl`, `b2_cap4.jsonl`, `b2_{exact,near}_*.jsonl` | `experiments/b1_tools/b2_runs.py`, `b2_autodl.py` | `paper_tables/make_tab_cost.py` |
-| Table 6 | `results/paper/rung_531597.jsonl`, `sig_verify.jsonl` | `experiments/b1_tools/sig_verify.py` | `paper_tables/make_tab_rules.py` |
+| Table 6 | `results/paper/rung_531597.jsonl`, `sig_verify.jsonl`; `results/snapshot2025_post_reveal/post_reveal.jsonl`, `operator_E.jsonl` | `experiments/b1_tools/sig_verify.py`, `operator/tests/run_snapshot_anchor.py` | `paper_tables/make_tab_rules.py` |
 | Table 7 | `results/paper/adv_bucket.jsonl`, `adv_bucket_cap4.jsonl` | `experiments/b1_tools/adv_bucket.py` | `paper_tables/make_tab_adv.py` |
 | GPU (Section 8) | `results/paper/gpu_runs.jsonl`, `gpu_runs_4090.jsonl` | `experiments/b1_tools/gpu_runs.py`, `operator/gpu_*` | — |
 | Partitioned verification (Section 8) | `results/paper/move_stats.jsonl` | `experiments/b1_tools/move_stats.py`, `comp_stats.py` | — |

@@ -2,8 +2,8 @@
 """tables/tab_rules.tex: verification rules on Snapshot-2025 at tau 0.8, means over five seeds.
 
 A, B, W, C: data/rung_531597.jsonl (b1_rung.py, AutoDL). Signature-only: data/sig_verify.jsonl
-(sig_verify.py, AutoDL). Anchor check: ledger "Anchor-verified baseline" (server operator_E.jsonl,
-method anchor), entered below because that file stays on server.
+(sig_verify.py, AutoDL). A outside the template group: results/snapshot2025_post_reveal/post_reveal.jsonl
+(E1 summary). Anchor check: results/snapshot2025_post_reveal/operator_E.jsonl (method anchor).
 Usage: python3 make_tab_rules.py [paper dir]
 """
 import json
@@ -16,7 +16,7 @@ P = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "out")
 for _d in ("tables", "figures"):
     os.makedirs(os.path.join(P, _d), exist_ok=True)
 D = os.path.join(HERE, "..", "results", "paper")
-ANCHOR = dict(deleted=113245.0, unsup=0.0, unsup_out=0.0, missed=485.0)
+PR = os.path.join(HERE, "..", "results", "snapshot2025_post_reveal")
 
 
 def mean_rows(rows, **kw):
@@ -39,12 +39,20 @@ out["S"] = dict(deleted=st.mean(r["deleted"] for r in rs), unsup=st.mean(r["unsu
                 missed=st.mean(r["missed"] for r in rs))
 rb = mean_rows(sig, corpus="rung_531597", method="B", tau=0.8)
 assert abs(st.mean(r["deleted"] for r in rb) - out["B"]["deleted"]) < 1, "B from sig_verify differs from b1_rung"
-out["A"]["unsup_out"] = 0.3501  # ledger B1 ladder table, A outside the group, mean of five seeds
+e1 = [json.loads(l) for l in open(os.path.join(PR, "post_reveal.jsonl"))]
+e1 = [r for r in e1 if r["experiment"] == "E1" and r["mode"] == "summary" and not r["smoke"]
+      and r["method"] == "A" and r["tau"] == 0.8]
+assert len(e1) == 1
+out["A"]["unsup_out"] = round(e1[0]["mean_share_outside"], 4)
 out["S"]["below"] = st.mean(r["accepted_below_tau"] for r in rs)
 out["S"]["rejected"] = st.mean(r["rejected_at_tau"] for r in rs)
 for m in ("B", "W", "C"):
     out[m]["unsup_out"] = 0.0
-out["N"] = ANCHOR
+ops = [json.loads(l) for l in open(os.path.join(PR, "operator_E.jsonl"))]
+rs = mean_rows(ops, method="anchor", tau=0.8)
+out["N"] = dict(deleted=st.mean(r["deleted"] for r in rs), unsup=st.mean(r["unsupported"] / r["deleted"] for r in rs),
+                unsup_out=0.0, missed=st.mean(r["missed"] for r in rs))
+assert out["N"]["unsup"] == 0.0
 print(json.dumps(out, indent=1))
 
 LAB = (("A", "A: candidates, no test"), ("S", "Signature estimate of $J$"), ("N", "Anchor check, exact $J$"),

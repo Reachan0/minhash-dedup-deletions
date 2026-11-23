@@ -1,0 +1,48 @@
+{
+  "inputs": {
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/newsnap/cache/snapshot_spacy.npz": [
+      3654881460,
+      1795171119290049984,
+      107217992
+    ],
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/inputs/doc_text_xxh64.npy": [
+      4252904,
+      1795123706000000000,
+      105284286
+    ],
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/newsnap/corpus/shard-00000.parquet": [
+      237992621,
+      1795169612462313907,
+      105388179
+    ],
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/newsnap/corpus/shard-00001.parquet": [
+      234229309,
+      1795169615546435264,
+      105388180
+    ],
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/newsnap/corpus/shard-00002.parquet": [
+      229648554,
+      1795169618478550336,
+      105388181
+    ],
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/newsnap/corpus/shard-00003.parquet": [
+      236168596,
+      1795169621534669964,
+      105388182
+    ],
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/newsnap/corpus/shard-00004.parquet": [
+      239405619,
+      1795169624630790835,
+      105388183
+    ],
+    "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/newsnap/corpus/shard-00005.parquet": [
+      72775023,
+      1795169625562827157,
+      105388184
+    ]
+  },
+  "masks": "/path/to/scratch/dedupjoin/dedupjoin-newsnap-selection/results_post_reveal/campaigns/E1-o1q7eea6/work/masks",
+  "accepted_rows": 32,
+  "cache_sha256": "fb2361dd0341105f71a45cbe049ea33ed38247cb4e274cd6f6ee11a8119a661c",
+  "cache_byte_identical": false
+}
